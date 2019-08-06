@@ -1,22 +1,17 @@
 #[macro_use]
 extern crate serde_derive;
-
 extern crate serde_json;
-use serde_json::{Result, Value};
-use std::fs;
-use std::fs::File;
-use std::path::Path;
+extern crate serde;
 
 mod parser;
+mod exam;
 
-use parser::word::Words;
+use parser::word;
+use exam::exam_api::{Exam, Kind, Kind2};
+use exam::exam_api::Chapter::Chap;
+use std::io::stdin;
 
 fn main() {
-    let json_file_path = Path::new("word/word.json");
-    let json_file = File::open(json_file_path).expect("file not found");
-    let test: Words =
-        serde_json::from_reader(json_file).expect("error while reading json");
-    for v in test.get_words().into_iter() {
-        println!("{:#?}", v);
-    }
+    let exam = Exam::new(Chap(1), Kind::Word, Kind2::Random);
+    exam.start_exam();
 }

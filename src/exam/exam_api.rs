@@ -153,4 +153,62 @@ impl Exam {
 
         println!("Total score is: {}/{}", score, total_score);
     }
+
+    pub fn start_memorize(&self) {
+        let mut memorize_list = self.words.clone();
+
+        match self.kind2 {
+            Kind2::Random => {
+                memorize_list.shuffle(&mut thread_rng());
+            }
+            _ => (),
+        }
+
+        match self.kind {
+            Kind::Word => {
+                println!("Think the correct meaning of given word");
+                println!();
+                for i in 0..memorize_list.len() {
+                    let word = &memorize_list[i];
+                    println!("> {}", word.get_word());
+
+                    let mut trial = String::new();
+                    match stdin().read_line(&mut trial) {
+                        Ok(_) => {
+                            let mean = word.get_mean();
+                            println!("{}", mean);
+                            println!();
+                        }
+                        Err(error) => {
+                            println!("{}", error);
+                            exit(1);
+                        }
+                    }
+                }
+            }
+            Kind::Mean => {
+                println!("Think the correct word of given meanings");
+                println!();
+                for i in 0..memorize_list.len() {
+                    let word = &memorize_list[i];
+                    println!("{:?}", word.get_mean());
+                    print!("> ");
+                    let mut trial = String::new();
+                    match stdin().read_line(&mut trial) {
+                        Ok(_) => {
+                            let word = word.get_word();
+                            println!("{}", word);
+                            println!();
+                        }
+                        Err(error) => {
+                            println!("{}", error);
+                            exit(1);
+                        }
+                    }
+                }
+            }
+        }
+
+        println!("Finish memorizing!");
+    }
 }

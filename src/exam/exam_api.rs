@@ -1,9 +1,9 @@
-use crate::parser::word::{Word, TotalWords};
-use Chapter::{Chap, Range, All};
-use std::process::exit;
-use rand::thread_rng;
+use crate::parser::word::{TotalWords, Word};
 use rand::seq::SliceRandom;
+use rand::thread_rng;
 use std::io::stdin;
+use std::process::exit;
+use Chapter::{All, Chap, Range};
 
 #[derive(Debug, Copy, Clone, PartialEq, PartialOrd, Eq, Hash)]
 pub enum Chapter {
@@ -21,14 +21,14 @@ pub enum Kind {
 #[derive(Debug, Copy, Clone, PartialEq, PartialOrd, Eq, Hash)]
 pub enum Kind2 {
     Random,
-    Sequential
+    Sequential,
 }
 
 #[derive(Debug)]
 pub struct Exam {
     kind: Kind,
     kind2: Kind2,
-    words: Vec<Word>
+    words: Vec<Word>,
 }
 
 impl Exam {
@@ -40,17 +40,17 @@ impl Exam {
                     Some(w) => w,
                     None => exit(1),
                 };
-                
+
                 Exam {
                     kind,
                     kind2,
                     words: w.get_word_vec(),
                 }
-            },
+            }
             Range(i, f) => {
                 let total_words = TotalWords::from_file("word/word.json");
                 let mut w_vec: Vec<Word> = Vec::new();
-                for k in i .. f+1 {
+                for k in i..f + 1 {
                     match total_words.get_specific_words(k) {
                         None => exit(1),
                         Some(w) => {
@@ -59,24 +59,25 @@ impl Exam {
                         }
                     }
                 }
-                
+
                 Exam {
                     kind,
                     kind2,
-                    words: w_vec
+                    words: w_vec,
                 }
-            },
+            }
             All => {
                 let total_words = TotalWords::from_file("word/word.json");
                 let words_total = total_words.get_words_vec();
                 let mut w_vec: Vec<Word> = Vec::new();
-                words_total.into_iter()
+                words_total
+                    .into_iter()
                     .for_each(|w| w_vec.extend(w.get_word_vec()));
-                
+
                 Exam {
                     kind,
                     kind2,
-                    words: w_vec
+                    words: w_vec,
                 }
             }
         }
@@ -84,14 +85,14 @@ impl Exam {
 
     pub fn start_exam(&self) {
         let mut score = 0usize;
-        let step = 100 / self.words.len();
+        let step = (100f64 / self.words.len() as f64) as usize;
         let total_score = step * self.words.len();
         let mut exam_list = self.words.clone();
 
         match self.kind2 {
             Kind2::Random => {
                 exam_list.shuffle(&mut thread_rng());
-            },
+            }
             _ => (),
         }
 
@@ -99,7 +100,7 @@ impl Exam {
             Kind::Word => {
                 println!("Please enter the correct meaning of given word");
                 println!();
-                for i in 0 .. exam_list.len() {
+                for i in 0..exam_list.len() {
                     let word = &exam_list[i];
                     println!("> {}", word.get_word());
 
@@ -114,18 +115,18 @@ impl Exam {
                                 println!("Incorrect!");
                                 println!("");
                             }
-                        },
+                        }
                         Err(error) => {
                             println!("{}", error);
                             exit(1);
                         }
                     }
                 }
-            },
+            }
             Kind::Mean => {
                 println!("Please enter the correct word of given meanings");
                 println!();
-                for i in 0 .. exam_list.len() {
+                for i in 0..exam_list.len() {
                     let word = &exam_list[i];
                     println!("{:?}", word.get_mean());
                     print!("> ");
@@ -140,7 +141,7 @@ impl Exam {
                                 println!("Incorrect!");
                                 println!("");
                             }
-                        },
+                        }
                         Err(error) => {
                             println!("{}", error);
                             exit(1);

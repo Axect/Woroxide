@@ -1,19 +1,52 @@
 #[macro_use]
 extern crate serde_derive;
-extern crate serde_json;
 extern crate serde;
+extern crate serde_json;
 
-mod parser;
 mod exam;
+mod parser;
 
-use parser::word;
+use exam::exam_api::Chapter::{All, Chap, Range};
 use exam::exam_api::{Exam, Kind, Kind2};
-use exam::exam_api::Chapter::{Chap, Range, All};
-use std::io::stdin;
+use parser::{word, conv};
+use std::io::{stdin, Read};
 use std::process::exit;
+use std::fs::File;
+use std::io::{BufWriter};
+use crate::parser::conv::smart_to_total_words;
+
+fn main() {
+    println!("What's your purpose?");
+    println!("1. Update words, 2. Execute exam");
+    let mut purpose = String::new();
+    match stdin().read_line(&mut purpose) {
+        Ok(_) => (),
+        Err(e) => {
+            println!("{}", e);
+            exit(1);
+        }
+    }
+
+    let purpose: usize = purpose.trim().parse().expect("Can't convert purpose to usize");
+    match purpose {
+        1 => write_json(),
+        2 => execute_exam(),
+        _ => {
+            println!("Wrong argument!");
+            exit(1);
+        }
+    }
+}
+
+fn write_json() {
+    let whole = smart_to_total_words();
+    let file = File::create("word/word.json").expect("Can't create file");
+    let mut json_writer = BufWriter::new(file);
+    serde_json::to_writer_pretty(json_writer, &whole).expect("hmm");
+}
 
 #[allow(non_snake_case)]
-fn main() {
+fn execute_exam() {
     let mut kind1 = String::new();
     let mut kind2 = String::new();
     let mut chap = String::new();
@@ -25,7 +58,7 @@ fn main() {
     let mut Kind_1 = Kind::Word;
     let mut Kind_2 = Kind2::Random;
 
-    println!("Woroxide Ver 0.0.1");
+    println!("Woroxide Ver 0.2.0");
     println!("");
     println!("> What kinds of test do you want?");
     println!("> 1. Specific chapter\t2. Range of chapters\t3. All chapters");
@@ -54,7 +87,9 @@ fn main() {
             Ok(_) => {
                 println!("> Input last chapter");
                 match stdin().read_line(&mut chap_end) {
-                    Ok(_) => Chapter = Range(chap_start.parse().unwrap(), chap_end.parse().unwrap()),
+                    Ok(_) => {
+                        Chapter = Range(chap_start.parse().unwrap(), chap_end.parse().unwrap())
+                    }
                     Err(error) => {
                         println!("{}", error);
                         exit(1);

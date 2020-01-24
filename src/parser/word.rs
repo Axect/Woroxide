@@ -3,22 +3,28 @@ use std::path::Path;
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct TotalWords {
-    total: Vec<Words>
+    total: Vec<Words>,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Words {
     chapter: usize,
-    words: Vec<Word>
+    words: Vec<Word>,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Word {
     word: String,
-    mean: Vec<String>,
+    mean: String,
 }
 
 impl TotalWords {
+    pub fn new(total: Vec<Words>) -> Self {
+        TotalWords {
+            total
+        }
+    }
+
     pub fn from_file(path: &str) -> Self {
         let json_path = Path::new(path);
         let json_file = File::open(json_path).expect("Can't open json file");
@@ -31,10 +37,10 @@ impl TotalWords {
     }
 
     pub fn get_specific_words(&self, chap: usize) -> Option<Words> {
-        for i in 0 .. self.total.len() {
+        for i in 0..self.total.len() {
             let temp = &self.total[i];
             if temp.get_chapter() == chap {
-                return Some(temp.clone())
+                return Some(temp.clone());
             }
         }
         None
@@ -42,6 +48,10 @@ impl TotalWords {
 }
 
 impl Words {
+    pub fn new(chapter: usize, words: Vec<Word>) -> Self {
+        Words { chapter, words }
+    }
+
     pub fn get_chapter(&self) -> usize {
         self.chapter
     }
@@ -52,11 +62,15 @@ impl Words {
 }
 
 impl Word {
+    pub fn new(word: String, mean: String) -> Self {
+        Word { word, mean }
+    }
+
     pub fn get_word(&self) -> String {
         self.word.clone()
     }
 
-    pub fn get_mean(&self) -> Vec<String> {
+    pub fn get_mean(&self) -> String {
         self.mean.clone()
     }
 
@@ -65,10 +79,6 @@ impl Word {
     }
 
     pub fn match_with_mean(&self, trial: String) -> bool {
-        self.mean.clone().into_iter()
-            .any(|x| {
-                x.trim() == trial.trim()
-            })
+        self.mean.contains(trial.trim())
     }
 }
-

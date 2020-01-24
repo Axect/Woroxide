@@ -1,65 +1,3401 @@
-{   
-    "total": [
+{
+  "total": [
+    {
+      "chapter": 1,
+      "words": [
         {
-            "chapter": 1,
-            "words": [
-                {
-                    "word": "address",
-                    "mean": [
-                        "주소",
-                        "연설",
-                        "연설하다"
-                    ]
-                },
-                {
-                    "word": "adventure",
-                    "mean": [
-                        "모험"
-                    ]
-                },
-                {
-                    "word": "adopt",
-                    "mean": [
-                        "양자로 삼다",
-                        "채용하다"
-                    ]
-                },
-                {
-                    "word": "admire",
-                    "mean": [
-                        "탄복하다",
-                        "감탄하다"
-                    ]
-                },
-                {
-                    "word": "arrest",
-                    "mean": [
-                        "체포하다",
-                        "체포"
-                    ]
-                },
-                {
-                    "word": "adapt",
-                    "mean": [
-                        "적응시키다",
-                        "적응하다"
-                    ]
-                },
-                {
-                    "word": "allure",
-                    "mean": [
-                        "꾀다",
-                        "유혹하다",
-                        "유혹"
-                    ]
-                },
-                {
-                    "word": "allot",
-                    "mean": [
-                        "할당하다"
-                    ]
-                }
-            ]
+          "word": "sublime",
+          "mean": "awesome; extremely exalted; lofty; majestic 장엄한(lofty), 탁월한, 고상한, 두려움(awesome)"
+        },
+        {
+          "word": "daunt",
+          "mean": "to make fearful; to intimidate...의 기세를 꺾다, 으르다, 주춤하게 하다"
+        },
+        {
+          "word": "arbitrary",
+          "mean": "random; capricious 임의의, 독단적인(random)"
+        },
+        {
+          "word": "perfunctory",
+          "mean": "a  unenthusiastic ; careless  형식적인(careless;무관심한), 겉치레의(unenthusiastic)"
+        },
+        {
+          "word": "vocation",
+          "mean": "an occupation; a job 소명, 성직, 천직, 직업; 적성, 소질"
+        },
+        {
+          "word": "chastise",
+          "mean": "to inflict punishment on; to discipline 응징하다, 징벌하다; 몹시 비난하다"
+        },
+        {
+          "word": "tenacious",
+          "mean": "persistent; stubborn; not letting go  고집센(persistent), 몹시 집착하는, 완고한(stubborn)"
+        },
+        {
+          "word": "unconscionable",
+          "mean": "not controlled by conscience; unscrupulous 불합리한, 터무니없는, 비양심적인"
+        },
+        {
+          "word": "futile",
+          "mean": "a  useless ; hopeless  쓸데없는, 효과 없는; 알맹이 없는, 시시한"
+        },
+        {
+          "word": "mortify",
+          "mean": "a  to humiliate 억제하다, 극복하다, 굴욕감을 주다, 분하게 하다"
+        },
+        {
+          "word": "capitulate",
+          "mean": "to surrender; to give up or give in 항복하다, 성을 내어 주다"
+        },
+        {
+          "word": "antithesis",
+          "mean": "the direct opposite 정반대"
+        },
+        {
+          "word": "complicity",
+          "mean": "participation in wrongdoing; the act of being an accomplice 공모, 연루, 공범"
+        },
+        {
+          "word": "depravity",
+          "mean": "extreme wickedness or corruption 부패, 악행, 비행"
+        },
+        {
+          "word": "precursor",
+          "mean": "n  forerunner ; something that goes before and anticipates or paves the way for whatever it is that follows 선임자, 선배, 선구자, 선각자"
+        },
+        {
+          "word": "propensity",
+          "mean": "n  a natural inclination or tendency; a predilection 경향, 성향, 성벽, 성질"
+        },
+        {
+          "word": "refute",
+          "mean": "v  to prove to be false; to disprove 논박하다, 반박하다"
+        },
+        {
+          "word": "arduous",
+          "mean": "hard; difficult 힘드는, 고난의; 끈기 있는, 노력하는"
+        },
+        {
+          "word": "stigmatize",
+          "mean": "to brand with disgrace; to set a mark of disgrace upon 비난하다, 오명을 씌우다, 낙인을 찍다"
+        },
+        {
+          "word": "marshal",
+          "mean": "v  to arrange in order ; to gather together for the purpose of doing something 정렬시키다, 정돈시키다; 연방 보안관"
+        },
+        {
+          "word": "contentious",
+          "mean": "argumentative; quarrelsome 다투기 좋아하는, 논쟁을 불러일으키는; 소송의"
+        },
+        {
+          "word": "hierarchy",
+          "mean": "n  an organization based on rank or degree ; pecking order 성직자 계급제도, 성직자 정치; 분류 체계, 계층"
+        },
+        {
+          "word": "cogent",
+          "mean": "powerfully convincing 유력한, 사람을 수긍시키는"
+        },
+        {
+          "word": "extrovert",
+          "mean": "n  an open, outgoing person; a person whose attention is focused on others rather than on himself or herself 외향적인 사람"
+        },
+        {
+          "word": "appreciate",
+          "mean": "to increase in value 가격이 오르다, 시세가 오르다; 감사(평가)하다"
+        },
+        {
+          "word": "vindictive",
+          "mean": "seeking revenge 앙심을 품은, 복수심을 품은"
+        },
+        {
+          "word": "polemic",
+          "mean": "n  a powerful argument often make to attack or refute a controversial issue 논쟁, 논법"
+        },
+        {
+          "word": "ideology",
+          "mean": "n  a system of social or political ideas 관념론, 이데올로기, 관념형태"
+        },
+        {
+          "word": "renaissance",
+          "mean": "n  a rebirth or revival 부활, 신생, 부흥"
+        },
+        {
+          "word": "mendicant",
+          "mean": "n  a beggar 거지(beggar)"
+        },
+        {
+          "word": "amenable",
+          "mean": "obedient; willing to give in to the wishes of another; agreeable 순종하는, 기꺼이 따르는; 쉽게 좌우되는"
+        },
+        {
+          "word": "nuance",
+          "mean": "n  a subtle difference or distinction  색조, 음영, 농담; 말뜻의 미묘한 차이"
+        },
+        {
+          "word": "oblivion",
+          "mean": "n  total forgetfulness ; the state of being forgotten 망각, 건망; 대사면"
+        },
+        {
+          "word": "corollary",
+          "mean": "something that follows; a natural consequence 추론, 당연한 결과"
+        },
+        {
+          "word": "derogatory",
+          "mean": "disapproving; degrading 손상시키는, 가치를 떨어뜨리는; 경멸적인"
+        },
+        {
+          "word": "chagrin",
+          "mean": "humiliation; embarrassed disappointment 유감, 원통함, 부함"
+        },
+        {
+          "word": "approbation",
+          "mean": "approval; praise 허가, 인가, 면허"
+        },
+        {
+          "word": "querulous",
+          "mean": "a  complaining; grumbling; whining 불평을 하는, 투덜거리는; 성마른"
+        },
+        {
+          "word": "vex",
+          "mean": "to annoy; to pester; to confuse 초조하게 하다, 괴롭히다"
+        },
+        {
+          "word": "bureaucracy",
+          "mean": "a system of government administration consisting of numerous bureaus or offices, especially one run according to inflexible and inefficient rules; any large administrative system characterized by inefficiency, lots of rules, and red tape 관료정치(제도, 주의)"
         }
-    ]
+      ]
+    },
+    {
+      "chapter": 2,
+      "words": [
+        {
+          "word": "delude",
+          "mean": "to deceive 속이다, 속이어 ...시키다; 속여서 믿게 만들다"
+        },
+        {
+          "word": "dubious",
+          "mean": "a  full of doubt; uncertain 의심스러운, 수상한, 미결정의, 모호한 가치, 진실성이 불확실한, a ~ friend, be ~ about  cf) dubitable"
+        },
+        {
+          "word": "unremitting",
+          "mean": "unceasing; unabated; relentless 간단없는, 끈질긴"
+        },
+        {
+          "word": "philistine",
+          "mean": "n  a smugly ignorant person with no appreciation of intellectual or artistic matters 속물, 교양 없는 사람"
+        },
+        {
+          "word": "judicious",
+          "mean": "a  exercising sound judgment   분별이 있는, 사리 분별력이 있는, 현명한"
+        },
+        {
+          "word": "rogue",
+          "mean": "n  a criminally dishonest persons; a scoundrel 건달, 깡패; 개구장이, 부당한"
+        },
+        {
+          "word": "acrid",
+          "mean": "harsh; like acid 매운, 신랄한, 가혹한"
+        },
+        {
+          "word": "infer",
+          "mean": "v  to conclude ; to deduce 추리하다, 나타내다, 암시하다"
+        },
+        {
+          "word": "cerebral",
+          "mean": "brainy; intellectually refined 대뇌의, 뇌리; 지적인, 지성에 호소하는"
+        },
+        {
+          "word": "elicit",
+          "mean": "vt  to bring out; to call forth 이끌어내다, 유도해내다, ~a laugh from,  ~a reply  elicitation n"
+        },
+        {
+          "word": "terse",
+          "mean": "using no unnecessary words; succinct 간결한(succinct)"
+        },
+        {
+          "word": "emigrate",
+          "mean": "v  to move to a new country; to move a new place to live; to expatriate 타국으로 이주하다   emigrant a 이민의, n 이민, 이주민 opps immigrate"
+        },
+        {
+          "word": "aesthetic",
+          "mean": "having to do with artistic beauty; artistic 미의, 심미적인"
+        },
+        {
+          "word": "chronic",
+          "mean": "constant; lasting a long time; inveterate 만성의 고질적인, 오래 끄는"
+        },
+        {
+          "word": "domestic",
+          "mean": "having to do with the household or family; not foreign  가정의, 집의; 국내의, 자국의; 국산의; 길들여진"
+        },
+        {
+          "word": "flaunt",
+          "mean": "v  show off; to display ostentatiously  자랑하다, 과시하다; 우롱하다; 허영을 부리다"
+        },
+        {
+          "word": "conventional",
+          "mean": "common; customary; unexceptional  전통적인, 인습적인; 협정상의; 형식적인, 상투적인"
+        },
+        {
+          "word": "coalesce",
+          "mean": "to come together as one; to fuse; to unite 연합하다, 유착하다; 연합시키다"
+        },
+        {
+          "word": "relinquish",
+          "mean": "v  to release or let go of; to surrender; to stop doing  포기하다, 단념하다, 손을 떼다, 그만두다"
+        },
+        {
+          "word": "inert",
+          "mean": "a  inactive ; sluggish ; not reacting chemically 활발하지 못한, 생기가 없는, 둔한; 활성이 없는"
+        },
+        {
+          "word": "didactic",
+          "mean": "intended to teach; morally instructive; pedantic  가르치기 위한, 교훈적인"
+        },
+        {
+          "word": "cajole",
+          "mean": "to persuade someone to do something he or she doesnt want to do 부추기다; 감언이설로 속이다, 꾀다"
+        },
+        {
+          "word": "bovine",
+          "mean": "cow related; cowlike  cf)canine, equine, feline, piscine, porcine, ursine 소의, 소 같은; 둔한, 둔감한"
+        },
+        {
+          "word": "clich",
+          "mean": "an overused saying or idea 진부한 표현, 상투적인 문구"
+        },
+        {
+          "word": "oblique",
+          "mean": "a  indirect ; at an angle 비스듬한, 기울어진, 사선의; 굽은, 완곡한"
+        },
+        {
+          "word": "grandiloquent",
+          "mean": "a  pompous ; using a lot of big, fancy words in an attempt to sound impressive 호언 장담하는, 과장하는"
+        },
+        {
+          "word": "flout",
+          "mean": "v  to disregard something out of disrespect 비웃다, 조롱하다"
+        },
+        {
+          "word": "analogy",
+          "mean": "a comparison of one thing to another; similarity 유사, 유추(similarity)"
+        },
+        {
+          "word": "sardonic",
+          "mean": "a  mocking; scornful 냉소하는, 빈정대는 "
+        },
+        {
+          "word": "provisional",
+          "mean": "a  conditional; temporary; tentative  잠정적인, 일시적인, 임시의"
+        },
+        {
+          "word": "ambiguous",
+          "mean": "unclear in meaning; confusing; capable of being interpreted in different ways 중의적인, 두 가지 뜻으로 풀이되는; 분명하지 않은"
+        },
+        {
+          "word": "malleable",
+          "mean": "a  easy to shape or bend  펴 늘일 수 있는, 유순한, 온순한, 가르치기 쉬운"
+        },
+        {
+          "word": "glut",
+          "mean": "n  surplus ; an overabundance 너무 많은, 차고 넘침, 포만, 과식"
+        },
+        {
+          "word": "manifest",
+          "mean": "a  visible ; evident 명백한, 분명한"
+        },
+        {
+          "word": "solvent",
+          "mean": "not broke or bankrupt; able to pay ones bills  지급 능력이 있는, 감정을 누그러지게 하는"
+        },
+        {
+          "word": "lethargy",
+          "mean": "n  sluggishness ; laziness ; drowsiness ; indifference 혼수상태; 무감각, 무기력, 활발치 못함"
+        },
+        {
+          "word": "obdurate",
+          "mean": "a  stubborn and insensitive 고집센, 완고한, 냉혹한"
+        },
+        {
+          "word": "nefarious",
+          "mean": "a  evil ; flagrantly wicked 못된, 악당의, 불법적인"
+        },
+        {
+          "word": "disinterested",
+          "mean": "not taking sides; unbiased  무관심한, 냉담한; 사욕이 없는, 청렴한; 공평무사한"
+        },
+        {
+          "word": "euphemism",
+          "mean": "n  a pleasant or inoffensive expression used in place of an unpleasant or offensive one  완곡어법"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "words": [
+        {
+          "word": "exhaustive",
+          "mean": "adj  thorough; rigorous; complete; painstaking  전부를 다하는, 철저한, 포괄적인, 소모적인, 고갈시키는"
+        },
+        {
+          "word": "palpable",
+          "mean": "a  capable of being touched ; obvious ; tangible 만질 수 있는, 뚜렷한, 분명한"
+        },
+        {
+          "word": "garrulous",
+          "mean": "a  talkative; chatty  수다스러운, 장황한, 졸졸한 소리를 내는, 시끄럽게 지저귀는"
+        },
+        {
+          "word": "deduce",
+          "mean": "to conclude from evidence; to infer  연역하다, 추론하다; 유래를 찾다, 가계를 더듬다"
+        },
+        {
+          "word": "intransigent",
+          "mean": "a  uncompromising ; stubborn 정치상 비타협적인"
+        },
+        {
+          "word": "despot",
+          "mean": "an absolute ruler; an autocrat 독재자, 폭군, 전체군주"
+        },
+        {
+          "word": "capricious",
+          "mean": "unpredictable; like to change at any moment  변덕스런, 마음이 변하기 쉬운, 불규칙한"
+        },
+        {
+          "word": "effusion",
+          "mean": "n  a pouring forth 유출(물), 스며나옴, 심정의 토로, 토로한 말(시문) effuse v 발산(유출)하다  effusive a 과장된, 쏟아져나오는, 넘치는"
+        },
+        {
+          "word": "tautological",
+          "mean": "redundant; circular 동의어의, 중언부언의; 과다한(redundant)"
+        },
+        {
+          "word": "fastidious",
+          "mean": "adj  meticulous; demanding; finicky  까다로운, 세심한 주의가 필요한"
+        },
+        {
+          "word": "proficient",
+          "mean": "a  thoroughly competent; skillful; very good (at something)  숙달된,능숙한 (at, in) n 명인(expert)"
+        },
+        {
+          "word": "synthesis",
+          "mean": "the combing of parts to form a whole 통합, 종합; 합성"
+        },
+        {
+          "word": "remonstrate",
+          "mean": "v  to argue against; to protest; to raise objections 항의하다, 이의를 말하다, 간언하다"
+        },
+        {
+          "word": "replete",
+          "mean": "a  completely filled; abounding 가득찬, 충만한; 포식한, 배부른, 포만한"
+        },
+        {
+          "word": "exacting",
+          "mean": "adj  extremely demanding; difficult; requiring great skill or care 엄한,가혹한,착취적인,힘든"
+        },
+        {
+          "word": "stymie",
+          "mean": "to thwart; to get in the way of; to hinder 방해하다, 방해구로 방해하다"
+        },
+        {
+          "word": "prerogative",
+          "mean": "n  a right or privilege connected exclusively with a position, a person, a class, a nation, or some other group or classification 특권, 특전; 우선 투표권"
+        },
+        {
+          "word": "extricate",
+          "mean": "v  to free from difficulty  구출하다, 탈출하다, 유리시키다"
+        },
+        {
+          "word": "staunch",
+          "mean": "firmly committed; firmly in favor of; steadfast 견고한, 튼튼한; 믿음직한, 완고한, 확고부동한(steadfast)"
+        },
+        {
+          "word": "perjury",
+          "mean": "n  lying under oath 위증, 거짓 맹세, 파약"
+        },
+        {
+          "word": "complacent",
+          "mean": "self-satisfied; overly pleased with oneself; contented to a fault 자기 만족의, 은근한, 마음에 흡족한"
+        },
+        {
+          "word": "increment",
+          "mean": "n  an increase ; one in a series of increases 증가, 증진, 이자, 이득"
+        },
+        {
+          "word": "ardent",
+          "mean": "passionate 열 렬한, 열심인, 타는 듯한(↔half-hearted)"
+        },
+        {
+          "word": "endemic",
+          "mean": "a  native; restricted to a particular region or era; indigenous  한 지방의 고유한, 풍토의, 풍토병의 n 풍토병  endemicity 풍토성"
+        },
+        {
+          "word": "servile",
+          "mean": "submissive and subservient; like a servant 노예 근성의, 비굴한"
+        },
+        {
+          "word": "visionary",
+          "mean": "a dreamer; someone with impractical goals or ideas about the future 공상가, 환상을 쫓는 사람"
+        },
+        {
+          "word": "adamant",
+          "mean": "stubborn; unyielding; completely inflexible 단단한, 견고한, 굳센"
+        },
+        {
+          "word": "genteel",
+          "mean": "a  refined ; polite ; aristocratic ; affecting refinement 품위 있는, 우아한; 유행을 쫓는; 집안이 좋은"
+        },
+        {
+          "word": "pernicious",
+          "mean": "a  deadly ; extremely evil 유해한; 파멸적인, 치명적인(deadly)"
+        },
+        {
+          "word": "sedition",
+          "mean": "n  treason; the incitement of public disorder or rebellion 반역죄(treason); 치안 방해죄, 동란 교사죄"
+        },
+        {
+          "word": "kinetic",
+          "mean": "a  having to do with motion ; lively ; active  운동의, 운동에 의해 생기는; 활동적인, 정력적인"
+        },
+        {
+          "word": "hapless",
+          "mean": "a  unlucky 운이 나쁜, 불행한(unlucky) "
+        },
+        {
+          "word": "preclude",
+          "mean": "v  to prevent something from ever happening  제외시키다, 배제하다; 방해하다, 가로막다"
+        },
+        {
+          "word": "chimera",
+          "mean": "an illusion; a foolish fancy 망상, 괴물"
+        },
+        {
+          "word": "ubiquitous",
+          "mean": "being everywhere at the same time 어디에나 있는, 편재하는"
+        },
+        {
+          "word": "affectation",
+          "mean": "unnatural or artificial behavior, usually intended to impress  애정, 감정; 병, 성질"
+        },
+        {
+          "word": "volatile",
+          "mean": "quick to evaporate; highly unstable; explosive  휘발하는, 휘발성의; 변덕스러운, 불안정한; 경박한, 민활한, 쾌활한"
+        },
+        {
+          "word": "eccentric",
+          "mean": "a  not conventional; a little kooky; irregular  보통과 다른, 괴상한; 편심의; (기계)편심률  n 괴짜, 기인; 이심원; (천문) 이심권"
+        },
+        {
+          "word": "redolent",
+          "mean": "a  fragrant 향기로운(fragrant)"
+        },
+        {
+          "word": "fatalist",
+          "mean": "n  someone who believes that future events are already determined and that humans are powerless to change them  운명론가"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "words": [
+        {
+          "word": "forgo",
+          "mean": "v  to do without ; to forbear 보류하다, ...없이 지내다, 무시하다"
+        },
+        {
+          "word": "caricature",
+          "mean": "a portrait or description that is purposely distorted or exaggerated, often to prove some point about its subject 만화, 풍자만화, 풍자한 글"
+        },
+        {
+          "word": "vociferous",
+          "mean": "loud; noisy 큰 소리로 고함치는, 시끄러운"
+        },
+        {
+          "word": "proponent",
+          "mean": "n  an advocate; a supporter of a position 옹호자, 지지자; 제안가, 제의자"
+        },
+        {
+          "word": "expedite",
+          "mean": "v  to speed up or ease the progress of 재촉하다, 촉진하다; 군대 등을 파견하다, 공문 등을 급송하다"
+        },
+        {
+          "word": "incongruous",
+          "mean": "a  not harmonious ; not consistent ; not appropriate  not fitting in 어울리지 않는, 부조화의"
+        },
+        {
+          "word": "augment",
+          "mean": "to make bigger; to add to; to increase 증가시키다, 늘리다; 늘다, 증대"
+        },
+        {
+          "word": "abortive",
+          "mean": "unsuccessful 실패한; 유산의, 발육부진의"
+        },
+        {
+          "word": "martial",
+          "mean": "a  warlike ; having to do with combat 전쟁의, 군사의; 군인다운; 호전적인, 용감한"
+        },
+        {
+          "word": "cosmopolitan",
+          "mean": "at home in many places or situations; internationally sophisticated 전 세계적인, 세계주의의, 전세계적으로 분포하는"
+        },
+        {
+          "word": "rudimentary",
+          "mean": "a  basic; crude; unformed or undeveloped 기본의, 초보의; 미숙한, 원형의"
+        },
+        {
+          "word": "ascetic",
+          "mean": "hermitlike; practicing self-denial  금욕주의자, 금욕주의의"
+        },
+        {
+          "word": "penchant",
+          "mean": "n  a strong taste or liking for something ; a predilection  기호, 경향, 취미"
+        },
+        {
+          "word": "bourgeois",
+          "mean": "middle class, usually in a pejorative sense; boringly conventional 중산계급, 자본가, 부르조아; 고상하지 못한, 속물적인"
+        },
+        {
+          "word": "clique",
+          "mean": "an exclusive group bound together by  some shared quality or interest 도당, 파벌"
+        },
+        {
+          "word": "prudent",
+          "mean": "a  careful; having foresight 신중한, 현명한, 검약하는, 빈틈없는"
+        },
+        {
+          "word": "coerce",
+          "mean": "to force someone to do or not to do something 지배하다, 강제하다, 강요하다"
+        },
+        {
+          "word": "discrete",
+          "mean": "unconnected; separate; distinct  별개의, 구별된, 떨어져 있는, 불연속성의, 개별의"
+        },
+        {
+          "word": "incipient",
+          "mean": "a  beginning ; emerging  처음의, 발단의"
+        },
+        {
+          "word": "beset",
+          "mean": "harass; to surround 에워싸다, 포위하다; 괴롭히다"
+        },
+        {
+          "word": "enervate",
+          "mean": "v  to reduce the strength or energy of, especially to do so gradually  원기를 빼앗다, 쇠약하게 하다 a 기운없는, 힘없는 박력없는 "
+        },
+        {
+          "word": "abnegate",
+          "mean": "to deny oneself things; to reject; to renounce 포기하다, 버리다, 자제하다"
+        },
+        {
+          "word": "benevolent",
+          "mean": "generous; kind; doing good deeds 인정이 많은, 자비로운, 선의의, 호전적인"
+        },
+        {
+          "word": "comprehensive",
+          "mean": "covering or including everything 포괄적인, 넓은; 이해력이 있는, 이해가 빠른"
+        },
+        {
+          "word": "spurious",
+          "mean": "false; fake 가짜의(false, fake)"
+        },
+        {
+          "word": "succumb",
+          "mean": "to yield or submit; to die 죽다, 쓰러지다; 굴복하다, 지다"
+        },
+        {
+          "word": "unctuous",
+          "mean": "oily, both literally and figuratively; insincere  기름 같은, 매끈한, 아주 감동한 체하는, 상냥한"
+        },
+        {
+          "word": "hermetic",
+          "mean": "a  impervious to external influence ; airtight  밀봉한, 밀폐한, 연금술의, 신비한, 연금술사"
+        },
+        {
+          "word": "insular",
+          "mean": "a  like an island ; isolated  섬의, 섬나라 근성의, 편협한"
+        },
+        {
+          "word": "monolithic",
+          "mean": "a  massive, solid, uniform, and unyielding  단일적인, 획일적인; 완전히 통제된"
+        },
+        {
+          "word": "innate",
+          "mean": "a  existing since birth ; inborn ; inherent 타고난, 천성적인"
+        },
+        {
+          "word": "exemplify",
+          "mean": "v  to illustrate by example; to serve as a good example 예증하다, ...의 모범이 되다"
+        },
+        {
+          "word": "anarchy",
+          "mean": "absence of government or control; lawlessness; disorder 무정부, 무질서"
+        },
+        {
+          "word": "fortuitous",
+          "mean": "a  accidental ; occurring by chance 우연의 행운의"
+        },
+        {
+          "word": "succinct",
+          "mean": "brief and to the point; concise 간결한"
+        },
+        {
+          "word": "reprove",
+          "mean": "v  to criticize mildly 비난하다, 꾸짖다, 타이르다, 야단치다"
+        },
+        {
+          "word": "preeminent",
+          "mean": "a  better than anyone else ; outstanding ; supreme  탁월한, 발군의, 현저한, 출중한"
+        },
+        {
+          "word": "proximity",
+          "mean": "n  nearness 근접, 인접, 가까운"
+        },
+        {
+          "word": "rebut",
+          "mean": "v  to contradict; to argue in opposition to; to prove to be false 논박하다, 반증하다"
+        },
+        {
+          "word": "fabrication",
+          "mean": "n  a lie; something made up  꾸밈, 날조; 제작; 조립, 조립부품"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "words": [
+        {
+          "word": "munificent",
+          "mean": "a  very generous ; lavish 인색하지 않은, 아낌없이 주는(lavish), 대범한"
+        },
+        {
+          "word": "vapid",
+          "mean": "without liveliness; dull; spiritless 맛없는, 김빠진, 지루한"
+        },
+        {
+          "word": "integral",
+          "mean": "a  essential  완전한, 완전한 것을 이루는데 필수적인"
+        },
+        {
+          "word": "acumen",
+          "mean": "keenness of judgment; mental sharpness 예민, 날카로운 통찰력"
+        },
+        {
+          "word": "compendium",
+          "mean": "a summary; an abridgment 개략, 요약, 일람표"
+        },
+        {
+          "word": "exult",
+          "mean": "v  to rejoice; to celebrate  크게 기뻐하다, 기뻐 날뛰다, 의기 양양히 하다, ...에게 승리하다"
+        },
+        {
+          "word": "precept",
+          "mean": "n  a rule to live by ; a principle establishing a certain kind of action or behavior ; a maxim 교훈, 격언(maxim); 법칙, 영장, 명령서"
+        },
+        {
+          "word": "pivotal",
+          "mean": "a  crucial 축의, 중추적인, 중요한(crucial)"
+        },
+        {
+          "word": "temerity",
+          "mean": "boldness; recklessness; audacity 만용, 무모(boldness; recklessness; audacity)"
+        },
+        {
+          "word": "esoteric",
+          "mean": "adj  hard to understand; understood by only a select few; peculiar 심원한, 난해한, 비법의, 비밀의"
+        },
+        {
+          "word": "insatiable",
+          "mean": "a  hard or impossible to satisfy ; greedy ; avaricious 만족할 줄 모르는, 탐욕스러운"
+        },
+        {
+          "word": "artifice",
+          "mean": "a clever trick; cunning 고안, 기술, 궁리; 대책, 술책"
+        },
+        {
+          "word": "impervious",
+          "mean": "a  not allowing anything to pass through ; impenetrable 물이나 공기, 혹은 광선 따위가 통과하지 않는; 무감각한, 둔감한"
+        },
+        {
+          "word": "exacerbate",
+          "mean": "v  to make worse 병 등을 악화시키다, 더하게 하다; 신경질나게 하다"
+        },
+        {
+          "word": "conjecture",
+          "mean": "to guess; to deduce or infer on slight evidence  추측하다, 짐작으로 말하다; 억측/판독하다"
+        },
+        {
+          "word": "extraneous",
+          "mean": "adj  unnecessary; irrelevant; extra 불필요한; 부적절한; 밖의, 외부로부터의; 본질에서 벗어난"
+        },
+        {
+          "word": "mercurial",
+          "mean": "a  emotionally unpredictable ; rapidly changing in mood 민활한, 변덕스러운; 명랑한, 쾌활한; 수은의"
+        },
+        {
+          "word": "duplicity",
+          "mean": "n  the act of being two-faced; double-dealing; deception 표리부동, 불성실, 사기, 이중, 중복 cf) duplication 복제, duplicate a복사의 n사본 v"
+        },
+        {
+          "word": "fecund",
+          "mean": "adj  fertile; productive 다산의, 상상력이 풍부한, (토지가) 기름진"
+        },
+        {
+          "word": "consensus",
+          "mean": "unanimity or general agreement 일치, 여론, 교감"
+        },
+        {
+          "word": "evanescent",
+          "mean": "adj  fleeting; vanishing; happening for only the briefest period 차츰 사라지는, 덧없는"
+        },
+        {
+          "word": "decimate",
+          "mean": "to kill or destroy a large part of 많은 사람을 죽이다; 10분의 1을 제거하다"
+        },
+        {
+          "word": "lugubrious",
+          "mean": "a  exaggeratedly mournful 슬퍼하는; 가련한; 애처로운"
+        },
+        {
+          "word": "ineffable",
+          "mean": "a  incapable of being expressed or described 말로 표현할 수 없는, 이루 말할 수 없는, 말하기에도 너무 신성한"
+        },
+        {
+          "word": "cadence",
+          "mean": "rhythm, the rise and fall of sounds 운율, 억양, 가락"
+        },
+        {
+          "word": "inordinate",
+          "mean": "a  excessive ; unreasonable  지나친, 과도한; 무절제한, 불규칙한, 난폭한"
+        },
+        {
+          "word": "maudlin",
+          "mean": "a  silly and overly sentimental 눈물 잘 흘리는, 감상적인, 만취한"
+        },
+        {
+          "word": "altruism",
+          "mean": "selflessness; generosity; devotion to the interests of others 애타주의 이타주의"
+        },
+        {
+          "word": "allocate",
+          "mean": "to distribute; to assign; to allot 할당하다, 배분하다"
+        },
+        {
+          "word": "abstruse",
+          "mean": "hard to understand 난해한, 심오한"
+        },
+        {
+          "word": "grandiose",
+          "mean": "a  absurdly exaggerated  웅장한, 장엄한, 젠체하는 거드름 피우는"
+        },
+        {
+          "word": "plaintive",
+          "mean": "a  expressing sadness or sorrow 슬픈 듯한, 구슬픈, 불쌍한, 애처로운"
+        },
+        {
+          "word": "precipitate",
+          "mean": "v  to cause to happen abruptly  갑자기 빠뜨리다, 곤두박질치게 하다, 촉진시키다, 재촉하다"
+        },
+        {
+          "word": "permeate",
+          "mean": "v  to spread or seep through ; to penetrate  스며들다, 침투하다, 퍼지다"
+        },
+        {
+          "word": "castigate",
+          "mean": "to criticize severely; to chastise  가책하다, 혹평하다; 징계하다; 고치다, 첨삭하다"
+        },
+        {
+          "word": "magnate",
+          "mean": "n  a rich, powerful, or very successful businessperson 고관, 부호; 거물, 유력자"
+        },
+        {
+          "word": "austere",
+          "mean": "unadorned; stern; forbidding; without excess 꾸밈이 없는, 간소한, 엄한, 준엄한, 엄격한"
+        },
+        {
+          "word": "epigram",
+          "mean": "n  a brief and usually witty or satirical saying  경구, 풍자시"
+        },
+        {
+          "word": "nominal",
+          "mean": "a  in name only ; insignificant ; a-ok (during rocket launches) 이름의, 이름을 나타내는, 이름뿐인; 액면의"
+        },
+        {
+          "word": "mendacious",
+          "mean": "a  lying ; dishonest 허위의, 거짓말 잘하는"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "words": [
+        {
+          "word": "disdain",
+          "mean": "arrogant scorn; contempt 경멸, 모멸, 오만"
+        },
+        {
+          "word": "diffident",
+          "mean": "timid; lacking in self-confidence 자신 없는, 사양하는; 겂많은, 내성적인, 수줍은"
+        },
+        {
+          "word": "anecdote",
+          "mean": "a short account of a humorous or revealing incident 일화, 기담; 비화"
+        },
+        {
+          "word": "maverick",
+          "mean": "n  a nonconformist ; a rebel 독불장군, 비순종주의자, 무소속 정치가, 고삐 풀린 망아지"
+        },
+        {
+          "word": "myopia",
+          "mean": "a  nearsightedness ; lack of foresight 근시안; 선견지명이 부족한"
+        },
+        {
+          "word": "dialectical",
+          "mean": "relating to discussions; relating to the rules and methods of reasoning; approaching truth in the middle of opposing extremes 방언의, 변증법의"
+        },
+        {
+          "word": "myriad",
+          "mean": "n  a huge number 무수한; 무수한 사람"
+        },
+        {
+          "word": "profligate",
+          "mean": "a  extravagantly wasteful and, usually, wildly immoral  a 방탕한, 품행이 나쁜    n 방탕아, 난봉꾼 "
+        },
+        {
+          "word": "apartheid",
+          "mean": "the abhorrent policy of racial segregation and oppression in the repubic of south africa 인종차별"
+        },
+        {
+          "word": "imminent",
+          "mean": "a  just about to happen 절박한, 촉박한, 긴급한"
+        },
+        {
+          "word": "laud",
+          "mean": "v  to praise ; to applaud ; to extol ; to celebrate 찬양하다, 기리다"
+        },
+        {
+          "word": "exigency",
+          "mean": "n  an emergency; an urgency 위급, 긴급한 상태"
+        },
+        {
+          "word": "irrevocable",
+          "mean": "a  irreversible  취소할 수 없는, 되부를 수 없는"
+        },
+        {
+          "word": "salient",
+          "mean": "a  sticking out; conspicuous; leaping 두드러진, 현저한; 돌출한, 원기 왕성한"
+        },
+        {
+          "word": "prodigy",
+          "mean": "n  an extremely talented child; an extraordinary accomplishment or occurrence; wonder  / 경이, 비상한 일, 이상한 조짐, 전조,"
+        },
+        {
+          "word": "vilify",
+          "mean": "to say vile things about; to defame 헐뜯다, 중상하다; 타락시키다"
+        },
+        {
+          "word": "engender",
+          "mean": "v  to bring into existence; to create; to cause 발생시키다, 일으키다 produce; 일어나다; 아버지 자식을 얻다 ment 초래, 야기"
+        },
+        {
+          "word": "apocalypse",
+          "mean": "a prophetic revelation, especially one concerning the end of the world  묵시, 요한계시록"
+        },
+        {
+          "word": "egregious",
+          "mean": "a  extremely bad; flagrant 엄청난, 터무니없는, 엉터리없는 (옛) 뛰어난 "
+        },
+        {
+          "word": "exonerate",
+          "mean": "v  to free completely from blame; to exculpate 용서하다, 구하다, 무죄로 하다"
+        },
+        {
+          "word": "tangible",
+          "mean": "touchable; palpable 만질 수 있는(touchable, palpable), 만져서 알 수 있는, 실속있는, 명백한, 확실한"
+        },
+        {
+          "word": "orthodox",
+          "mean": "a  conventional ; adhering to established principles or doctrines, especially in religion ; by the book  전통의, 정통파의, 승인된; 전통적인, 인습적인"
+        },
+        {
+          "word": "stagnation",
+          "mean": "motionlessness; inactivity 침체, 불경기"
+        },
+        {
+          "word": "discreet",
+          "mean": "prudent; judiciously reserved 분별있는, 생각이 깊은"
+        },
+        {
+          "word": "insolent",
+          "mean": "a  arrogant ; insulting  거만한, 오만한, 거드럭거리는"
+        },
+        {
+          "word": "insurgent",
+          "mean": "n  a rebel ; someone who revolts against a government 반란자, 모반자, 폭도, 반정부 운동가"
+        },
+        {
+          "word": "qualify",
+          "mean": "v  to modify or restrict  제한하다, 한정하다, 완화하다; 자격을 주다, 권한을 부여하다"
+        },
+        {
+          "word": "dissipate",
+          "mean": "to thin out, drift away, or dissolve; to cause to thin out, drift away, or dissolve; to waste or squander  흩뜨리다, 방산하다, 낭비하다, 일소하다"
+        },
+        {
+          "word": "theology",
+          "mean": "the study of god or religion 신학, 종교 심리학"
+        },
+        {
+          "word": "machination",
+          "mean": "n  scheming activity for an evil purpose 음모, 책모"
+        },
+        {
+          "word": "imperial`",
+          "mean": "a  like an emperor or an empire 제국의, 황제의, 황실의, 장엄한; 거만한, 건방진; 우수한"
+        },
+        {
+          "word": "iconoclast",
+          "mean": "n  one who attacks popular beliefs or institutions 우상타파주의자, 구습 타파주의자"
+        },
+        {
+          "word": "sagacious",
+          "mean": "a  discerning; shrewd; keen in judgement; wise 현명한, 기민한, 총명한"
+        },
+        {
+          "word": "subordinate",
+          "mean": "lower in importance, position, or rank; secondary 종속하는, 부수하는; 아래의, 하위의"
+        },
+        {
+          "word": "superfluous",
+          "mean": "extra; unnecessary; redundant 남아도는, 불필요한"
+        },
+        {
+          "word": "scintillate",
+          "mean": "v  to sparkle, either literally or figuratively 불꽃을 내다, 재치가 번득이다"
+        },
+        {
+          "word": "prepossess",
+          "mean": "v  to preoccupy ; to influence beforehand or prejudice ; to make a good impression on beforehand  선입관을 가지게 하다; 좋은 이상을 주다, 호감을 가지게 하다"
+        },
+        {
+          "word": "tirade",
+          "mean": "prolonged, bitter speech 장광설, 신랄한 연설"
+        },
+        {
+          "word": "nebulous",
+          "mean": "a  vague ; hazy ; indistinct 성운의, 흐린, 불투명한; 애매한, 막연한"
+        },
+        {
+          "word": "clemency",
+          "mean": "mercy; forgiveness; mildness(기후의) 온화; 관대, 인정많은"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "words": [
+        {
+          "word": "debacle",
+          "mean": "violent breakdown; sudden overthrow; overwhelming defeat  강 얼음의 깨짐, 시세의 폭락, 와해, 패주; 대홍수"
+        },
+        {
+          "word": "epitome",
+          "mean": "n  a brief summary that captures the meaning of the whole; the perfect example of something; a paradigm 개요, 요약, 축도, 줄거리; 발췌"
+        },
+        {
+          "word": "civil",
+          "mean": "polite; civilized; courteous 시민의, 민간의"
+        },
+        {
+          "word": "placate",
+          "mean": "v  to pacify ; to appease ; to soothe  회유하다, 달래다, 위로하다; 가라앉히다, 삭이다"
+        },
+        {
+          "word": "opulent",
+          "mean": "a  luxurious 부유한, 풍부한"
+        },
+        {
+          "word": "itinerant",
+          "mean": "a  moving from place to place   순회하는, 순방하는, 편력중인, 지방 순회의"
+        },
+        {
+          "word": "temperate",
+          "mean": "mild; moderate; restrained 기온이 온화한(mild), 온건한, 절제하는"
+        },
+        {
+          "word": "exhort",
+          "mean": "v  to urge strongly; to give a serious warning to 간곡히 타이르다, 권하다, 훈계하다"
+        },
+        {
+          "word": "malaise",
+          "mean": "n  a feeling of depression, uneasiness, or queasiness 기분이 언짢은, 불쾌"
+        },
+        {
+          "word": "palliate",
+          "mean": "v  to relieve or alleviate something without getting rid of the problem ; to assuage ; to mitigate  임시적으로 완화시키다, 꾸며서 말하다, 변명하다; 변형하다"
+        },
+        {
+          "word": "address",
+          "mean": "to speak to; to direct ones attention to [...에게] 말을 걸다, 연설하다' [항의 등을]제기/제출하다"
+        },
+        {
+          "word": "inherent",
+          "mean": "a  part of the essential nature of something ; intrinsic 천부의, 고유의, 타고난"
+        },
+        {
+          "word": "agnostic",
+          "mean": "one who believes that the existence of a god can be neither proven nor disproven 불가지론자"
+        },
+        {
+          "word": "autonomous",
+          "mean": "acting independently 자율의, 자치의, 자주적인"
+        },
+        {
+          "word": "fidelity",
+          "mean": "n  faithfulness; loyalty  충실, 정절, 신빙성"
+        },
+        {
+          "word": "brevity",
+          "mean": "briefness 간결, 간략, 짧음"
+        },
+        {
+          "word": "redundant",
+          "mean": "a  unnecessarily repetitive; excessive; excessively wordy 여분의, 과다한, 장황한"
+        },
+        {
+          "word": "stringent",
+          "mean": "strict; restrictive 엄중한, 절박한, 그럴듯한"
+        },
+        {
+          "word": "defame",
+          "mean": "to libel or slander; to ruin the good name of 명예를 훼손하다, 비방하다"
+        },
+        {
+          "word": "vernacular",
+          "mean": "everyday speech; slang; idiom"
+        },
+        {
+          "word": "chicanery",
+          "mean": "trickery; deceitfulness; artifice; especially legal or political 꾸며댐, 발뺌, 속임수"
+        },
+        {
+          "word": "insipid",
+          "mean": "a  dull ; bland ; banal 김빠진, 싱거운, 활기 없는 무미건조한"
+        },
+        {
+          "word": "usurp",
+          "mean": "to seize wrongfully 권력이나 지위를 빼앗다, 찬탈하다, 침해하다"
+        },
+        {
+          "word": "incandescent",
+          "mean": "a  brilliant ; giving off heat or light 백열의, 빛나는, 벽열광을 내는"
+        },
+        {
+          "word": "coup",
+          "mean": "a brilliant victory or accomplishment; the violent overthrow of a government by a small internal group 쿠데타, 타격; 대성공, 큰 히트"
+        },
+        {
+          "word": "latent",
+          "mean": "a  present but not visible or apparent ; potential  숨어 잇는, 잠복기의; 잠재적인, 잠재성의"
+        },
+        {
+          "word": "requisite",
+          "mean": " required necessary   필요한, 필수적인, 필수의"
+        },
+        {
+          "word": "dictum",
+          "mean": "an authoritative saying; an adage; a maxim; a proverb  격언, 금언; 공식 견해, 언명"
+        },
+        {
+          "word": "pacify",
+          "mean": "v  to calm someone down ; to placate 달래다, 만족시키다, 진정시키다"
+        },
+        {
+          "word": "avarice",
+          "mean": "greed; excessive love of riches 탐욕, 허욕"
+        },
+        {
+          "word": "apotheosis",
+          "mean": "elevation to divine status; the perfect example of something 신격화"
+        },
+        {
+          "word": "laconic",
+          "mean": "a  using few words, especially to the point of seeming rude 간결한, 말수 적은 "
+        },
+        {
+          "word": "axiom",
+          "mean": "self-evident rule or truth; a widely accepted saying 원리, 이치, 공리, 격언"
+        },
+        {
+          "word": "parsimonious",
+          "mean": "a  stingy 인색한(=stingy) "
+        },
+        {
+          "word": "injunction",
+          "mean": "n  a command or order, especially a court order 명령, 훈령, 지령, 금지 명령"
+        },
+        {
+          "word": "milieu",
+          "mean": "n  environment ; surroundings 주위, 환경"
+        },
+        {
+          "word": "criterion",
+          "mean": "standard;basis for judgment 표준, 기준 규범"
+        },
+        {
+          "word": "partisan",
+          "mean": "n  one who supports a particular person, cause, or idea 도당, 일당, 한 동아리"
+        },
+        {
+          "word": "appease",
+          "mean": "to soothe; to pacify by giving in to  진정시키다, 달래다, 유화하다; 갈등을 풀다, 양보하다"
+        },
+        {
+          "word": "willful",
+          "mean": "deliberate; obstinate; insistent on having ones way 계획적인, 고의의, 고집센"
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "words": [
+        {
+          "word": "concurrent",
+          "mean": "happening at the same time; parallel 동시에 일어나는, 협동의"
+        },
+        {
+          "word": "allusion",
+          "mean": "an indirect reference (often to a literary work); a hint 암시, 빗댐, 언급(hint)"
+        },
+        {
+          "word": "transgress",
+          "mean": "to violate (a law); to sin 범하다, 어기다(violate)"
+        },
+        {
+          "word": "proselytize",
+          "mean": "v  to convert (someone) from one religion or doctrine to another; to recruit converts to a religion or doctrine 개종시키다, 전향시키다"
+        },
+        {
+          "word": "profane",
+          "mean": "a  not having to do with religion; irreverent; blasphemous  모독적인 신성을 더럽히는; 세속의, 야비한"
+        },
+        {
+          "word": "disparage",
+          "mean": "to belittle; to say uncomplimentary things about, usually in a somewhat indirect way 얕보다, 깔보다; 비방하다, 명예를 해치다"
+        },
+        {
+          "word": "mellifluous",
+          "mean": "a  sweetly flowing 감미로운, 유창한"
+        },
+        {
+          "word": "artful",
+          "mean": "wily; sly 교묘한, 능수 능란한; 인위적인(=crafty)"
+        },
+        {
+          "word": "furtive",
+          "mean": "a  secretive ; sly  은밀한, 교활한, 수상쩍은"
+        },
+        {
+          "word": "indigent",
+          "mean": "a  poor  가난한, 빈곤한"
+        },
+        {
+          "word": "aggregate",
+          "mean": "sum total; a collection of separate things mixed together  모으다, 집합하다, 총계가 ...이 되다"
+        },
+        {
+          "word": "contiguous",
+          "mean": "side by side; adjoining 접촉하는, 인접하는, 근접한"
+        },
+        {
+          "word": "adulation",
+          "mean": "wild or excessive admiration; flattery 아첨, 추종"
+        },
+        {
+          "word": "absolve",
+          "mean": "to forgive or free from blame; to free from sin; to free from an obligation 용서하다, 사면하다, 방면하다 "
+        },
+        {
+          "word": "saccharine",
+          "mean": "a  sweet; excessively or disgustingly sweet 달콤한, 설탕 같은"
+        },
+        {
+          "word": "genre",
+          "mean": "n  a type or category, especially of art or writing 장르, 유형, 약식; 풍속화"
+        },
+        {
+          "word": "squander",
+          "mean": "to waste 헛되이 쓰다, 탕진하다, 낭비하다, 분산시키다"
+        },
+        {
+          "word": "blight",
+          "mean": "disease in plants; anything that injures or destroys  식물의 고조병, 충해; 악화, 황폐"
+        },
+        {
+          "word": "circumlocution",
+          "mean": "an indirect expression; use of wordy or evasive language  완곡한 표현, 넌지시 하는 말, 핑계"
+        },
+        {
+          "word": "covenant",
+          "mean": "a solemn agreement; a contract; a pledge  계약, 서약, 맹약; 계약의 부대 조항, 날인 증서(계약)"
+        },
+        {
+          "word": "desiccate",
+          "mean": "to dry out 건조시키다, 말려서 보존하다"
+        },
+        {
+          "word": "patent",
+          "mean": "a  obvious 명백한, 분명한(=obvious)"
+        },
+        {
+          "word": "compelling",
+          "mean": "forceful; causing to yield...하지 않을 수 없는, 강제적인"
+        },
+        {
+          "word": "belie",
+          "mean": "to give a false impression of; to contradict 거짓 전하다, 속이다, 숨기다"
+        },
+        {
+          "word": "tenuous",
+          "mean": "flimsy; extremely thin 얇은, 희박한, 가는"
+        },
+        {
+          "word": "mandate",
+          "mean": "n  a command or authorization to do something ; the will of the voters as expressed by the results of an election 명령, 지령; 통치, 위임, 직무집행 영장"
+        },
+        {
+          "word": "inundate",
+          "mean": "v  to flood ; to cover completely with water ; to overwhelm 범람시키다, 침수시키다, 밀어닥치다, 쇄도하다"
+        },
+        {
+          "word": "deleterious",
+          "mean": "harmful 해로운, 유독한"
+        },
+        {
+          "word": "abdicate",
+          "mean": "to step down from a position of power or responsibility 포기하다, 퇴위하다, 사퇴하다"
+        },
+        {
+          "word": "proletariat",
+          "mean": "n  the industrial working class 무산계급, 최하층민"
+        },
+        {
+          "word": "complement",
+          "mean": "to complete or fill up; to be the perfect counterpart  보충하여 완전케하다, 보완하다, 보충하다"
+        },
+        {
+          "word": "rapacious",
+          "mean": "a  greedy; plundering; avaricious 강탈하는, 약탈하는, 욕심많은"
+        },
+        {
+          "word": "ascendancy",
+          "mean": "supremacy; domination 우월, 지배권, 주도권"
+        },
+        {
+          "word": "stricture",
+          "mean": "a restriction; a limitation; a negative criticism 구속, 협착; 혹평"
+        },
+        {
+          "word": "amenity",
+          "mean": "pleasantness; attractive or comfortable feature 쾌적함, 즐거움, 쾌락; 부드러움"
+        },
+        {
+          "word": "extol",
+          "mean": "v  to praise highly; to laud  칭찬하다, 극찬하다"
+        },
+        {
+          "word": "debauchery",
+          "mean": "wild living; excessive intemperance  방탕, 도락, 주색에 빠짐; 유흥, 야단법석, 난행"
+        },
+        {
+          "word": "penitent",
+          "mean": "a  sorry ; repentant ; contrite 후회하는 참회하는, 죄를 뉘우치는(sorry, repentant, contrite)"
+        },
+        {
+          "word": "serendipity",
+          "mean": "accidental good fortune; discovering good things without looking for them 뜻밖의 발견, 재수 좋게 찾아 낸 것"
+        },
+        {
+          "word": "ironic",
+          "mean": "a  meaning the opposite of what you seem to say ; using words to mean something other than what they seem to mean 비꼬는, 풍자적인, 반어적인"
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "words": [
+        {
+          "word": "sacrilege",
+          "mean": "n  a violation of something sacred; blasphemy 신성 모독의"
+        },
+        {
+          "word": "paternal",
+          "mean": "a  fatherly ; fatherlike 아버지의, 세습의"
+        },
+        {
+          "word": "nihilism",
+          "mean": "n  the belief that there are no values or morals in the universe 허무주의, 무정부주의"
+        },
+        {
+          "word": "delineate",
+          "mean": "to describe accurately; to draw in outline 윤곽을 그리다, 묘사하다"
+        },
+        {
+          "word": "founder",
+          "mean": "v  to fail ; to collapse ; to sink  배가 침몰하다, 좌절하다, 실패하다, 침수시키다"
+        },
+        {
+          "word": "hackneyed",
+          "mean": "a  overused ; trite ; stale  낡아빠진, 진부한"
+        },
+        {
+          "word": "belabor",
+          "mean": "to go over repeatedly or to an absurd extent  세게 때리다, 공격하다, 호되게 꾸짖다, 욕하다, 조롱하다"
+        },
+        {
+          "word": "destitute",
+          "mean": "extremely poor; utterly lacking 빈곤한, 결핍한"
+        },
+        {
+          "word": "predilection",
+          "mean": "n  a natural preference for something 편애, 역성"
+        },
+        {
+          "word": "bereaved",
+          "mean": "deprived or left desolate, especially through death [죽음을 통하여 생명, 희망 등을]빼앗기다, 황량해지다"
+        },
+        {
+          "word": "repercussion",
+          "mean": "n  a consequence; an indirect effect 되튀기, 반사, 반향, 반동, 반격"
+        },
+        {
+          "word": "coherent",
+          "mean": "holding together; making sense 일관된, 조리가 서는; 응집성의, 밀착한"
+        },
+        {
+          "word": "connoisseur",
+          "mean": "an expert, particularly in matter of art or taste (미술품 등의) 감정가, 가식가"
+        },
+        {
+          "word": "tout",
+          "mean": "to praise highly; to brag publicly about ...을 극구 칭찬하다, ...에 대해 말하다; 성가시게 권유하다"
+        },
+        {
+          "word": "reticent",
+          "mean": "a  quiet; restrained; reluctant to speak, especially about oneself 과묵한, 입이 무거운, 삼가는"
+        },
+        {
+          "word": "strife",
+          "mean": "bitter conflict; discord; a struggle or clash  투쟁, 쟁의, 불화, 반목, 싸움"
+        },
+        {
+          "word": "censure",
+          "mean": "to condemn severely for doing something bad  비난하다, 나무라다, 혹평하다, 견책하다"
+        },
+        {
+          "word": "covet",
+          "mean": "to wish for enviously 탐내다, 선망하다; 갈망하다, 열망하다"
+        },
+        {
+          "word": "litigate",
+          "mean": "v  to try in court ; to engage in legal proceedings 소송하다; 제소/논쟁하다; 법정에서 다투다"
+        },
+        {
+          "word": "robust",
+          "mean": "a  strong and healthy; vigorous 건강한, 튼튼한, 강건한, 건전한"
+        },
+        {
+          "word": "distinguish",
+          "mean": "to tell apart; to cause to stand out  구별하다, 분별하다; 눈에 띄게 하다"
+        },
+        {
+          "word": "surreptitious",
+          "mean": "sneaky; secret 은밀한, 부정한, 간교한"
+        },
+        {
+          "word": "consonant",
+          "mean": "harmonious; in agreement 조화하는, 일치하는; 협화음의"
+        },
+        {
+          "word": "allege",
+          "mean": "to assert without proof 단언하다; 변명하다, 우겨대다; 진술하다"
+        },
+        {
+          "word": "prosaic",
+          "mean": "a  dull; unimaginative; like prose (as opposed to poetry) 산문적인, 평범한, 지루한"
+        },
+        {
+          "word": "inept",
+          "mean": "a  clumsy ; incompetent ; gauche 부적당한, 바보 같은, 어리석은"
+        },
+        {
+          "word": "explicit",
+          "mean": "adj  clearly and directly expressed  명백한, 뚜렷한; 노골적인, 솔직한, 터놓은"
+        },
+        {
+          "word": "aphorism",
+          "mean": "a brief, often witty saying; a proverb 격언"
+        },
+        {
+          "word": "insidious",
+          "mean": "a  treacherous ; sneaky  교활한, 방심할 수 없는; 잠행성의"
+        },
+        {
+          "word": "inexorable",
+          "mean": "a  relentless ; inevitable ; unavoidable 용서없는, 무정한, 냉혹한"
+        },
+        {
+          "word": "fauna",
+          "mean": "n  animals  cf) flora 동물군, 동물의(animal)"
+        },
+        {
+          "word": "reproach",
+          "mean": "v  to scold, usually in disappointment; to blame; to disgrace 비난하다, 나무라다, 꾸짖다; 체면을 손상시키다"
+        },
+        {
+          "word": "attrition",
+          "mean": "gradual wearing away, weakening, or loss; a natural or expected decrease in numbers of size 마멸, 마찰, 마손, 감소, 축소"
+        },
+        {
+          "word": "zealous",
+          "mean": "enthusiastically devoted to something; fervent 열광적인, 열광하는"
+        },
+        {
+          "word": "subtle",
+          "mean": "not obvious; able to make fine distinctions; ingenious; crafty 미묘한, 예민한, 교활한, 교묘한"
+        },
+        {
+          "word": "ramification",
+          "mean": "n  a consequence; a branching out 결과, 귀추; 가지, 분기, 분리; 세부화"
+        },
+        {
+          "word": "alleviate",
+          "mean": "to relieve, usually temporarily or incompletely; to make bearable; to lessen 완화하다, 경감하다"
+        },
+        {
+          "word": "circumspect",
+          "mean": "cautious 신중한, 용의주도한, 주의 깊은"
+        },
+        {
+          "word": "concord",
+          "mean": "harmony; agreement 의견의 일치, 화합, 협조; 협정"
+        },
+        {
+          "word": "cognizant",
+          "mean": "aware; conscious 인식하고 있는, 알고 있는"
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "words": [
+        {
+          "word": "aloof",
+          "mean": "uninvolved; standing off; keeping ones distance 멀리 떨어져서, 초연히; 무관심한, 쌀쌀한, 냉담함"
+        },
+        {
+          "word": "vicissitude",
+          "mean": "upheaval; natural cange; change in fortune 변화, 부침, 흥망; 변하기 쉬움"
+        },
+        {
+          "word": "vindicate",
+          "mean": "to clear from all blame or suspicion; to justify  변호하다, 옹호하다, 진실을 밝히다, 명예를 회복하다; 논박하다"
+        },
+        {
+          "word": "plous",
+          "mean": "a  reverent or devout ; outwardly (and sometimes falsely) reverent or devout ; hypocritical  신앙심이 깊은, 경건한; 종교적인; 위선적인, 종교를 구실로 삼는"
+        },
+        {
+          "word": "immutable",
+          "mean": "a  unchangeable 불변의, 변경되지 않는"
+        },
+        {
+          "word": "purported",
+          "mean": "a  rumored; claimed 의미하다, 뜻하다; ,,,라고 칭하다, 주장하다"
+        },
+        {
+          "word": "static",
+          "mean": "stationary; not changing or moving 정적인, 정지된, 정지 상태의"
+        },
+        {
+          "word": "histrionic",
+          "mean": "a  overly dramatic ; theatrical  연극의, 연극 배우의; 배우, 연극"
+        },
+        {
+          "word": "catholic",
+          "mean": "universal; embracing everything [관심, 흥미, 취미가] 광범위한, 보편적인; 관대한, 마음이 넓은"
+        },
+        {
+          "word": "charisma",
+          "mean": "a magical-seeming ability to attract followers or inspire loyalty  재능, 권능; 권위, 비상한 매력"
+        },
+        {
+          "word": "vacillate",
+          "mean": "to be indecisive; to waver 흔들리다, 동요하다; 주저하다, 망설이다"
+        },
+        {
+          "word": "egocentric",
+          "mean": "a  selfish; believing that one is the center of everything 자기중심의, 이기주의적인, n 이기주의자 egoism 이기주의 egoistic, -tical 이기적인"
+        },
+        {
+          "word": "vitriolic",
+          "mean": "caustic; full of bitterness 신랄한, 통렬한"
+        },
+        {
+          "word": "respite",
+          "mean": "n  a period of rest or relief 연기, 일시적 중단, 유예; 휴식기간"
+        },
+        {
+          "word": "bucolic",
+          "mean": "charmingly rural; rustic; countrylike 목가적인, 양치기의, 소박한; 목가, 전원시"
+        },
+        {
+          "word": "painstaking",
+          "mean": "a  extremely careful ; taking pains  수고를 아끼지 않는, 근면한(=pains-taking = taking pains)"
+        },
+        {
+          "word": "elliptical",
+          "mean": "adj  oval; missing a word or words; obscure 타원의 (문법) 생략의  ellipsis (문법) 생략   ellipsoid (수학) 타원"
+        },
+        {
+          "word": "uniform",
+          "mean": "consistent; unchanging; the same for everyone  일정한, 균일한(consistent, unchanging)"
+        },
+        {
+          "word": "narcissism",
+          "mean": "n  excessive love of ones body or oneself 자기도취"
+        },
+        {
+          "word": "parody",
+          "mean": "n  a satirical imitation 풍자 섞인 개작 시문, 서투른 모방"
+        },
+        {
+          "word": "instigate",
+          "mean": "v  to provoke ; to stir up  총돌질하다, 선동하다, 부추기다"
+        },
+        {
+          "word": "contingent",
+          "mean": "dependent; possible 불시의, 우연의; ...조건으로 하는, 불확실한, 있을 수 있는"
+        },
+        {
+          "word": "cognitive",
+          "mean": "dealing with how we know the world around us through our senses; mental 인식의, 인식력이 있는"
+        },
+        {
+          "word": "candor",
+          "mean": "truthfulness; sincere honesty 정직, 공평무사"
+        },
+        {
+          "word": "protagonist",
+          "mean": "n  the leading character in a novel, play, or other work; a leader or champion 주인공, 주역, 주창자"
+        },
+        {
+          "word": "surfeit",
+          "mean": "excess; an excessive amount; excess or overindulgence in eating or drinking 과식, 과음, 포만"
+        },
+        {
+          "word": "solicitous",
+          "mean": "eager and attentive, often to the point of hovering; anxiously caring or attentive 간절히 ...하려 하는, 갈망하는; 염려하는, 걱정하는"
+        },
+        {
+          "word": "ebullient",
+          "mean": "a  boiling; bubbling with excitement; exuberant;  비등하는, 원기왕성한, 열광한 n ebullience,-cy  n ebullition 비등, 감정의 격발, 전쟁의 돌발"
+        },
+        {
+          "word": "reprisal",
+          "mean": "n  a military action undertaken in revenge for another; an act of taking an eye for an eye 보복, 앙갚음, 복수; 실력 행사"
+        },
+        {
+          "word": "egalitarian",
+          "mean": "a  believing in the social and economic equality of all people 평등주의의 / n 평등주의자"
+        },
+        {
+          "word": "acute",
+          "mean": "sharp; shrewd 날카로운, 민감한"
+        },
+        {
+          "word": "inveterate",
+          "mean": "a  habitual ; firm in habit ; deeply rooted 뿌리깊은, 상습적인, 만성의"
+        },
+        {
+          "word": "intractable",
+          "mean": "a  uncontrollable ; stubborn ; disobedient  다루기 힘든, 억척스러운, 고집센"
+        },
+        {
+          "word": "absolute",
+          "mean": "total; unlimited; perfect 절대의, 무조건의, 전체적"
+        },
+        {
+          "word": "abject",
+          "mean": "hopeless; extremely sad and servile; defeated; utterly bummed out  비천한, 비열한, 비굴한(사람)"
+        },
+        {
+          "word": "burgeon",
+          "mean": "to expand; to flourish 성장하다, 갑자기 커지다"
+        },
+        {
+          "word": "empirical",
+          "mean": "adj  relying on experience or observation; not merely theoretical 경험의, 경험적인, 실험 관찰에 의한; 돌팔이 의사같은  ~philosophy 경험철학 empiricism 경험주의 (철) 경험론"
+        },
+        {
+          "word": "infinitesimal",
+          "mean": "a  very, very, very small ; infinitely small 극히 작은, 무한소의; 극소량"
+        },
+        {
+          "word": "acquiesce",
+          "mean": "to comply passively; to accept; to assent; to agree 묵인하다; 묵묵히 따르다"
+        },
+        {
+          "word": "affable",
+          "mean": "easy to talk to; friendly 상냥한, 사근사근한, 붙임성 있는"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "words": [
+        {
+          "word": "rancor",
+          "mean": "n  bitter, long-lasting ill will or resentment 원한, 증오, 유감"
+        },
+        {
+          "word": "abysmal",
+          "mean": "extremely hopeless or wretched; bottomless 심연의, 끝없이 깊은"
+        },
+        {
+          "word": "dormant",
+          "mean": "a  inactive; as though asleep; asleep 잠자는, 동면의, 잠복의, 휴지한, 놀고있는 ~volcano, ~window"
+        },
+        {
+          "word": "protract",
+          "mean": "v  to prolong 오래 끌게 하다, 연장하다, 뻗다, 내밀다(prolong)"
+        },
+        {
+          "word": "adherent",
+          "mean": "follower; supporter; believer 지지자, 당원, 신자; 부착력 있는, 들러붙는"
+        },
+        {
+          "word": "dissolution",
+          "mean": "the breaking up or dissolving of something into parts; disintegration"
+        },
+        {
+          "word": "mercenary",
+          "mean": "n  a hired soldier ; someone who will do anything for money 용병, 고용된 사람"
+        },
+        {
+          "word": "parochial",
+          "mean": "a  narrow or confined in point of view ; provincial  편협한; 교구의, 지방의"
+        },
+        {
+          "word": "doctrinaire",
+          "mean": "inflexibly committed to a doctrine or theory without regard to its practicality; dogmatic 공론적인, 교조주의의"
+        },
+        {
+          "word": "equitable",
+          "mean": "adj  fair  공정한, 공평한, 이치에 닿는"
+        },
+        {
+          "word": "homogeneous",
+          "mean": "a  uniform ; made entirely of one thing  동질의, 같은 종류의(uniform)"
+        },
+        {
+          "word": "squalor",
+          "mean": "filth; wretched, degraded, or repulsive living conditions  불결함, 더러움; 천함, 야비함"
+        },
+        {
+          "word": "aristocratic",
+          "mean": "of noble birth; snobbish  귀족의"
+        },
+        {
+          "word": "inane",
+          "mean": "a  silly ; senseless  공허한, 어리석은, 텅빈"
+        },
+        {
+          "word": "charlatan",
+          "mean": "fraud; quack; con man 지독한 허풍선이, 엉터리의; 돌팔이 의사"
+        },
+        {
+          "word": "amorous",
+          "mean": "feeling loving, especially in a sexual sense; in love relating to love 호색의, 요염한; 반해 있는"
+        },
+        {
+          "word": "abstinent",
+          "mean": "abstaining; voluntarily not doing something, especially something pleasant that is bad for you or has a bad reputation 절제하는, 금욕적인"
+        },
+        {
+          "word": "sanguine",
+          "mean": "a  cheerful; optimistic; hopeful  붉은 빛을 띤, 다혈질의, 혈색이 좋은, 쾌활한, 살벌한"
+        },
+        {
+          "word": "enigma",
+          "mean": "n  a mystery 수수께끼(riddle), 수수께끼 인물 "
+        },
+        {
+          "word": "obscure",
+          "mean": "a  unknown ; hard to understand ; dark  분명치 않은, 모호한; 눈에 띄지 않는, 컴컴한, 흐린"
+        },
+        {
+          "word": "tantamount",
+          "mean": "equivalent to 동등한, 상당하는"
+        },
+        {
+          "word": "paucity",
+          "mean": "n  scarcity 결핍, 부족(=scarcity), 소량, 소수"
+        },
+        {
+          "word": "stipulate",
+          "mean": "to require something as part of an agreement 규정하다, 조건으로 요구(규명)하다"
+        },
+        {
+          "word": "astute",
+          "mean": "shrewd; keen in judgment 기민한, 빈틈없는; 교활한"
+        },
+        {
+          "word": "consummate",
+          "mean": "perfect; complete; supremely skillful  완성한, 완성된, 순전한; 터무니없는, 엄청난; 완성하다, 성취하다"
+        },
+        {
+          "word": "scrupulous",
+          "mean": "a  strict; careful; hesitant for ethical reasons  빈틈없는, 면밀한; 양심적인, 지조있는, 신중한"
+        },
+        {
+          "word": "promulgate",
+          "mean": "v  to proclaim; to publicly or formally declare something 공포하다, 터뜨리다, 널리 펴다, 선전하다, 보급하다"
+        },
+        {
+          "word": "stratum",
+          "mean": "a layer; a level 지층, 사회의 계층(layer, level)"
+        },
+        {
+          "word": "noxious",
+          "mean": "a  harmful ; offensive 유해한, 해로운; 불건전한, 정신적으로 유해한"
+        },
+        {
+          "word": "reprehensible",
+          "mean": "a  worthy of blame or censure 비난할 만한, 꾸짖을 만한, 괘씸한"
+        },
+        {
+          "word": "incorrigible",
+          "mean": "a  incapable of being reformed  선도할 수 없는, 어쩔 수 없는, 제멋대로의, 뿌리깊은"
+        },
+        {
+          "word": "rigorous",
+          "mean": "a  strict; harsh; severe 엄격한, 호된, 엄한; 엄밀한, 정확한"
+        },
+        {
+          "word": "infatuated",
+          "mean": "a  foolish ; foolishly passionate or attracted ; made foolish ; foolishly in love 얼빠진, 열중한, 현혹한"
+        },
+        {
+          "word": "blasphemy",
+          "mean": "irreverence; an insult to something held sacred; profanity 신성모독, 불경"
+        },
+        {
+          "word": "indulgent",
+          "mean": "lenient ; yielding to desire 멋대로 하게 하는 관대한, 엄하지 않은"
+        },
+        {
+          "word": "incantation",
+          "mean": "n  a chant ; the repetition  of statements or phrases in a way reminiscent of a chant  자주 반복하는 문구(슬로건)(chant); 주문; 주문을 욈, 마술"
+        },
+        {
+          "word": "espouse",
+          "mean": "v  to support; to advocate  지지하다, 옹호하다"
+        },
+        {
+          "word": "ambience",
+          "mean": "atmosphere; mood; feeling 환경, 분위기(mood)"
+        },
+        {
+          "word": "morose",
+          "mean": "a  gloomy ; sullen  침울한(gloomy, sullen), 뿌루퉁한, 뚱한, 기분이 언짢은"
+        },
+        {
+          "word": "condescend",
+          "mean": "to stoop to someone elses level, usually in an offensive way; to patronize 겸손하게 굴다, 자신을 낮추다"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "words": [
+        {
+          "word": "conducive",
+          "mean": "promoting 도움이 되는, 이바지하는"
+        },
+        {
+          "word": "guile",
+          "mean": "n  cunning ; duplicity ; artfulness 교활, 음흉한 꾀, 배반심, 책략"
+        },
+        {
+          "word": "arcane",
+          "mean": "mysterious; known only to a select few 비밀의, 불가사이의(mysterious)"
+        },
+        {
+          "word": "obfuscate",
+          "mean": "v  to darken ; to confuse ; to make confusing 마음을 어둡게 하다, 어지럽게 하다; 당황하게 하다, 난처하게 하다"
+        },
+        {
+          "word": "reclusive",
+          "mean": "a  hermitlike; withdrawn from society 세상을 버린, 은둔한, 쓸쓸한"
+        },
+        {
+          "word": "postulate",
+          "mean": "n  something accepted as true without proof ; and axiom 가정, 선결 조건, 기본 원리, 필요조건; 원리, 이치"
+        },
+        {
+          "word": "sensory",
+          "mean": "a  having to do with the senses or sensation 지각 기관의, 감각을 전달하는"
+        },
+        {
+          "word": "lament",
+          "mean": "v  to mourn 슬퍼하다, 애도하다, 한탄하다"
+        },
+        {
+          "word": "malinger",
+          "mean": "v  to pretend to be sick to avoid doing work 꾀병을 부리다"
+        },
+        {
+          "word": "decadent",
+          "mean": "decaying or decayed, especially in terms of morals  쇠퇴기에 접어든, 퇴폐적인"
+        },
+        {
+          "word": "portent",
+          "mean": "n  an omen ; a sign of something coming in the future 전조; 징조; 경이적인 것(사람)"
+        },
+        {
+          "word": "propitious",
+          "mean": "a  marked by favorable signs or conditions  순조로운, 상서로운, 자비로운; 좋은, 호의를 가진"
+        },
+        {
+          "word": "alloy",
+          "mean": "a combination of two or more things, usually metals 합금, 혼합물"
+        },
+        {
+          "word": "prodigious",
+          "mean": "a  extraordinary; enormous; vast   거대한, 막대한; 비범한, 유별난, 비상한"
+        },
+        {
+          "word": "ostensible",
+          "mean": "a  apparent (but misleading) ; professed 외면상의, 겉치레의"
+        },
+        {
+          "word": "acerbic",
+          "mean": "bitter; sour; severe [맛이] 신, 신랄한"
+        },
+        {
+          "word": "ruminate",
+          "mean": "v  to contemplate; to ponder; to mull over 반추하다, 심사 숙고하다"
+        },
+        {
+          "word": "catalyst",
+          "mean": "in chemistry,~; anyone or anything that makes something happen without being directly involved in it 촉매, 촉진제"
+        },
+        {
+          "word": "trepidation",
+          "mean": "fear; apprehension; nervous trembling 공포(fear), 전율, 놀람, 당황"
+        },
+        {
+          "word": "broach",
+          "mean": "to open up a subject for discussion, often a delicate subject 끄집어내다, 화제 등을 입밖에 내다"
+        },
+        {
+          "word": "autocratic",
+          "mean": "ruling with absolute authority; extremely bossy 독재적인 꾸밈이 없는, "
+        },
+        {
+          "word": "pertinent",
+          "mean": "a  relevant ; dealing with the matter at hand 적당한, 적절한, ...에 과한, 관련된(relevant)"
+        },
+        {
+          "word": "juxtapose",
+          "mean": "v  to place side by side  병렬하다, 나란히 놓다"
+        },
+        {
+          "word": "beget",
+          "mean": "to give birth to; to create; to lead to; to cause 아이를 낳다, 생기게 하다"
+        },
+        {
+          "word": "lampoon",
+          "mean": "v  to satirize ; to mock ; to parody  풍자하다, 비아냥거리다"
+        },
+        {
+          "word": "sporadic",
+          "mean": "stopping and starting; scattered; occurring in bursts every once in a while 때때로 일어나는, 드문드문한, 산발성의"
+        },
+        {
+          "word": "martyr",
+          "mean": "n  someone who gives up his or her life in pursuit of a cause, especially a religious one ; one who suffers for a cause ; one who makes a show of suffering in order to arouse sympathy 순교자, 희생자; 박해하다, 괴롭히다"
+        },
+        {
+          "word": "opaque",
+          "mean": "a  impossible to see through ; impossible to understand 불투명한, 불분명한; 우둔한, 부전도성의"
+        },
+        {
+          "word": "wanton",
+          "mean": "malicious; unjustifiable; unprovoked  방자한, 무엄한, 이유가 없는, 터무니없는, 변덕스러운"
+        },
+        {
+          "word": "gesticulate",
+          "mean": "v  to make gestures, especially when speaking or in place of speaking 손짓으로 의사소통하다, 손짓을 통해 의사소통을 하다"
+        },
+        {
+          "word": "antecedent",
+          "mean": "someone or something that went before; something that provides a model for something that came after it 선행자, 선례; 조상; 앞서는, 전제의"
+        },
+        {
+          "word": "mollify",
+          "mean": "v  to soften ; to soothe ; to pacify  완화하다, 경감하다, 진정시키다, 달래다"
+        },
+        {
+          "word": "apprehensive",
+          "mean": "worried; anxious 염려하는, 걱정하는"
+        },
+        {
+          "word": "encroach",
+          "mean": "vi  to make gradual or stealthy inroads into; to trespass  침입하다, 잠식하다(on, upon) 침식하다, 빼앗다 "
+        },
+        {
+          "word": "virtuoso",
+          "mean": "a masterful musician; a masterful practitioner in some other field 예술의 거장(대가), 미술에 정통한 사람, 미술품 감정가"
+        },
+        {
+          "word": "eclectic",
+          "mean": "a  choosing the best from many sources; drawn from many sources  취사선택하는, 절충하는 n 절충주의자  cf) eclecticism 절충학파 "
+        },
+        {
+          "word": "languish",
+          "mean": "v  to become weak, listless, or depressed 약해지다, 나른해지다, 쇠해지다; 동경하다; 괴로워하다; 고달픈 생활을 하다"
+        },
+        {
+          "word": "periphery",
+          "mean": "n  the outside edge of something 주의, 주변; 표면, 외면"
+        },
+        {
+          "word": "fatuous",
+          "mean": "adj  foolish; silly; idiotic 바보의, 얼빠진; 실체가 없는, 공허한"
+        },
+        {
+          "word": "cacophony",
+          "mean": "harsh-sounding mixture of words, voices, or sounds  불협화음, 불쾌한 음조, 소음"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "words": [
+        {
+          "word": "sentient",
+          "mean": "a  able to perceive by the senses; conscious 지각 있는, ...을 느낄 수 있는"
+        },
+        {
+          "word": "felicity",
+          "mean": "n  happiness; skillfulness, especially at expressing things; adeptness 지복, 더 없는 행복, 교묘함, 멋들어진 표현, 경사"
+        },
+        {
+          "word": "urbane",
+          "mean": "poised; sophisticated; refined 도시풍의, 점잖은, 세련된"
+        },
+        {
+          "word": "contrite",
+          "mean": "admitting guilt; especially feeling remorseful 회개한, 회한의"
+        },
+        {
+          "word": "discern",
+          "mean": "to have insight; to see things clearly, to discriminate; to differentiate 분별하다, 식별하다, 인식하다"
+        },
+        {
+          "word": "amnesty",
+          "mean": "an official pardon for a group of people who have violated a law or policy 사면, 대사, 특사; 사면하다"
+        },
+        {
+          "word": "secular",
+          "mean": "a  having nothing to do with religion or spiritual concerns 세속의"
+        },
+        {
+          "word": "subjugate",
+          "mean": "to subdue and dominate; to enslave 정복하다, 가라앉히다"
+        },
+        {
+          "word": "rebuke",
+          "mean": "v  to criticize sharply 비난하다, 억제하다"
+        },
+        {
+          "word": "affinity",
+          "mean": "sympathy; attraction; kinship; similarity 유사, 친화력, 좋아함"
+        },
+        {
+          "word": "impotent",
+          "mean": "a  powerless ; helpless ; unable to perform sexual intercourse 무기력한, 허약한"
+        },
+        {
+          "word": "abhor",
+          "mean": "to hate very, very much; to detest 몹시 싫어하다, 혐오하다"
+        },
+        {
+          "word": "elusive",
+          "mean": "adj  hard to pin down; evasive 교묘히 빠지는, 도피하는, 잘 잊는, 알 수 없는 elude v  elusion 속임수, 회피, 핑계, 발뺌 "
+        },
+        {
+          "word": "paradigm",
+          "mean": "n  a model or example 모범, 보기; 어형 변화표"
+        },
+        {
+          "word": "polarize",
+          "mean": "v  to break up into opposing factions or groupings 극성을 주다, 양극화하다; 대립시키다, 분열하다"
+        },
+        {
+          "word": "confluence",
+          "mean": "a flowing together, especially of rivers; place where they begin to flow together 합류, (사람 등의) 집합, 군중"
+        },
+        {
+          "word": "incessant",
+          "mean": "a  unceasing  끊임없는, 간단없는"
+        },
+        {
+          "word": "antipathy",
+          "mean": "firm dislike; a dislike (↔sympathy)반감, 혐오, 불일치; 싫어하는 사람이나 물건"
+        },
+        {
+          "word": "appropriate",
+          "mean": "to take without permission; to set aside for a particular use  적당한, 어울리는, 특정한; 전유하다, 충당하다"
+        },
+        {
+          "word": "indolent",
+          "mean": "a  lazy 게으른, 나태한; 통증이 없는"
+        },
+        {
+          "word": "resolute",
+          "mean": "determined; firm; unwavering 굳게 결심한, 굳은, 단호한, 확고한"
+        },
+        {
+          "word": "precipitous",
+          "mean": "a  steep 가파른, 험한(steep); 황급한, 허둥대는"
+        },
+        {
+          "word": "adulterate",
+          "mean": "to contaminate; to make impure 오염시키다, 더럽히다"
+        },
+        {
+          "word": "bastion",
+          "mean": "stronghold; fortress; fortified place 요새(본거지), 능보"
+        },
+        {
+          "word": "dearth",
+          "mean": "lack; scarcity 부족, 결핍; 기근"
+        },
+        {
+          "word": "credulous",
+          "mean": "eager to believe; gullible  쉽게 믿는, 겸손하게 믿어 버리는, 속아넘어가기 쉬운"
+        },
+        {
+          "word": "lucid",
+          "mean": "a  clear ; easy to understand 맑은, 투명한; 명료한; 빛나는; 명석한"
+        },
+        {
+          "word": "agenda",
+          "mean": "program; the things to be done 안건, 의사일정"
+        },
+        {
+          "word": "irascible",
+          "mean": "a  easily angered or provoked ; irritable 성급한, 성을 잘 내는"
+        },
+        {
+          "word": "anguish",
+          "mean": "agonizing physical or mental pain 고통, 번민, 고뇌; 괴로워하다"
+        },
+        {
+          "word": "infamous",
+          "mean": "a  shamefully wicked ; having an extremely bad reputation ; disgraceful 수치스러운, 파렴치한, 악명 높은; 지독한; 형편없는"
+        },
+        {
+          "word": "recondite",
+          "mean": "a  hard to understand; over ones head 심오한, 난해한, 알기 어려운"
+        },
+        {
+          "word": "hypothetical",
+          "mean": "a  uncertain ; unproven  가설의, 가정적인"
+        },
+        {
+          "word": "vicarious",
+          "mean": "experienced, performed, or suffered through someone else; living through the experiences of another as though they were ones own experiences 대리직의, 대리의, 대리하는, 대신의"
+        },
+        {
+          "word": "idiosyncrasy",
+          "mean": "n  a peculiarity ; an eccentricity 특질, 개성, 특이성, 특유의 표현법, 특이체질"
+        },
+        {
+          "word": "invective",
+          "mean": "n  insulting or abusive speech 욕설, 악담, 비난"
+        },
+        {
+          "word": "anachronism",
+          "mean": "something out of place in time or history; an incongruity  시대착오, 시대에 뒤떨어진 사람"
+        },
+        {
+          "word": "foment",
+          "mean": "v  to stir up; to instigate  찜질하다, 조장하다, 선동하다"
+        },
+        {
+          "word": "farcical",
+          "mean": "adj  absurd; ludicrous  익살극의, 익살맞은, 바보스런"
+        },
+        {
+          "word": "impugn",
+          "mean": "v  to attack, especially to attack the truth or integrity of something 비난하다, 공격하다"
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "words": [
+        {
+          "word": "frenetic",
+          "mean": "a  frantic ;  frenzied 발광한, 열광적인"
+        },
+        {
+          "word": "indigenous",
+          "mean": "a  native ; originating in that area 토착의, 국산의, 타고난"
+        },
+        {
+          "word": "pedestrian",
+          "mean": "a  unimaginative ; banal  상상력이 없는(unimaginative), 평범한, 진부한(banal)"
+        },
+        {
+          "word": "copious",
+          "mean": "abundant; plentiful 풍부한, 지식이 풍부한; 대량의"
+        },
+        {
+          "word": "docile",
+          "mean": "easily taught; obedient; easy to handle  유순한, 온순한, 착한; 가르치기 쉬운, 다루기 쉬운"
+        },
+        {
+          "word": "incense",
+          "mean": "a  make very angry 몹시 화나게 하다"
+        },
+        {
+          "word": "repudiate",
+          "mean": "v  to reject; to renounce; to disown to have nothing to do with 거부하다, 거절하다, 부인하다"
+        },
+        {
+          "word": "colloquial",
+          "mean": "conversational; informal in language 구어체"
+        },
+        {
+          "word": "veracity",
+          "mean": "truthfulness 진실, 성실, 정직"
+        },
+        {
+          "word": "awry",
+          "mean": "off course; twisted to one side 굽어서; 잘못되어; 휘어서; 틀려서"
+        },
+        {
+          "word": "sordid",
+          "mean": "vile; filthy; squalid 지저분한(filthy, squalid),  누추한, 탐욕스런, 야비한(vile)"
+        },
+        {
+          "word": "indifferent",
+          "mean": "a  not caring one way or the other ; apathetic ; mediocre 무관심한, 아랑곳하지 않는; 대수롭지 않은, 관계없는; 평범한, 공평한"
+        },
+        {
+          "word": "obtuse",
+          "mean": "a  insensitive ; blockheaded 무딘, 둔한, 머리가 우둔한"
+        },
+        {
+          "word": "animosity",
+          "mean": "resentment; hostility; ill will 적의, 원한, 악의"
+        },
+        {
+          "word": "curtail",
+          "mean": "to shorten; to cut short 간략하게 하다, 절감하다, ...에게서 일부를 빼앗다"
+        },
+        {
+          "word": "utopia",
+          "mean": "an ideal society "
+        },
+        {
+          "word": "chronicle",
+          "mean": "a record of events in order of time; a history 연대, 편년사, 기록"
+        },
+        {
+          "word": "profess",
+          "mean": "v  to declare; to declare falsely or pretend; 공언하다; 고백하다; 칭하다; 직업으로 하다  cf) professed 공언한, 전문적인, 본직의, 외양만의, 자칭의, 거짓의 professional a 직업의,전문직업의 n 지적 직업인, 전문가, 전문 선수"
+        },
+        {
+          "word": "innocuous",
+          "mean": "a  harmless ; banal 해가 없는, 독이 없는"
+        },
+        {
+          "word": "libel",
+          "mean": "n  a written or published falsehood that injures the reputation of, or defames, someone 명예 훼손, 중상; 모욕이 되는 것"
+        },
+        {
+          "word": "congenial",
+          "mean": "agreeably suitable; pleasant 같은 성질의, 마음에 맞는, 적합한, 붙임성 있는"
+        },
+        {
+          "word": "venal",
+          "mean": "capable of being bribed; willing to do anything for money; corrupt 돈으로 좌우할 수 있는, 매수할 수 있는, 매수되기 쉬운; 타락한, 부패한"
+        },
+        {
+          "word": "provincial",
+          "mean": "a  limited in outlook to ones own small corner of the world; narrow 편협한; 지방의, 시골의; 옹졸한, 투박한"
+        },
+        {
+          "word": "mundane",
+          "mean": "a  ordinary ; pretty boring ; not heavenly and eternal 세속의, 현세의, 이승의"
+        },
+        {
+          "word": "paradox",
+          "mean": "n  a true statement or phenomenon that nonetheless seems to contradict itself ; an untrue statement or phenomenon that nonetheless seems logical 역설, 모순"
+        },
+        {
+          "word": "moribund",
+          "mean": "a  dying 죽어가는, 소멸해 가는"
+        },
+        {
+          "word": "abate",
+          "mean": "to subside; to reduce 감소시키다, 무효로 하다"
+        },
+        {
+          "word": "proscribe",
+          "mean": "v  to outlaw; to prohibit 금지하다, 배척하다, 추방하다; 인권을 박탈하다"
+        },
+        {
+          "word": "gravity",
+          "mean": "n  seriousness  진지함, 위엄, 장중함; 중대함; 중력"
+        },
+        {
+          "word": "tenable",
+          "mean": "defensible, as in ones position in an argument; capable of being argued successfully; valid 공격에 견딜 수 있는, 지지 받을 수 있는, 유리할 수 있는"
+        },
+        {
+          "word": "circuitous",
+          "mean": "roundabout; not following a direct path 우회의, 에두르는, 완곡한"
+        },
+        {
+          "word": "recalcitrant",
+          "mean": "a  stubbornly defiant of authority or control; disobedient 반항하는, 고집센, 완강한"
+        },
+        {
+          "word": "tentative",
+          "mean": "experimental; temporary; uncertain  잠정적인, 시험적인, 임시의; 주저하는, 머뭇거리는"
+        },
+        {
+          "word": "neologism",
+          "mean": "n  a new word or phrase ; a new usage of a word  신어(new word), 신어 사용"
+        },
+        {
+          "word": "tenet",
+          "mean": "a shared principle or belief 종교나 정치 혹은 철학 따위의 주의"
+        },
+        {
+          "word": "patronize",
+          "mean": "v  to treat as an inferior ; to condescend to  보호하다, 후원하다; 찬조하다"
+        },
+        {
+          "word": "volition",
+          "mean": "will; conscious choice 의지, 결단력, 의욕"
+        },
+        {
+          "word": "conjure",
+          "mean": "to summon or bring into being as if by magic 마술로 ...하다, 마음속에 그려내다, (영혼을)불러내다"
+        },
+        {
+          "word": "misanthropic",
+          "mean": "a  hating mankind 염세적인, 인간혐오의"
+        },
+        {
+          "word": "ignominy",
+          "mean": "n  deep disgrace  모욕, 불명예, 수치스러운 행위, 추행"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "words": [
+        {
+          "word": "proliferate",
+          "mean": "v  to spread or grow rapidly 증식하다, 확산하다"
+        },
+        {
+          "word": "hegemony",
+          "mean": "n  leadership, especially of one nation over another 패권 주도권"
+        },
+        {
+          "word": "precedent",
+          "mean": "n  an earlier example or model of something 선례, 관례, 판례"
+        },
+        {
+          "word": "luminous",
+          "mean": "a  giving off light ; glowing ; bright 빛을내는, 명료한, 이해가 쉬운; 밝은, 총명한"
+        },
+        {
+          "word": "specious",
+          "mean": "deceptively plausible or attractive 허울 좋은, 그럴듯한, 겉만 번드레한"
+        },
+        {
+          "word": "ephemeral",
+          "mean": "a  lasting a very short time 하루밖에 안가는, 단명한, 덧없는 "
+        },
+        {
+          "word": "loquacious",
+          "mean": "a  talking a lot or too much  말 많은, 시끄럽게 지저귀는, 시냇물이 졸졸 소리를 내는"
+        },
+        {
+          "word": "reiterate",
+          "mean": "v  to say again; to repeat 되풀이하다, 반복하다"
+        },
+        {
+          "word": "blatant",
+          "mean": "unpleasantly or offensively noisy; glaring  소란스러운, 몹시 떠들썩한, 뻔뻔스러운"
+        },
+        {
+          "word": "singular",
+          "mean": "unique; superior; exceptional; strange 보통이 아닌, 뛰어난; 유일한(unique), 유례없는"
+        },
+        {
+          "word": "reparation",
+          "mean": "n  paying back; making amends; compensation  보상, 배상; 수리, 수선"
+        },
+        {
+          "word": "finesse",
+          "mean": "n  skillful maneuvering; subtlety; craftiness  솜씨, 교묘한 기교, 술책, 책략, 예리함"
+        },
+        {
+          "word": "assiduous",
+          "mean": "hardworking; busy; quite diligent 근면한, 꾸준히 힘쓰는, 부지런한"
+        },
+        {
+          "word": "deference",
+          "mean": "submission to anothers will; respect; courtesy 복종, 존경, 경의"
+        },
+        {
+          "word": "collusion",
+          "mean": "conspiracy; secret cooperation 공모, 결탁"
+        },
+        {
+          "word": "fraternal",
+          "mean": "a  like brothers 형제의, 우애의"
+        },
+        {
+          "word": "tacit",
+          "mean": "implied; not spoken 무언의, 암묵적인, 암시하는(implied)"
+        },
+        {
+          "word": "impetuous",
+          "mean": "a  impulsive ; extremely impatient 격렬한, 맹렬한; 성급한"
+        },
+        {
+          "word": "officious",
+          "mean": "a  annoyingly eager to help or advise 참견하기 좋아하는, 부질없이 참견하는, 비공식의"
+        },
+        {
+          "word": "concise",
+          "mean": "brief and to the point; succinct 간결한, 간명한"
+        },
+        {
+          "word": "substantive",
+          "mean": "having substance; real; essential; solid; substantial 현실의, 독립의; 명사의"
+        },
+        {
+          "word": "rustic",
+          "mean": "a  rural lacking urban comforts or sophistication; primitive  시골풍의(rural), 시골의, 소박한, 단순한"
+        },
+        {
+          "word": "ponderous",
+          "mean": "a  so large as to be clumsy ; massive ; dull 아주 무거운(massive),  다루기에 불편한, 답답한, 지루한(dull), 장황한, 어색한"
+        },
+        {
+          "word": "facile",
+          "mean": "adj  fluent; skillful in a superficial way; easy 손쉬운, 용이한, 간편한; 경쾌한, 씩씩한; 솜씨좋은, 피상적인"
+        },
+        {
+          "word": "minuscule",
+          "mean": "a  very tiny 매우 작은 "
+        },
+        {
+          "word": "sequester",
+          "mean": "v  to set or keep apart 은퇴시키다, 고립시키다; 몰수하다, 가압류하다"
+        },
+        {
+          "word": "hiatus",
+          "mean": "n  a break or interruption, often from work 틈, 갈라진 틈; 탈락"
+        },
+        {
+          "word": "culinary",
+          "mean": "relating to cooking or the kitchen 요리용의, 주방의"
+        },
+        {
+          "word": "covert",
+          "mean": "secret; hidden 비밀의, 암암리의, 덮여 있는, 사람 눈에 띄지 않는"
+        },
+        {
+          "word": "apathy",
+          "mean": "lack of interest; lack of feeling 냉담, 무관심"
+        },
+        {
+          "word": "paltry",
+          "mean": "a  insignificant ; worthless 하찮은, 시시한, 무가치한, 얼마 안되는"
+        },
+        {
+          "word": "celibacy",
+          "mean": "abstinence from sex 독신, 독신생활, 금욕"
+        },
+        {
+          "word": "peremptory",
+          "mean": "a  final ; categorical ; dictatorial 단호한, 강압적인; 엄연한, 거만한; 독단적인, 단정적인(categorical)"
+        },
+        {
+          "word": "frugal",
+          "mean": "a  economical ; penny-pinching  검약한, 검소한; 비용이 들지 않는, 간소한"
+        },
+        {
+          "word": "despondent",
+          "mean": "extremely depressed; full of despair 낙담한, 기운없는"
+        },
+        {
+          "word": "legacy",
+          "mean": "n  something handed down from the past ; a bequest 유산"
+        },
+        {
+          "word": "steadfast",
+          "mean": "loyal; faithful 충실한(loyal, faithful), 확고부동한, 불변의"
+        },
+        {
+          "word": "countenance",
+          "mean": "face; facial expression, especially an encouraging one 용모, 생김새, 안색, 표정; 후원, 지지; 냉정, 침착"
+        },
+        {
+          "word": "obsequious",
+          "mean": "a  fawning ; subservient ; sucking up to 아첨하는, 알랑거리는"
+        },
+        {
+          "word": "taciturn",
+          "mean": "untalkative by nature 말없는, 입이 무거운, 무뚝뚝한"
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "words": [
+        {
+          "word": "foible",
+          "mean": "n  a minor character flaw 약점, 결점; 자만하고 있는 점; 칼이 휘는 부분(칼의 가운데서 칼 끝까지)"
+        },
+        {
+          "word": "hyperbole",
+          "mean": "n  an exaggeration used as a figure of speech ; exaggeration 과장법; 과장, 과대, 과장된 표현(exaggeration)"
+        },
+        {
+          "word": "catharsis",
+          "mean": "purification that brings emotional relief or renewal 정화, 카타르시스"
+        },
+        {
+          "word": "largess",
+          "mean": "n  generous giving of gifts (or the gifts themselves) ; generosity ; philanthropy 증여, (아낌없이 주는) 선물"
+        },
+        {
+          "word": "definitive",
+          "mean": "conclusive; providing the last word  결정적인, 최후적인; 일정한, 명확한; 한정된"
+        },
+        {
+          "word": "venerate",
+          "mean": "to revere; to treat as something holy, especially because of great age 존경하다, 공경하다"
+        },
+        {
+          "word": "provident",
+          "mean": "a  preparing for the future; providing for the future; frugal 신중한, 선견지명이 있는; 검소한"
+        },
+        {
+          "word": "pervade",
+          "mean": "v  to spread throughout 널리 퍼지다, 보급하다, 스며들다, 고루 미치다"
+        },
+        {
+          "word": "prolific",
+          "mean": "a  abundantly productive; fruitful or fertile 다산의, 비옥한, 다작의, 풍부한"
+        },
+        {
+          "word": "deride",
+          "mean": "to ridicule; to laugh at contemptuously 조롱하다, 비웃다"
+        },
+        {
+          "word": "exasperate",
+          "mean": "v  to annoy thoroughly; to make very angry; to try the patience of 노하게 하다, 분개시키다, 약화시키다, 더하게 하다"
+        },
+        {
+          "word": "abash",
+          "mean": "to make ashamed; to embarrass 당혹스럽게 하다, 얼떨떨하게 하다"
+        },
+        {
+          "word": "degenerate",
+          "mean": "to break down; to deteriorate  퇴보하다, 나빠지다; 타락하다; 퇴화하다; 변질하다"
+        },
+        {
+          "word": "salutary",
+          "mean": "a  healthful; remedial; curative 건전한, 유익한"
+        },
+        {
+          "word": "circumscribe",
+          "mean": "to draw a line around; to set the limits; to define; to restrict. ..의 둘레에 선을 긋다, 경계선을 긋다; 제한하다, 한계를 정하다; 외접하다"
+        },
+        {
+          "word": "discriminate",
+          "mean": "to notice or point out the difference between two or more things; to discern; to differentiate 구별하다, 판별하다; 차별하다"
+        },
+        {
+          "word": "putative",
+          "mean": "a  commonly accepted; supposed; reputed 추정의, 상상의, 소문에 들리는"
+        },
+        {
+          "word": "enormity",
+          "mean": "n  extreme evil; a hideous offense; immensity 무도, 극악, 흉행, 범죄행위  "
+        },
+        {
+          "word": "perennial",
+          "mean": "a  continual ; happening again and again or year after year 다년생의, 여러해 계속하는(continual)"
+        },
+        {
+          "word": "turpitude",
+          "mean": "shameful wickedness; depravity 비열, 타락, 비열한 행위"
+        },
+        {
+          "word": "wistful",
+          "mean": "yearning; sadly longing 탐내는, 동경하는, 생각에 잠긴"
+        },
+        {
+          "word": "culpable",
+          "mean": "deserving blame; guilty 비난할 만한, 과실이 있는, 유죄의, 괘씸한"
+        },
+        {
+          "word": "patrician",
+          "mean": "n  a person of noble birth ; an aristocrat 귀족, 문벌가; 고대 로마 귀족"
+        },
+        {
+          "word": "expatriate",
+          "mean": "v  to throw (someone) out of his or her native land; to move away from ones native land; to emigrate 국외로 추방하다, 조국을 버리다"
+        },
+        {
+          "word": "construe",
+          "mean": "to interpret 해석하다, 추론하다"
+        },
+        {
+          "word": "harbinger",
+          "mean": "n  a forerunner ; a signal of 선구자, 전조; 선구가 되다"
+        },
+        {
+          "word": "commensurate",
+          "mean": "equal; proportionate 같은 양의, 같은 시간의; 균형 잡힌"
+        },
+        {
+          "word": "cynic",
+          "mean": "one who deeply distrusts human nature; one who believes humans are motivated only by selfishness 냉소하는 사람, 비고는 사람, 빈정대는 사람"
+        },
+        {
+          "word": "propriety",
+          "mean": "n   properness; good manners 타당, 정당; 예의바른, 교양"
+        },
+        {
+          "word": "congenital",
+          "mean": "a trait or condition acquired between conception and birth; innate 선천적인, 타고난"
+        },
+        {
+          "word": "convivial",
+          "mean": "fond of partying; festive 환락의, 연회의; 명랑한"
+        },
+        {
+          "word": "existential",
+          "mean": "adj  having to do with existence; having to do with the body of thought called existentialism, which basically holds that human beings are responsible for their own actions but is otherwise too complicated to summarize in a single sentence 존재에 관한, 실존의, 실존주의의"
+        },
+        {
+          "word": "contrived",
+          "mean": "artificial; labored 고안한, 발명한"
+        },
+        {
+          "word": "deluge",
+          "mean": "a flood; an inundation 대홍수, 범람, 호우; (방문객, 편지 등의)쇄도"
+        },
+        {
+          "word": "platitude",
+          "mean": "n  a dull or trite remark ; a cliché 진부한, 평범한; 단조; 진부한 말, 흔해 빠진 발언"
+        },
+        {
+          "word": "flagrant",
+          "mean": "adj  glaringly bad; notorious; scandalous 악명 높은, 극악스런, 명백한"
+        },
+        {
+          "word": "nostalgia",
+          "mean": "n  sentimental longing for the past ; homesickness 향수; 과거의 동경(homesickness)"
+        },
+        {
+          "word": "culminate",
+          "mean": "to climax; to reach full effect  정점에 이르다, 자오선상에 이르다, 끝나게 하다"
+        },
+        {
+          "word": "husbandry",
+          "mean": "n  thrifty management of resources ; livestock farming  농업, 절약"
+        },
+        {
+          "word": "pragmatic",
+          "mean": "a  practical ; down to earth ; based on experience rather than theory 실용적인, 실용주의의"
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "words": [
+        {
+          "word": "viable",
+          "mean": "capable of living; workable 생존할 수 있는, 자랄 수 있는"
+        },
+        {
+          "word": "soporific",
+          "mean": "sleeping inducing; extremely boring; very sleepy 최면에 걸린, 졸리게 하는"
+        },
+        {
+          "word": "ostentatious",
+          "mean": "a  excessively conspicuous ; showing off 자랑삼아 드러내는, 겉보기를 꾸미는; 허식적인, 화려한"
+        },
+        {
+          "word": "pedantic",
+          "mean": "a  boringly scholarly or academic 현학적인, 학자인 체하는"
+        },
+        {
+          "word": "notorious",
+          "mean": "a  famous for something bad 소문난, 이름난, 악명 높은"
+        },
+        {
+          "word": "edify",
+          "mean": "vt  to enlighten; to instruct, especially in moral or religious matters 교화(훈도)하다;  cf)edifying 교훈이 되는, 유익한 "
+        },
+        {
+          "word": "renounce",
+          "mean": "v  to give up formally or resign; to disown; to have nothing to do with anymore 포기하다 단념하다, 중지하다"
+        },
+        {
+          "word": "relegate",
+          "mean": "v  to banish; to send away 내쫓다, 추방하다, 물리치다"
+        },
+        {
+          "word": "consecrate",
+          "mean": "to make or declare sacred 신성하게 하다, 정화하다, 전념하다, 봉헌하다"
+        },
+        {
+          "word": "abstract",
+          "mean": "theoretical; impersonal 추상적인, 이상적인, 난해한"
+        },
+        {
+          "word": "demagogue",
+          "mean": "a leader of the people, but more a rabble rouser 선동자, 선동 정치가"
+        },
+        {
+          "word": "impartial",
+          "mean": "a  fair ; not favoring one side or the other ; unbiased 공평한, 치우치지 않은"
+        },
+        {
+          "word": "arbiter",
+          "mean": "one who decides; a judge 중재인, 조정자; 결정적 요소"
+        },
+        {
+          "word": "burlesque",
+          "mean": "a ludicrous, mocking, or exaggerated imitation  광시, 해학극, 익살극, 풍자문, 풍자시"
+        },
+        {
+          "word": "choleric",
+          "mean": "hot-tempered; quick to anger 성마른, 화 잘 내는"
+        },
+        {
+          "word": "amorphous",
+          "mean": "shapeless; without a regular or stable shape; bloblike  무정형의, 일정한 형태가 없는"
+        },
+        {
+          "word": "vehement",
+          "mean": "intense; forceful; violent 열심인, 열렬한, 열정적인, 맹렬한"
+        },
+        {
+          "word": "figurative",
+          "mean": "adj  based on figures of speech; expressing something in terms usually for something else; metaphorical 비유적인, 수식이 많은; 상징적인; 조형적인, 구상적인"
+        },
+        {
+          "word": "auspicious",
+          "mean": "favorable; promising; pointing to a good result 길조의, 경사스런"
+        },
+        {
+          "word": "belligerent",
+          "mean": "combative; quarrelsome; waging war  교전중인, 호전적인, 싸우기 좋아하는; 교전국, 싸움 상대, 적"
+        },
+        {
+          "word": "impeccable",
+          "mean": "a  flawless ; entirely without sin  결함 없는, 죄가 없는, 비난의 여지가 없는"
+        },
+        {
+          "word": "proprietary",
+          "mean": "a  characteristic of an owner of property; constituting property  소유가의, 독점의, 점매 특허의; 재산 있는"
+        },
+        {
+          "word": "cryptic",
+          "mean": "mysterious; mystifying  비밀의, 수수께끼같은, 신비스러운(mysterious); 몸을 숨기기에 알맞은"
+        },
+        {
+          "word": "novel",
+          "mean": "a  new ; original 신기한, 희한한; 새로운, 참신한"
+        },
+        {
+          "word": "efface",
+          "mean": "vt  to erase; to rub away the features of 지우다, 말살하다, eclipse cf ) effaceable, effacement"
+        },
+        {
+          "word": "slander",
+          "mean": "to speak badly about someone publicly; to defame; to spread malicious rumor 중상하다, 명예를 훼손하다"
+        },
+        {
+          "word": "homily",
+          "mean": "n  a sermon 훈계, 설교"
+        },
+        {
+          "word": "exalt",
+          "mean": "v  to raise high; to glorify  높이다, 승진시키다, 칭찬하다, 강렬하게 하다"
+        },
+        {
+          "word": "assuage",
+          "mean": "to soothe; to pacify; to ease the pain of; to relieve 진정시키다, 누그러뜨리다"
+        },
+        {
+          "word": "recrimination",
+          "mean": "n  a bitter counteraccusation, or the act of making a bitter counteraccusation 서로 책망함, 빈소, 전가, 맞고소"
+        },
+        {
+          "word": "apocryphal",
+          "mean": "of dubious authenticity; fictitious; spurious [저자, 작품 등의]작자나 전거가 의심스러운; [일반적으로] 가짜의"
+        },
+        {
+          "word": "surrogate",
+          "mean": "substitute 대리의, 대용의"
+        },
+        {
+          "word": "amiable",
+          "mean": "friendly; agreeable 호감을 주는, 상냥한, 애교 있는"
+        },
+        {
+          "word": "debilitate",
+          "mean": "to weaken; to cripple 쇠약하게 하다"
+        },
+        {
+          "word": "callow",
+          "mean": "immature 아직 깃털이 나지 않은, 풋내기의"
+        },
+        {
+          "word": "alacrity",
+          "mean": "cheerful eagerness or readiness to respond 민첩, 기민, 경쾌, 소탈함"
+        },
+        {
+          "word": "poignant",
+          "mean": "a  painfully emotional ; extremely moving ; sharp or astute 신랄한, 날카로운; 감동적인, 마음에 강하게 호소하는"
+        },
+        {
+          "word": "replenish",
+          "mean": "v  to fill again; to resupply; to restore 다시 채우다, 새로 보충하다"
+        },
+        {
+          "word": "peripatetic",
+          "mean": "a  wandering ; traveling continually ; itinerant 순회하는(itinerant), 걸어다니는(wandering)"
+        },
+        {
+          "word": "torpor",
+          "mean": "sluggishness; inactivity; apathy 무감각, 둔한, 동면"
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "words": [
+        {
+          "word": "revere",
+          "mean": "v  to respect highly; to honor  존경하다, 숭배하다"
+        },
+        {
+          "word": "erudite",
+          "mean": "adj  scholarly; deeply learned  박식한, 유식한; 서적 등의 학문적인"
+        },
+        {
+          "word": "corroborate",
+          "mean": "to confirm; to back up with evidence 확실히 하다, 입증하다; 확인하다"
+        },
+        {
+          "word": "decorous",
+          "mean": "proper; in good taste; orderly  예의 바른, 점잖은; 단정한; 기품이 있는, 근엄한"
+        },
+        {
+          "word": "touchstone",
+          "mean": "a standard; a test of authenticity or quality  금이나 은의 순도를 판별하는 시금석, 표준"
+        },
+        {
+          "word": "magnanimous",
+          "mean": "a  forgiving ; unresentful ; noble in spirit ; generous 관대한, 아량이 있는, 도량이 큰"
+        },
+        {
+          "word": "pathology",
+          "mean": "n  the science of diseases 병리학"
+        },
+        {
+          "word": "abridge",
+          "mean": "to shorten; to condense 요약하다; 축소하다, 단축하다; 제거하다"
+        },
+        {
+          "word": "digress",
+          "mean": "to stray from the main subject  본제를 벗어나다, 지엽으로 흐르다, 탈선하다"
+        },
+        {
+          "word": "archaic",
+          "mean": "extremely old; ancient; outdated 고풍의"
+        },
+        {
+          "word": "manifesto",
+          "mean": "n  a public declaration of beliefs or principles, usually political ones 성명서, 선언서"
+        },
+        {
+          "word": "insinuate",
+          "mean": "v  to hint ; to creep in 넌지시 비치다, 빗대어 말하다(hind)"
+        },
+        {
+          "word": "verbose",
+          "mean": "using too many words; not succinct; circumlocutory  말이 많은, 장광설의, 장황한"
+        },
+        {
+          "word": "sacrosanct",
+          "mean": "a  sacred; held to be inviolable 신성한, 신성 불가침의"
+        },
+        {
+          "word": "enfranchise",
+          "mean": "v  to grant the privileges of citizenship, especially the right to vote  선거권을 주다; 도시에 자치권을 주다; 해방하다 ment 공민권의 부여"
+        },
+        {
+          "word": "scrutinize",
+          "mean": "v  to examine very carefully 자세히 조사하다, 속속들이 알아보다"
+        },
+        {
+          "word": "spawn",
+          "mean": "to bring forth; to produce a large number 산란하다, 대량 생산하다"
+        },
+        {
+          "word": "intrinsic",
+          "mean": "a  part of the essential nature of something ; inherent  본질적인, 고유의"
+        },
+        {
+          "word": "labyrinth",
+          "mean": "n  a maze ; something like a maze  미궁(maze), 미로, 뒤얽힌 사건"
+        },
+        {
+          "word": "plethora",
+          "mean": "n  an excess 과다, 과잉"
+        },
+        {
+          "word": "facetious",
+          "mean": "adj  humorous; not serious; clumsily humorous 익살맞은, 우스꽝스러운"
+        },
+        {
+          "word": "peruse",
+          "mean": "v  to read carefully 정독하다, 숙독하다"
+        },
+        {
+          "word": "verisimilitude",
+          "mean": "similarity to reality; the appearance of truth; looking like real thing 진실인 듯한, 있을 법한, 진짜인 것처럼 보이는, 박진성"
+        },
+        {
+          "word": "blithe",
+          "mean": "carefree; cheerful 즐거운, 명랑한, 경솔한"
+        },
+        {
+          "word": "anomaly",
+          "mean": "an aberration; an irregularity; a deviation 변칙, 이상; 예외, 이례"
+        },
+        {
+          "word": "relentless",
+          "mean": "a  continuous; unstoppable 냉혹한, 잔인한, 사정없는"
+        },
+        {
+          "word": "quixotic",
+          "mean": "a  romantic or idealistic to a foolish or impractical degree 공상가의, 비실행적인"
+        },
+        {
+          "word": "forsake",
+          "mean": "v  to abandon ; to renounce ; to relinquish 버리다, 버리고 돌보지 않다"
+        },
+        {
+          "word": "fetter",
+          "mean": "v  to restrain; to hamper  속박하다, 족쇄를 채우다"
+        },
+        {
+          "word": "caustic",
+          "mean": "like acid; corrosive 부식성의, 신랄한, 통렬한"
+        },
+        {
+          "word": "accolade",
+          "mean": "an award; an honor 나이트작 수여식; 명예, 표창"
+        },
+        {
+          "word": "perturb",
+          "mean": "v  to disturb greatly  교란하다, 혼란시키다"
+        },
+        {
+          "word": "matriculate",
+          "mean": "v  to enroll, especially at a college 입학을 허가하다, 입학하다"
+        },
+        {
+          "word": "mediate",
+          "mean": "v  to help settle differences 중재하다, 조정하다"
+        },
+        {
+          "word": "fervor",
+          "mean": "n  great warmth or earnestness; ardor; zeal 열정, 백열, 염열(ardor)"
+        },
+        {
+          "word": "idyllic",
+          "mean": "a  charming in a rustic way ; naturally peaceful  전원시의, 목가적인, 한가로운"
+        },
+        {
+          "word": "dogmatic",
+          "mean": "arrogantly assertive of unproven ideas; stubbornly claiming that something (often a system of beliefs) is beyond dispute 독단적인, 고압적인; 교의의, 교리의"
+        },
+        {
+          "word": "prevail",
+          "mean": "v  to triumph ; to overcome rivals ; (with on, upon, or with) to persuade 우세하다, 널리 보급하다; 유력하다, 압도하다"
+        },
+        {
+          "word": "cursory",
+          "mean": "hasty; superficial 엉성한, 피상적인, 대강대강한"
+        },
+        {
+          "word": "patriarch",
+          "mean": "n  the male head of a family or tribe  가족, 족장; 원로, 장로; 로마 교황"
+        }
+      ]
+    },
+    {
+      "chapter": 19,
+      "words": [
+        {
+          "word": "disparate",
+          "mean": "different; incompatible; unequal 본질적으로 다른, 공통점이 없는"
+        },
+        {
+          "word": "forbear",
+          "mean": "v  to refrain from ; to abstain 억제하다, 참다, 아끼다; 삼가다, 몸을 사리다"
+        },
+        {
+          "word": "qualitative",
+          "mean": "a  having to do with the quality or qualities of something (as opposed to the quantity) 질적인, 질에 관한"
+        },
+        {
+          "word": "metamorphosis",
+          "mean": "n  a magical change in form ; a striking or sudden change 형태의 변호, 변태, 변성, 변질"
+        },
+        {
+          "word": "beleaguer",
+          "mean": "to surround; to besiege; to harass 에워싸다, 포위하다, 괴롭히다"
+        },
+        {
+          "word": "adroit",
+          "mean": "skillful; dexterous; clever; shrewd; socially at ease  교묘한, 솜씨있는; 기민한, 영리한"
+        },
+        {
+          "word": "ingenuous",
+          "mean": "a  frank ; without deception ; simple ; artless ; charmingly na  ve 솔직한, 꾸밈없는; 순진한"
+        },
+        {
+          "word": "ameliorate",
+          "mean": "to make better or more tolerable 개선하다, 개량하다; 좋아지다"
+        },
+        {
+          "word": "equanimity",
+          "mean": "n  composure; calm  냉정, 침착"
+        },
+        {
+          "word": "assimilate",
+          "mean": "to take in; to absorb; to learn thoroughly  동화하는, 동질화하다, 소화하다, 이해하다; 흡수하다"
+        },
+        {
+          "word": "amoral",
+          "mean": "lacking a sense of right and wrong; neither good nor bad, neither moral nor immoral; without moral feelings 초도덕의, 도덕과 관계없는"
+        },
+        {
+          "word": "equivocal",
+          "mean": "adj  ambiguous; intentionally confusing; capable of being interpreted in more than one way 모호한, 의심스런, 분명하지 않은"
+        },
+        {
+          "word": "philanthropy",
+          "mean": "n  love of mankind, especially by doing good deeds  박애, 자선; 자선 활동, 자선 사업"
+        },
+        {
+          "word": "perfidy",
+          "mean": "n  treachery 불성실, 배반(treachery)"
+        },
+        {
+          "word": "supercilious",
+          "mean": "haughty; patronizing 거드름을 피우는, 거만한"
+        },
+        {
+          "word": "bequest",
+          "mean": "something left to someone in a will 유산, 유물, 유증"
+        },
+        {
+          "word": "transient",
+          "mean": "not staying for a long time; temporary 일시적인, 변하기 쉬운"
+        },
+        {
+          "word": "adverse",
+          "mean": "unfavorable; antagonistic 반대의, 거스르는, 어긋나는, 불리한"
+        },
+        {
+          "word": "profound",
+          "mean": "a  deep (several senses); ~sleep, ~knowledge, ~meaning, ~thanks, ~anxiety, ~bow   n profundity, profoundness 깊은, 뿌리 깊은; 심원한, 해박한, 난해한 , 충심에서의, 정중한  n(시어) 심연, 심해"
+        },
+        {
+          "word": "microcosm",
+          "mean": "n  the world in miniature 소우주, 인간사회"
+        },
+        {
+          "word": "deprecate",
+          "mean": "to express disapproval of 비난하다, 반대하다, 불찬성을 주장하다"
+        },
+        {
+          "word": "audacity",
+          "mean": "boldness; reckless daring; impertinence 대담; 대담한 행위"
+        },
+        {
+          "word": "superficial",
+          "mean": "on the surface only; shallow; not thorough  표면적인, 외면의; 피상적인, 허울뿐인; 영향이 적은"
+        },
+        {
+          "word": "virulent",
+          "mean": "extremely poisonous; malignant; full of hate  독이 있는, 악의가 있는; 심술궂은, 악성(유독성)의"
+        },
+        {
+          "word": "pensive",
+          "mean": "a  thoughtful and sad 생각에 잠긴, 애수를 띤"
+        },
+        {
+          "word": "malfeasance",
+          "mean": "n  an illegal act, especially by a public official 부정행위"
+        },
+        {
+          "word": "introspective",
+          "mean": "a  tending to think about oneself ; examining ones feelings 자기 반성의, 내성적인"
+        },
+        {
+          "word": "nepotism",
+          "mean": "n  showing favoritism to friends of family in business or politics 관직 임용의 친척, 친구 편중"
+        },
+        {
+          "word": "incisive",
+          "mean": "a  cutting right to the heart of the matter  날카로운, 가시 돋친, 예리한, 신랄한"
+        },
+        {
+          "word": "capitalism",
+          "mean": "free enterprise 자본주의"
+        },
+        {
+          "word": "perquisite",
+          "mean": "n  a privilege that goes along with a job ; a perk 부수입, 팁(=perk)"
+        },
+        {
+          "word": "banal",
+          "mean": "unoriginal; ordinary 평범한, 진부한"
+        },
+        {
+          "word": "aptitude",
+          "mean": "capacity for learning; natural ability 적성, 소질, 재능; 적절함"
+        },
+        {
+          "word": "premise",
+          "mean": "n  an assumption ; the basis for a conclusion 전제, 전술한 사항, 근거; 토지, 부동산"
+        },
+        {
+          "word": "sanctimonious",
+          "mean": "a  pretending to be devout; affecting religious feeling 경건한 체하는"
+        },
+        {
+          "word": "pristine",
+          "mean": "a  original ; unspoiled ; pure 원시적인, 옛날의, 원래의, 순박한"
+        },
+        {
+          "word": "maxim",
+          "mean": "n  a fundamental principle ; an old saying 격언, 좌우명, 격률"
+        },
+        {
+          "word": "vitiate",
+          "mean": "to make impure; to pollute  ...의 가치를 떨어뜨리다, 손상시키다, 해치다; 무효로 하다"
+        },
+        {
+          "word": "sloth",
+          "mean": "laziness; sluggishness 게으름"
+        },
+        {
+          "word": "emulate",
+          "mean": "vt  to strive to equal or excel, usually through imitation 우열을 다투다, 겨루다, 열심히 흉내내다, 에 필적하다 emulator 경쟁자, emulation 경쟁 emulous 경쟁적인  be emulous of 을 열심히 모방하다"
+        }
+      ]
+    },
+    {
+      "chapter": 20,
+      "words": [
+        {
+          "word": "belittle",
+          "mean": "to make to seem little; to put someone down  작게 하다, 경시하다, 과소평가하다"
+        },
+        {
+          "word": "disseminate",
+          "mean": "to spread the seeds of something; to scatter; to make widely known 선전하다, 널리 흩뿌리다; 보급하다, 퍼뜨리다"
+        },
+        {
+          "word": "circumvent",
+          "mean": "to frustrate as though by surrounding  우회하다, 교묘하게 회피하다; 앞지르다, 선수치다; 포위하다"
+        },
+        {
+          "word": "transcend",
+          "mean": "to go beyond or above; to surpass 초월하다, 능가하다, 우수하다"
+        },
+        {
+          "word": "avow",
+          "mean": "to claim; to declare boldly; to admit 공언하다, 솔직히 인정하다"
+        },
+        {
+          "word": "plebeian",
+          "mean": "n  common ; vulgar ; low class ; bourgeois 보통의, 평범한; 속된(vulgar), 천한"
+        },
+        {
+          "word": "rhetoric",
+          "mean": "n  the art of formal speaking or writing; inflated discourse  수사학, 웅변술, 미사여구, 작문법"
+        },
+        {
+          "word": "gregarious",
+          "mean": "a  sociable ; enjoying the company of others 군거하는, 군립성의; 사교적인; 무리의, 군집의"
+        },
+        {
+          "word": "levity",
+          "mean": "n  lightness ; frivolity  ; unseriousness 경솔, 경솔한 행위, 경거망동"
+        },
+        {
+          "word": "ethereal",
+          "mean": "adj  heavenly, as light and insubstantial as a gas or ether 천상의(heavenly), 공기같은, 가벼운"
+        },
+        {
+          "word": "stoic",
+          "mean": "indifferent (at least outwardly) to pleasure or pain, to joy or grief, to fortune or misfortune 스토익학파의; 금욕/극기주의"
+        },
+        {
+          "word": "peccadillo",
+          "mean": "n  a minor offense 과오, 조그만 결점"
+        },
+        {
+          "word": "profuse",
+          "mean": "a  flowing; extravagant  아낌없는, 마음이 후한; 풍부한, 많은; 과다한"
+        },
+        {
+          "word": "archetype",
+          "mean": "an original model or pattern     원형"
+        },
+        {
+          "word": "recant",
+          "mean": "v  to publicly take back and deny (something previously said or believed); to openly confess error 신앙이나 주장 등을 바꾸다, 취소하다, 철회하다"
+        },
+        {
+          "word": "admonish",
+          "mean": "to scold gently; to warn 훈계하다, 충고하다; 경고하다"
+        },
+        {
+          "word": "agrarian",
+          "mean": "relating to land; relating to the management or farming of land  토지의, 경작지의, 농업의"
+        },
+        {
+          "word": "expedient",
+          "mean": "adj  providing an immediate advantage; serving ones immediate self-interest; practical 편리한, 유리한, 임시 방편의"
+        },
+        {
+          "word": "condone",
+          "mean": "to overlook; to permit to happen 용서하다, 묵과하다"
+        },
+        {
+          "word": "affluent",
+          "mean": "rich; prosperous 풍부한, 부유한"
+        },
+        {
+          "word": "benign",
+          "mean": "gentle; not harmful; kind; mild 온화한, 친절한, 자비로운, 자상한"
+        },
+        {
+          "word": "preempt",
+          "mean": "v  to seize something by prior right 선매권에 의해 얻다"
+        },
+        {
+          "word": "sobriety",
+          "mean": "the state of being sober; seriousness 절주, 절제, 제정신, 온건"
+        },
+        {
+          "word": "inaugurate",
+          "mean": "v  to begin officially ; to induct  formally into office 취임식을 거행하다, 취임시키다; 새로운 시대를 열다"
+        },
+        {
+          "word": "unwitting",
+          "mean": "unintentional; ignorant; not aware 무의식의, 생각나지 않는"
+        },
+        {
+          "word": "petulant",
+          "mean": "a  rude ; cranky ; ill-tempered  잘 토라지는, 화를 잘 내는, 까다로운(cranky, rude)"
+        },
+        {
+          "word": "dilettante",
+          "mean": "someone with superficial knowledge of the arts; an amateur; a dabbler 아마추어 애호가, 어설픈 지식을 가진 사람"
+        },
+        {
+          "word": "desultory",
+          "mean": "without a plan or purpose; disconnected; random  산만한, 일관성 없는; 탈선적인, 주제를 벗어난"
+        },
+        {
+          "word": "categorical",
+          "mean": "unconditional; absolute 절대적인, 무조건의 단언적인; 범주에 속하는, 분류의"
+        },
+        {
+          "word": "pejorative",
+          "mean": "a  negative ; disparaging 가치를 떨어뜨리는(negative), 비난하는(disparaging)"
+        },
+        {
+          "word": "gratuitous",
+          "mean": "a  given freely (said of something bad) ; unjustified ; unprovoked ; uncalled for  무료의, 무보수의; 이유없는, 불필요한"
+        },
+        {
+          "word": "reciprocal",
+          "mean": "a  mutual; shared; interchangeable 상호간의(mutual), 호혜적인, 보복의, 보답의"
+        },
+        {
+          "word": "indignant",
+          "mean": "a  angry, especially as a result of something unjust or unworthy ; insulted 화난, 분개한, 성난"
+        },
+        {
+          "word": "extrapolate",
+          "mean": "v  to protect or deduce from something known; to infer 통계에서 외삽법에 의해 추정하다, 외삽법을 행하다; 추론하다"
+        },
+        {
+          "word": "vestige",
+          "mean": "a remaining bit of something; a last trace 자취, 흔적"
+        },
+        {
+          "word": "tangential",
+          "mean": "only superficially related to the matter at hand; not especially relevant; peripheral 접선의, 접하는; 탈선적인, 주제를 벗어난"
+        },
+        {
+          "word": "mentor",
+          "mean": "n  a teacher, tutor, counselor, or coach ; especially in business, an experienced person who shows an inexperienced person the ropes 현명하고 성실한 조언자(teacher, tutor)"
+        },
+        {
+          "word": "panacea",
+          "mean": "n  something that cures everything 만병 통치약"
+        },
+        {
+          "word": "heresy",
+          "mean": "n  any belief that is strongly opposed to established beliefs 이단, 이교"
+        },
+        {
+          "word": "illicit",
+          "mean": "a  illegal ; not permitted 불법의, 불의의, 불륜의"
+        }
+      ]
+    },
+    {
+      "chapter": 21,
+      "words": [
+        {
+          "word": "ambivalent",
+          "mean": "undecided; neutral; wishy-washy 아직 결정되지 않은; 중성의, 중립의; 묽은, 시시한"
+        },
+        {
+          "word": "mitigate",
+          "mean": "v  to moderate the effect of something  누그러뜨리다, 달래다, 완화하다; 경감하다"
+        },
+        {
+          "word": "benefactor",
+          "mean": "one who provides help, especially in the form of a gift or donation  은인, 후원자, 기부하는 사람"
+        },
+        {
+          "word": "bane",
+          "mean": "poison; torment; cause of harm 독, 해악, 파멸의, 원인"
+        },
+        {
+          "word": "bemused",
+          "mean": "confused; bewildered 멍하게 하다, ...의 마음을 사로잡다"
+        },
+        {
+          "word": "onerous",
+          "mean": "a  burdensome ; oppressive 성가신, 귀찮은"
+        },
+        {
+          "word": "distend",
+          "mean": "용해, 분해; 해산, 소멸, 사멸 to swell; to extend a great deal 부풀리다, 팽창시키다; 과장시키다"
+        },
+        {
+          "word": "accost",
+          "mean": "to approach and speak to someone 다가가서 말을 걸다"
+        },
+        {
+          "word": "chasm",
+          "mean": "a deep, gaping hole; a gorge 깊게 갈라진 틈, 금, 균열; 단절, 결합; 차이, 불화"
+        },
+        {
+          "word": "conciliatory",
+          "mean": "making peace; attempting to resolve a dispute through goodwill 타협적인, 융화적인, 회유적인"
+        },
+        {
+          "word": "denizen",
+          "mean": "inhabitant 주민, 거주자; 귀화인, 국적 취득자, 서식 동물"
+        },
+        {
+          "word": "implement",
+          "mean": "v  to carry out  약속 따위를 이행하다(to carry out), 도구를 주다, 필요한 권한을 주다"
+        },
+        {
+          "word": "sycophant",
+          "mean": "one who sucks up to others 아첨꾼"
+        },
+        {
+          "word": "aberration",
+          "mean": "something not typical; a deviation from the standard 탈선, 정신이상 "
+        },
+        {
+          "word": "comprise",
+          "mean": "to consist of; to be composed of cf) constitute, compose 포함하다, 품다, 의미하다; 구성되다, 성립되다"
+        },
+        {
+          "word": "acrimonious",
+          "mean": "full of spite; bitter; nasty 신랄한, 엄한, 호된"
+        },
+        {
+          "word": "prodigal",
+          "mean": "a  wastefully extravagant 풍부한, 남아도는; 낭비하는, 방탕한"
+        },
+        {
+          "word": "faction",
+          "mean": "n  a group, usually a small part of a larger group, united around some cause; disagreement within an organization 도당, 파벌 싸움, 당파성"
+        },
+        {
+          "word": "utilitarian",
+          "mean": "stressing usefulness or utility above all other qualities; pragmatic  공리적인, 실용적인, 공리주의의"
+        },
+        {
+          "word": "avuncular",
+          "mean": "like an uncle, especially a nice uncle 백부(숙부)의; 삼촌"
+        },
+        {
+          "word": "heyday",
+          "mean": "n  golden age ; prime 전성기(prime)"
+        },
+        {
+          "word": "subversive",
+          "mean": "corrupting; overthrowing; undermining; insurgent 파괴적인, 전복하는"
+        },
+        {
+          "word": "hedonism",
+          "mean": "n  the pursuit of pleasure as a way of life  쾌락주의"
+        }
+      ]
+    }
+  ]
 }

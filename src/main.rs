@@ -17,7 +17,7 @@ use crate::parser::conv::smart_to_total_words;
 
 fn main() {
     println!("What's your purpose?");
-    println!("1. Memorize, 2. Execute exam, 3. Update words");
+    println!("1. Memorize, 2. Execute exam");
     let mut purpose = String::new();
     match stdin().read_line(&mut purpose) {
         Ok(_) => (),

@@ -2,10 +2,6 @@ use crate::parser::word::{Word, Words, TotalWords};
 use std::fs::File;
 use std::io::{BufRead, BufReader};
 
-pub fn to_json(num: usize, words: Words) {
-    unimplemented!()
-}
-
 pub fn smart_to_total_words() -> TotalWords {
     let mut words_vec: Vec<Words> = Vec::new();
     for i in 1 .. 22 {

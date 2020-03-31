@@ -8,8 +8,7 @@ mod parser;
 
 use exam::exam_api::Chapter::{All, Chap, Range};
 use exam::exam_api::{Exam, Kind, Kind2};
-use parser::{word, conv};
-use std::io::{stdin, Read};
+use std::io::stdin;
 use std::process::exit;
 use std::fs::File;
 use std::io::{BufWriter};
@@ -42,7 +41,7 @@ fn main() {
 fn write_json() {
     let whole = smart_to_total_words();
     let file = File::create("word/word.json").expect("Can't create file");
-    let mut json_writer = BufWriter::new(file);
+    let json_writer = BufWriter::new(file);
     serde_json::to_writer_pretty(json_writer, &whole).expect("hmm");
 }
 
@@ -55,9 +54,9 @@ fn execute_exam() {
     let mut chap_end = String::new();
     let mut kind0 = String::new();
 
-    let mut Chapter = Chap(1);
-    let mut Kind_1 = Kind::Word;
-    let mut Kind_2 = Kind2::Random;
+    let Chapter;
+    let Kind_1;
+    let Kind_2;
 
     println!("Woroxide Ver 0.2.0");
     println!("");
@@ -146,6 +145,7 @@ fn execute_exam() {
     exam.start_exam();
 }
 
+#[allow(non_snake_case)]
 fn memorize() {
     let mut kind1 = String::new();
     let mut kind2 = String::new();
@@ -154,9 +154,9 @@ fn memorize() {
     let mut chap_end = String::new();
     let mut kind0 = String::new();
 
-    let mut Chapter = Chap(1);
-    let mut Kind_1 = Kind::Word;
-    let mut Kind_2 = Kind2::Random;
+    let Chapter;
+    let Kind_1;
+    let Kind_2;
 
     println!("Woroxide Ver 0.2.0");
     println!("");

@@ -79,6 +79,10 @@ impl Word {
     }
 
     pub fn match_with_mean(&self, trial: String) -> bool {
-        self.mean.contains(trial.trim())
+        if trial.trim() == "".to_string() {
+            false
+        } else {
+            self.mean.contains(trial.trim())
+        }
     }
 }

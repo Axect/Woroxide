@@ -1,0 +1,69 @@
+{
+    "total" : [
+        {
+            "chapter": 1,
+            "words": [
+                {
+                    "word": "a great deal",
+                    "mean": "많음, 많이; a lot"
+                },
+                {
+                    "word": "a host of",
+                    "mean": "많은 무리의, 다수의; a number of"
+                },
+                {
+                    "word": "a wide range of",
+                    "mean": "광범위한; a variety of"
+                },
+                {
+                    "word": "abandon",
+                    "mean": "버리다, 포기하다; desert, give up, leave"
+                },
+                {
+                    "word": "abnormally",
+                    "mean": "비정상적으로, 변칙적으로; exceptionally"
+                },
+                {
+                    "word": "abolish",
+                    "mean": "폐지하다; eliminate"
+                },
+                {
+                    "word": "abound in",
+                    "mean": "~이 많다, 가득 채우다; be filled with"
+                },
+                {
+                    "word": "abroad",
+                    "mean": "외국에, 해외에"
+                },
+                {
+                    "word": "abrupt",
+                    "mean": "갑작스러운, 불시의, 험준한, 가파른; sudden, sharp"
+                },
+                {
+                    "word": "absolute",
+                    "mean": "절대적인, 완전한; total, complete"
+                },
+                {
+                    "word": "absorb",
+                    "mean": "흡수하다; take in"
+                },
+                {
+                    "word": "abstract",
+                    "mean": "추상적인, 발췌, 요약; summary"
+                },
+                {
+                    "word": "abundance",
+                    "mean": "다수, 풍부; large number, profusion, plenty"
+                },
+                {
+                    "word": "abundant",
+                    "mean": "많은, 풍부한; plentiful, rich, numerous, ample"
+                },
+                {
+                    "word": "abuse",
+                    "mean": "오용, 남용, 학대, 욕; wrong"
+                }
+            ]
+        }
+    ]
+}

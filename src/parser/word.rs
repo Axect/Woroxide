@@ -75,7 +75,7 @@ impl Word {
     }
 
     pub fn match_with_word(&self, trial: String) -> bool {
-        trial.trim() == self.word.trim()
+        trial.trim() == self.word.trim().chars().map(|c| unicode_to_english(&c)).collect::<String>()
     }
 
     pub fn match_with_mean(&self, trial: String) -> bool {
@@ -84,5 +84,12 @@ impl Word {
         } else {
             self.mean.contains(trial.trim())
         }
+    }
+}
+
+fn unicode_to_english(c: &char) -> char {
+    match c {
+        'é' => 'e',
+        other => *other,
     }
 }

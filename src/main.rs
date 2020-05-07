@@ -88,7 +88,7 @@ fn execute_exam() {
                 println!("> Input last chapter");
                 match stdin().read_line(&mut chap_end) {
                     Ok(_) => {
-                        Chapter = Range(chap_start.parse().unwrap(), chap_end.parse().unwrap())
+                        Chapter = Range(chap_start.trim().parse().unwrap(), chap_end.trim().parse().unwrap())
                     }
                     Err(error) => {
                         println!("{}", error);

@@ -145,7 +145,7 @@ fn setting(s: &mut Cursive) {
                             .on_submit(|s, item| {
                                 let ud: &mut Phase1 = s.user_data().unwrap();
                                 (*ud).range = *item;
-                                s.focus_name("method");
+                                s.focus_name("method").unwrap();
                             })
                             .with_name("range"),
                     )
@@ -217,7 +217,7 @@ fn setting2(s: &mut Cursive, phase1: Phase1) {
                                             .on_submit(|s, txt| {
                                                 let ud: &mut Phase2 = s.user_data().unwrap();
                                                 (*ud).start = txt.parse().unwrap();
-                                                s.focus_name("end");
+                                                s.focus_name("end").unwrap();
                                             })
                                             .fixed_width(3)
                                             .with_name("start")
@@ -228,7 +228,7 @@ fn setting2(s: &mut Cursive, phase1: Phase1) {
                                             .on_submit(|s, txt| {
                                                 let ud: &mut Phase2 = s.user_data().unwrap();
                                                 (*ud).end = txt.parse().unwrap();
-                                                s.focus_name("number");
+                                                s.focus_name("number").unwrap();
                                             })
                                             .fixed_width(3)
                                             .with_name("end")
@@ -341,160 +341,8 @@ fn setting2(s: &mut Cursive, phase1: Phase1) {
     }
 }
 
-/// Start Woroxide
-fn start(s: &mut Cursive) {
-    s.pop_layer();
-    s.add_layer(
-        Dialog::text("What's your purpose?")
-            .title("Woroxide")
-            .button("Memorize", memorize)
-            .button("Exam", execute_exam)
-            .button("Quit", Cursive::quit),
-    );
-}
-
-fn write_json() {
-    let whole = smart_to_total_words();
-    let file = File::create("word/word.json").expect("Can't create file");
-    let json_writer = BufWriter::new(file);
-    serde_json::to_writer_pretty(json_writer, &whole).expect("hmm");
-}
-
-#[allow(non_snake_case)]
-fn execute_exam(s: &mut Cursive) {
-    s.pop_layer();
-    s.add_layer(
-        Dialog::text("What kinds of test do you want?")
-            .title("Set kind of test")
-            .button("Specific chapter", specific_chapter)
-            .button("Range of chapters", range_chapter)
-            .button("All chapters", all_chapter)
-            .button("Back", start),
-    );
-}
-
-fn specific_chapter(s: &mut Cursive) {
-    s.pop_layer();
-    s.add_layer(
-        Dialog::new().title("Enter the chapter").content(
-            EditView::new()
-                .on_submit(input_chapter)
-                .with_name("chapter")
-                .fixed_width(10),
-        ), //.button("Ok", |s| {
-           //    let chapter = s.call_on_name("chapter", |view: &mut EditView| {
-           //        view.get_content()
-           //    }).unwrap();
-
-           //    let chap_usize = chapter.trim().parse::<usize>().unwrap();
-           //    kind1(s, Chap(chap_usize))
-           //})
-    );
-}
-
-fn input_chapter(s: &mut Cursive, chap: &str) {
-    if chap.is_empty() {
-        s.add_layer(Dialog::info("Please enter a chapter"));
-    } else {
-        let chap_usize = chap.trim().parse::<usize>().unwrap();
-        kind1(s, Chap(chap_usize))
-    }
-}
-
-fn range_chapter(s: &mut Cursive) {
-    s.pop_layer();
-    s.add_layer(
-        Dialog::new().title("Enter the start chapter").content(
-            EditView::new()
-                .on_submit(input_start_chapter)
-                .with_name("start chap")
-                .fixed_width(10),
-        ), //.button("Ok", |s| {
-           //    let start = s.call_on_name("start chap", |view: &mut EditView| {
-           //        view.get_content()
-           //    }).unwrap();
-
-           //    let start_usize = start.trim().parse::<usize>().unwrap();
-           //    input_end_chapter(s, start_usize)
-           //})
-    );
-}
-
-fn input_start_chapter(s: &mut Cursive, chap: &str) {
-    if chap.is_empty() {
-        s.add_layer(Dialog::info("Please enter a chapter"));
-    } else {
-        let chap_usize = chap.trim().parse::<usize>().unwrap();
-        input_end_chapter(s, chap_usize)
-    }
-}
-
-fn input_end_chapter(s: &mut Cursive, start_chap: usize) {
-    s.pop_layer();
-    s.add_layer(
-        Dialog::new().title("Enter an end chapter").content(
-            EditView::new()
-                .on_submit(move |s, chap| {
-                    let end_chap = chap.trim().parse::<usize>().unwrap();
-                    let range = Range(start_chap, end_chap);
-                    kind1(s, range)
-                })
-                .with_name("end chap")
-                .fixed_width(10),
-        ),
-    );
-}
-
-fn all_chapter(s: &mut Cursive) {
-    s.pop_layer();
-    kind1(s, All)
-}
-
-fn kind1(s: &mut Cursive, chap: Chapter) {
-    s.pop_layer();
-    s.add_layer(
-        Dialog::text("What do you want to test?")
-            .title("Set Kind1")
-            .button("Word", move |s| kind2(s, chap, Kind::Word))
-            .button("Mean", move |s| kind2(s, chap, Kind::Mean)),
-    );
-}
-
-fn kind2(s: &mut Cursive, chap: Chapter, k1: Kind) {
-    s.pop_layer();
-    s.add_layer(
-        Dialog::text("Choose method for your test")
-            .title("Set Kind2")
-            .button("Random", move |s| {
-                s.pop_layer();
-                s.add_layer(
-                    Dialog::around(
-                        EditView::new()
-                            .on_submit(move |s, txt| input_random(s, txt, chap, k1))
-                            .fixed_width(3),
-                    )
-                    .title("Enter the number of words"),
-                );
-            })
-            .button("Sequential", move |s| {
-                let exam = Exam::new(chap, k1, Kind2::Sequential);
-                begin_exam(s, exam);
-            }),
-    );
-}
-
-fn input_random(s: &mut Cursive, txt: &str, chap: Chapter, k1: Kind) {
-    s.pop_layer();
-    let num = txt.parse().unwrap();
-    let exam = Exam::new(chap, k1, Kind2::Random(num));
-    begin_exam(s, exam)
-}
-
 fn begin_exam(s: &mut Cursive, ex: Exam) {
-    s.pop_layer();
-    s.add_layer(
-        Dialog::info(format!("{:?}", ex.words))
-    );
+    ex.start_exam(s)
 }
 
 fn memorize(s: &mut Cursive) {

@@ -20,9 +20,7 @@ pub struct Word {
 
 impl TotalWords {
     pub fn new(total: Vec<Words>) -> Self {
-        TotalWords {
-            total
-        }
+        TotalWords { total }
     }
 
     pub fn from_file(path: &str) -> Self {
@@ -75,7 +73,13 @@ impl Word {
     }
 
     pub fn match_with_word(&self, trial: String) -> bool {
-        trial.trim() == self.word.trim().chars().map(|c| unicode_to_english(&c)).collect::<String>()
+        trial.trim()
+            == self
+                .word
+                .trim()
+                .chars()
+                .map(|c| unicode_to_english(&c))
+                .collect::<String>()
     }
 
     pub fn match_with_mean(&self, trial: String) -> bool {

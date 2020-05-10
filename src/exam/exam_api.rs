@@ -1,4 +1,13 @@
+extern crate cursive;
+extern crate num_rational;
+
 use crate::parser::word::{TotalWords, Word};
+use cursive::{
+    traits::*,
+    views::{Button, Dialog, EditView},
+    Cursive,
+};
+use num_rational::Rational;
 use rand::seq::SliceRandom;
 use rand::thread_rng;
 use std::io::stdin;
@@ -20,15 +29,15 @@ pub enum Kind {
 
 #[derive(Debug, Copy, Clone, PartialEq, PartialOrd, Eq, Hash)]
 pub enum Kind2 {
-    Random,
+    Random(usize),
     Sequential,
 }
 
 #[derive(Debug)]
 pub struct Exam {
-    kind: Kind,
-    kind2: Kind2,
-    words: Vec<Word>,
+    pub kind: Kind,
+    pub kind2: Kind2,
+    pub words: Vec<Word>,
 }
 
 impl Exam {
@@ -40,12 +49,9 @@ impl Exam {
                     Some(w) => w,
                     None => exit(1),
                 };
+                let words = w.get_word_vec();
 
-                Exam {
-                    kind,
-                    kind2,
-                    words: w.get_word_vec(),
-                }
+                Exam { kind, kind2, words }
             }
             Range(i, f) => {
                 let total_words = TotalWords::from_file("word/word.json");
@@ -83,18 +89,24 @@ impl Exam {
         }
     }
 
-    pub fn start_exam(&self) {
-        let mut score = 0usize;
-        let step = (100f64 / self.words.len() as f64) as usize;
-        let total_score = step * self.words.len();
+    pub fn start_exam(&self, s: &mut Cursive) {
+        s.pop_layer();
         let mut exam_list = self.words.clone();
 
         match self.kind2 {
-            Kind2::Random => {
+            Kind2::Random(n) => {
                 exam_list.shuffle(&mut thread_rng());
+                exam_list = exam_list.into_iter().take(n).collect();
             }
             _ => (),
         }
+
+        let mut score_num = 0usize;
+
+        s.add_layer(
+            Dialog::new()
+                .title("Exam")
+        );
 
         match self.kind {
             Kind::Word => {
@@ -108,8 +120,8 @@ impl Exam {
                     match stdin().read_line(&mut trial) {
                         Ok(_) => {
                             if word.match_with_mean(trial) == true {
-                                score += step;
-                                println!("Correct! score is: {}", score);
+                                score_num += 1;
+                                println!("Correct! score is: {}/{}", score_num, exam_list.len());
                                 println!("");
                             } else {
                                 println!("Incorrect!");
@@ -134,8 +146,8 @@ impl Exam {
                     match stdin().read_line(&mut trial) {
                         Ok(_) => {
                             if word.match_with_word(trial) {
-                                score += step;
-                                println!("Correct! score is: {}", score);
+                                score_num += 1;
+                                println!("Correct! score is: {}/{}", score_num, exam_list.len());
                                 println!("");
                             } else {
                                 println!("Incorrect!");
@@ -151,15 +163,16 @@ impl Exam {
             }
         }
 
-        println!("Total score is: {}/{}", score, total_score);
+        println!("Total score is: {}/{}", score_num, exam_list.len());
     }
 
     pub fn start_memorize(&self) {
         let mut memorize_list = self.words.clone();
 
         match self.kind2 {
-            Kind2::Random => {
+            Kind2::Random(n) => {
                 memorize_list.shuffle(&mut thread_rng());
+                memorize_list = memorize_list.into_iter().take(n).collect();
             }
             _ => (),
         }

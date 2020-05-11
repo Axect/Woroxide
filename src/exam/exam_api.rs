@@ -1,13 +1,12 @@
 extern crate cursive;
 
 use crate::parser::word::{TotalWords, Word};
-use cursive::align::HAlign;
-use cursive::event::Key;
-use cursive::theme::Effect;
-use cursive::views::{ListView, OnEventView, TextView};
 use cursive::{
+    align::HAlign,
+    event::Key,
+    theme::Effect,
     traits::*,
-    views::{Dialog, EditView},
+    views::{Dialog, EditView, ListView, OnEventView, TextView},
     Cursive,
 };
 use rand::seq::SliceRandom;

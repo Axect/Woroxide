@@ -75,32 +75,9 @@ fn main() {
     siv.set_user_data(default_phase1);
 
     // Start
-    //start(&mut siv);
     setting(&mut siv);
 
     siv.run();
-
-    //println!("What's your purpose?");
-    //println!("1. Memorize, 2. Execute exam");
-    //let mut purpose = String::new();
-    //match stdin().read_line(&mut purpose) {
-    //    Ok(_) => (),
-    //    Err(e) => {
-    //        println!("{}", e);
-    //        exit(1);
-    //    }
-    //}
-
-    //let purpose: usize = purpose.trim().parse().expect("Can't convert purpose to usize");
-    //match purpose {
-    //    1 => memorize(),
-    //    2 => execute_exam(),
-    //    3 => write_json(),
-    //    _ => {
-    //        println!("Wrong argument!");
-    //        exit(1);
-    //    }
-    //}
 }
 
 fn setting(s: &mut Cursive) {
@@ -118,7 +95,7 @@ fn setting(s: &mut Cursive) {
                             .on_submit(|s, item| {
                                 let ud: &mut Phase1 = s.user_data().unwrap();
                                 (*ud).purpose = *item;
-                                s.focus_name("kind");
+                                s.focus_name("kind").unwrap();
                             })
                             .with_name("purpose"),
                     )
@@ -131,7 +108,7 @@ fn setting(s: &mut Cursive) {
                             .on_submit(|s, item| {
                                 let ud: &mut Phase1 = s.user_data().unwrap();
                                 (*ud).kind = *item;
-                                s.focus_name("range");
+                                s.focus_name("range").unwrap();
                             })
                             .with_name("kind"),
                     )
@@ -156,16 +133,13 @@ fn setting(s: &mut Cursive) {
                             .item("Random", RECEIVE_METHOD::Rand)
                             .item("Sequential", RECEIVE_METHOD::Sequential)
                             .on_submit(|s, item| {
-                                let ud: &mut Phase1 = s.user_data().unwrap();
-                                (*ud).method = *item;
+                                let mut phase1: Phase1 = s.take_user_data().unwrap();
+                                phase1.method = *item;
+                                setting2(s, phase1)
                             })
                             .with_name("method"),
                     )
             )
-            .button("Ok", |s| {
-                let phase1 = s.take_user_data().unwrap();
-                setting2(s, phase1)
-            })
     })
 }
 
@@ -178,6 +152,8 @@ fn setting2(s: &mut Cursive, phase1: Phase1) {
             num: 0
         }
     );
+    let kind = phase1.kind;
+    let purpose = phase1.purpose;
     match phase1.range {
         RECEIVE_RANGE::Chap => {
             s.add_layer(
@@ -197,7 +173,7 @@ fn setting2(s: &mut Cursive, phase1: Phase1) {
                                     RECEIVE_METHOD::Rand => Kind2::Random(0),
                                 };
                                 let exam = Exam::new(chap, kind, method);
-                                begin_exam(s, exam)
+                                begin_exam(s, exam, purpose)
                             })
                             .fixed_width(3)
                     )
@@ -236,25 +212,19 @@ fn setting2(s: &mut Cursive, phase1: Phase1) {
                                     .child(
                                         "Number of words",
                                         EditView::new()
-                                            .on_submit(|s, txt| {
-                                                let ud: &mut Phase2 = s.user_data().unwrap();
-                                                (*ud).num = txt.parse().unwrap();
+                                            .on_submit(move |s, txt| {
+                                                let num: usize = txt.parse().unwrap();
+                                                let kind = match kind {
+                                                    RECEIVE_KIND::Word => Kind::Word,
+                                                    RECEIVE_KIND::Mean => Kind::Mean,
+                                                };
+                                                let ud: Phase2 = s.take_user_data().unwrap();
+                                                let exam = Exam::new(Range(ud.start, ud.end), kind, Kind2::Random(num));
+                                                begin_exam(s, exam, purpose)
                                             })
                                             .fixed_width(4)
                                             .with_name("number")
                                     )
-                            )
-                            .button(
-                                "OK",
-                                move |s| {
-                                    let kind = match phase1.kind {
-                                        RECEIVE_KIND::Word => Kind::Word,
-                                        RECEIVE_KIND::Mean => Kind::Mean,
-                                    };
-                                    let ud: Phase2 = s.take_user_data().unwrap();
-                                    let exam = Exam::new(Range(ud.start, ud.end), kind, Kind2::Random(ud.num));
-                                    begin_exam(s, exam)
-                                }
                             )
                     );
                 }
@@ -270,7 +240,7 @@ fn setting2(s: &mut Cursive, phase1: Phase1) {
                                             .on_submit(|s, txt| {
                                                 let ud: &mut Phase2 = s.user_data().unwrap();
                                                 (*ud).start = txt.parse().unwrap();
-                                                s.focus_name("end");
+                                                s.focus_name("end").unwrap();
                                             })
                                             .fixed_width(3)
                                             .with_name("start")
@@ -278,25 +248,19 @@ fn setting2(s: &mut Cursive, phase1: Phase1) {
                                     .child(
                                         "End Chapter",
                                         EditView::new()
-                                            .on_submit(|s, txt| {
-                                                let ud: &mut Phase2 = s.user_data().unwrap();
-                                                (*ud).end = txt.parse().unwrap();
+                                            .on_submit(move |s, txt| {
+                                                let end: usize = txt.parse().unwrap();
+                                                let kind = match kind {
+                                                    RECEIVE_KIND::Word => Kind::Word,
+                                                    RECEIVE_KIND::Mean => Kind::Mean,
+                                                };
+                                                let ud: Phase2 = s.take_user_data().unwrap();
+                                                let exam = Exam::new(Range(ud.start, end), kind, Kind2::Sequential);
+                                                begin_exam(s, exam, purpose)
                                             })
                                             .fixed_width(3)
                                             .with_name("end")
                                     )
-                            )
-                            .button(
-                                "Ok",
-                                move |s| {
-                                    let kind = match phase1.kind {
-                                        RECEIVE_KIND::Word => Kind::Word,
-                                        RECEIVE_KIND::Mean => Kind::Mean,
-                                    };
-                                    let ud: Phase2 = s.take_user_data().unwrap();
-                                    let exam = Exam::new(Range(ud.start, ud.end), kind, Kind2::Sequential);
-                                    begin_exam(s, exam)
-                                }
                             )
                     );
                 }
@@ -320,7 +284,7 @@ fn setting2(s: &mut Cursive, phase1: Phase1) {
                                                     RECEIVE_KIND::Mean => Kind::Mean,
                                                 };
                                                 let exam = Exam::new(All, kind, Kind2::Random(number));
-                                                begin_exam(s, exam)
+                                                begin_exam(s, exam, purpose)
                                             })
                                             .fixed_width(4)
                                             .with_name("number")
@@ -334,117 +298,16 @@ fn setting2(s: &mut Cursive, phase1: Phase1) {
                         RECEIVE_KIND::Mean => Kind::Mean,
                     };
                     let exam = Exam::new(All, kind, Kind2::Sequential);
-                    begin_exam(s, exam)
+                    begin_exam(s, exam, purpose)
                 }
             }
         }
     }
 }
 
-fn begin_exam(s: &mut Cursive, ex: Exam) {
-    ex.start_exam(s)
+fn begin_exam(s: &mut Cursive, ex: Exam, purpose: RECEIVE_PURPOSE) {
+    match purpose {
+        RECEIVE_PURPOSE::Exam => ex.start_exam(s),
+        RECEIVE_PURPOSE::Memorize => ex.start_memorize(s),
+    }
 }
-
-fn memorize(s: &mut Cursive) {
-    unimplemented!()
-}
-
-//#[allow(non_snake_case)]
-//fn memorize(s: &mut Cursive) {
-//    let mut kind1 = String::new();
-//    let mut kind2 = String::new();
-//    let mut chap = String::new();
-//    let mut chap_start = String::new();
-//    let mut chap_end = String::new();
-//    let mut kind0 = String::new();
-//
-//    let Chapter;
-//    let Kind_1;
-//    let Kind_2;
-//
-//    println!("Woroxide Ver 0.2.0");
-//    println!("");
-//    println!("> What kinds of memorize do you want?");
-//    println!("> 1. Specific chapter\t2. Range of chapters\t3. All chapters");
-//    match stdin().read_line(&mut kind0) {
-//        Ok(_) => (),
-//        Err(error) => {
-//            println!("{}", error);
-//            exit(1);
-//        }
-//    }
-//
-//    if kind0.trim() == "1" {
-//        println!("");
-//        println!("> What chapter do you want to memorize?");
-//        match stdin().read_line(&mut chap) {
-//            Ok(_) => Chapter = Chap(chap.trim().parse().unwrap()),
-//            Err(error) => {
-//                println!("{}", error);
-//                exit(1);
-//            }
-//        }
-//    } else if kind0.trim() == "2" {
-//        println!("");
-//        println!("> Input start chapter");
-//        match stdin().read_line(&mut chap_start) {
-//            Ok(_) => {
-//                println!("> Input last chapter");
-//                match stdin().read_line(&mut chap_end) {
-//                    Ok(_) => {
-//                        Chapter = Range(chap_start.parse().unwrap(), chap_end.parse().unwrap())
-//                    }
-//                    Err(error) => {
-//                        println!("{}", error);
-//                        exit(1);
-//                    }
-//                }
-//            }
-//            Err(error) => {
-//                println!("{}", error);
-//                exit(1);
-//            }
-//        }
-//    } else {
-//        Chapter = All;
-//    }
-//
-//    println!("");
-//    println!("> What do you want to memorize?");
-//    println!("> 1. Word\t2. Mean");
-//    match stdin().read_line(&mut kind1) {
-//        Ok(_) => (),
-//        Err(error) => {
-//            println!("{}", error);
-//            exit(1);
-//        }
-//    }
-//
-//    if kind1.trim() == "1" {
-//        Kind_1 = Kind::Word;
-//    } else {
-//        Kind_1 = Kind::Mean;
-//    }
-//
-//    println!("");
-//    println!("> What kinds of memorize format do you want?");
-//    println!("> 1. Random\t2. Sequential");
-//    match stdin().read_line(&mut kind2) {
-//        Ok(_) => (),
-//        Err(error) => {
-//            println!("{}", error);
-//            exit(1);
-//        }
-//    }
-//
-//    if kind2.trim() == "1" {
-//        Kind_2 = Kind2::Random;
-//    } else {
-//        Kind_2 = Kind2::Sequential;
-//    }
-//
-//    println!("");
-//
-//    let exam = Exam::new(Chapter, Kind_1, Kind_2);
-//    exam.start_memorize();
-//}

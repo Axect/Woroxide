@@ -13,8 +13,9 @@ use rand::thread_rng;
 use std::io::stdin;
 use std::process::exit;
 use Chapter::{All, Chap, Range};
-use cursive::views::{TextView, DummyView, OnEventView};
+use cursive::views::{TextView, DummyView, OnEventView, ListView};
 use cursive::event::Key;
+use std::rc::Rc;
 
 #[derive(Debug, Copy, Clone, PartialEq, PartialOrd, Eq, Hash)]
 pub enum Chapter {
@@ -104,6 +105,195 @@ impl Exam {
         }
 
         let mut score_num = 0usize;
+        let score_denom = exam_list.len();
+        let curr = &exam_list[0];
+        let word = curr.get_word();
+        let mean = curr.get_mean();
+        let index = 0usize;
+
+        s.set_user_data((exam_list, score_num));
+
+        s.add_layer(
+            Dialog::around(
+                OnEventView::new(
+                    LinearLayout::vertical()
+                        .child(
+                            TextView::new(word).with_name("word")
+                        )
+                        .child(
+                            ListView::new()
+                                .child(
+                                    "Mean: ",
+                                    EditView::new()
+                                        .on_submit(move |s, txt| {
+                                            let score_denom = score_denom.clone();
+                                            let trial = txt.to_string();
+                                            let l = trial.len();
+                                            let (next, correct, score_num, message) = s.with_user_data(|(list, score): &mut (Vec<Word>, usize)| {
+                                                let curr = list.remove(0);
+                                                let next = match list.get(0) {
+                                                    None => None,
+                                                    Some(value) => Some(value.clone()),
+                                                };
+                                                let (correct, message) = if curr.match_with_mean(trial.to_string()) {
+                                                    *score += 1;
+                                                    (true, format!("Score: {}/{}", score, score_denom))
+                                                } else {
+                                                    (false, "Incorrect!".to_string())
+                                                };
+                                                (next, correct, *score, message)
+                                            }).unwrap();
+
+                                            match next {
+                                                None => {
+                                                    s.pop_layer();
+                                                    s.add_layer(
+                                                        Dialog::new()
+                                                            .title("Total Score")
+                                                            .content(
+                                                                TextView::new(message)
+                                                            )
+                                                            .button("Ok", |s| s.quit())
+                                                    );
+                                                },
+                                                Some(curr) => {
+                                                    let word = curr.get_word();
+                                                    let mean = curr.get_mean();
+                                                    s.call_on_name("word", |view: &mut TextView| {
+                                                        view.set_content(word);
+                                                    });
+                                                    s.call_on_name("score", |view: &mut TextView| {
+                                                        view.set_content(format!("Score: {}/{}", score_num, score_denom));
+                                                    });
+                                                    s.call_on_name("mean", |view: &mut EditView| {
+                                                        view.set_content(" ");
+                                                    });
+                                                }
+                                            }
+                                        })
+                                        .fixed_width(20).with_name("mean")
+                                )
+                        )
+                        .child(
+                            TextView::new(format!("Score: {}/{}", score_num, score_denom)).with_name("score")
+                        )
+                )
+                    .on_event(Key::Enter, move |s| {
+                        let score_denom = score_denom.clone();
+                        let trial = {
+                            let txt = s.call_on_name("mean", |view: &mut EditView| {
+                                view.get_content()
+                            }).unwrap();
+                            Rc::try_unwrap(txt).unwrap()
+                        };
+                        let (next, correct, score_num) = s.with_user_data(|(list, score): &mut (Vec<Word>, usize)| {
+                            let curr = list.remove(0);
+                            let next = match list.get(0) {
+                                None => None,
+                                Some(value) => Some(value.clone()),
+                            };
+                            let (correct, _message) = if curr.match_with_mean(trial.to_string()) {
+                                *score += 1;
+                                (true, format!("Correct! score is {}/{}", score, score_denom))
+                            } else {
+                                (false, "Incorrect!".to_string())
+                            };
+                            (next, correct, *score)
+                        }).unwrap();
+
+                        match next {
+                            None => s.quit(),
+                            Some(curr) => {
+                                let word = curr.get_word();
+                                let mean = curr.get_mean();
+                                s.call_on_name("word", |view: &mut TextView| {
+                                    view.set_content(word);
+                                });
+                                s.call_on_name("mean", |view: &mut EditView| {
+                                    view.set_content("");
+                                    view.enable();
+                                });
+                                s.call_on_name("score", |view: &mut TextView| {
+                                    view.set_content(format!("{}/{}", score_num, score_denom));
+                                });
+                            }
+                        }
+                    })
+            )
+                .title("Exam")
+        );
+
+        // match self.kind {
+        //     Kind::Word => {
+        //         println!("Please enter the correct meaning of given word");
+        //         println!();
+        //         for i in 0..exam_list.len() {
+        //             let word = &exam_list[i];
+        //             println!("> {}", word.get_word());
+        //
+        //             let mut trial = String::new();
+        //             match stdin().read_line(&mut trial) {
+        //                 Ok(_) => {
+        //                     if word.match_with_mean(trial) == true {
+        //                         score_num += 1;
+        //                         println!("Correct! score is: {}/{}", score_num, exam_list.len());
+        //                         println!("");
+        //                     } else {
+        //                         println!("Incorrect!");
+        //                         println!("");
+        //                     }
+        //                 }
+        //                 Err(error) => {
+        //                     println!("{}", error);
+        //                     exit(1);
+        //                 }
+        //             }
+        //         }
+        //     }
+        //     Kind::Mean => {
+        //         println!("Please enter the correct word of given meanings");
+        //         println!();
+        //         for i in 0..exam_list.len() {
+        //             let word = &exam_list[i];
+        //             println!("{:?}", word.get_mean());
+        //             print!("> ");
+        //             let mut trial = String::new();
+        //             match stdin().read_line(&mut trial) {
+        //                 Ok(_) => {
+        //                     if word.match_with_word(trial) {
+        //                         score_num += 1;
+        //                         println!("Correct! score is: {}/{}", score_num, exam_list.len());
+        //                         println!("");
+        //                     } else {
+        //                         println!("Incorrect!");
+        //                         println!("");
+        //                     }
+        //                 }
+        //                 Err(error) => {
+        //                     println!("{}", error);
+        //                     exit(1);
+        //                 }
+        //             }
+        //         }
+        //     }
+        // }
+        //
+        // println!("Total score is: {}/{}", score_num, exam_list.len());
+    }
+
+    pub fn start_memorize(&self, s: &mut Cursive) {
+        s.pop_layer();
+        let mut exam_list = self.words.clone();
+
+        match self.kind2 {
+            Kind2::Random(n) => {
+                exam_list.shuffle(&mut thread_rng());
+                exam_list = exam_list.into_iter().take(n).collect();
+            }
+            _ => (),
+        }
+
+        let mut score_num = 0usize;
         let curr = &exam_list[0];
         let word = curr.get_word();
         let mean = curr.get_mean();
@@ -114,7 +304,7 @@ impl Exam {
         s.add_layer(
             Dialog::around(
                 OnEventView::new(
-                    LinearLayout::horizontal()
+                    LinearLayout::vertical()
                         .child(
                             TextView::new(word).with_name("word")
                         )
@@ -200,62 +390,62 @@ impl Exam {
         // println!("Total score is: {}/{}", score_num, exam_list.len());
     }
 
-    pub fn start_memorize(&self) {
-        let mut memorize_list = self.words.clone();
+    //pub fn start_memorize(&self) {
+    //    let mut memorize_list = self.words.clone();
 
-        match self.kind2 {
-            Kind2::Random(n) => {
-                memorize_list.shuffle(&mut thread_rng());
-                memorize_list = memorize_list.into_iter().take(n).collect();
-            }
-            _ => (),
-        }
+    //    match self.kind2 {
+    //        Kind2::Random(n) => {
+    //            memorize_list.shuffle(&mut thread_rng());
+    //            memorize_list = memorize_list.into_iter().take(n).collect();
+    //        }
+    //        _ => (),
+    //    }
 
-        match self.kind {
-            Kind::Word => {
-                println!("Think the correct meaning of given word");
-                println!();
-                for i in 0..memorize_list.len() {
-                    let word = &memorize_list[i];
-                    println!("> {}", word.get_word());
+    //    match self.kind {
+    //        Kind::Word => {
+    //            println!("Think the correct meaning of given word");
+    //            println!();
+    //            for i in 0..memorize_list.len() {
+    //                let word = &memorize_list[i];
+    //                println!("> {}", word.get_word());
 
-                    let mut trial = String::new();
-                    match stdin().read_line(&mut trial) {
-                        Ok(_) => {
-                            let mean = word.get_mean();
-                            println!("{}", mean);
-                            println!();
-                        }
-                        Err(error) => {
-                            println!("{}", error);
-                            exit(1);
-                        }
-                    }
-                }
-            }
-            Kind::Mean => {
-                println!("Think the correct word of given meanings");
-                println!();
-                for i in 0..memorize_list.len() {
-                    let word = &memorize_list[i];
-                    println!("{:?}", word.get_mean());
-                    print!("> ");
-                    let mut trial = String::new();
-                    match stdin().read_line(&mut trial) {
-                        Ok(_) => {
-                            let word = word.get_word();
-                            println!("{}", word);
-                            println!();
-                        }
-                        Err(error) => {
-                            println!("{}", error);
-                            exit(1);
-                        }
-                    }
-                }
-            }
-        }
+    //                let mut trial = String::new();
+    //                match stdin().read_line(&mut trial) {
+    //                    Ok(_) => {
+    //                        let mean = word.get_mean();
+    //                        println!("{}", mean);
+    //                        println!();
+    //                    }
+    //                    Err(error) => {
+    //                        println!("{}", error);
+    //                        exit(1);
+    //                    }
+    //                }
+    //            }
+    //        }
+    //        Kind::Mean => {
+    //            println!("Think the correct word of given meanings");
+    //            println!();
+    //            for i in 0..memorize_list.len() {
+    //                let word = &memorize_list[i];
+    //                println!("{:?}", word.get_mean());
+    //                print!("> ");
+    //                let mut trial = String::new();
+    //                match stdin().read_line(&mut trial) {
+    //                    Ok(_) => {
+    //                        let word = word.get_word();
+    //                        println!("{}", word);
+    //                        println!();
+    //                    }
+    //                    Err(error) => {
+    //                        println!("{}", error);
+    //                        exit(1);
+    //                    }
+    //                }
+    //            }
+    //        }
+    //    }
 
-        println!("Finish memorizing!");
-    }
+    //    println!("Finish memorizing!");
+    //}
 }

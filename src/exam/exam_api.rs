@@ -1,6 +1,10 @@
 extern crate cursive;
 
 use crate::parser::word::{TotalWords, Word};
+use cursive::align::HAlign;
+use cursive::event::Key;
+use cursive::theme::Effect;
+use cursive::views::{ListView, OnEventView, TextView};
 use cursive::{
     traits::*,
     views::{Dialog, EditView},
@@ -10,10 +14,6 @@ use rand::seq::SliceRandom;
 use rand::thread_rng;
 use std::process::exit;
 use Chapter::{All, Chap, Range};
-use cursive::views::{TextView, OnEventView, ListView};
-use cursive::event::Key;
-use cursive::theme::Effect;
-use cursive::align::HAlign;
 
 #[derive(Debug, Copy, Clone, PartialEq, PartialOrd, Eq, Hash)]
 pub enum Chapter {
@@ -144,7 +144,7 @@ impl Exam {
                             TextView::new(word)
                                 .effect(Effect::Italic)
                                 .h_align(HAlign::Center)
-                                .with_name("word")
+                                .with_name("word"),
                         )
                         .delimiter()
                         .delimiter()
@@ -153,175 +153,171 @@ impl Exam {
                             TextView::new(mean)
                                 .h_align(HAlign::Center)
                                 .with_name("mean")
-                                .fixed_width(100)
+                                .fixed_width(100),
                         )
-                        .fixed_height(10)
+                        .fixed_height(10),
                 )
-                    .on_event(Key::Enter, |s| {
-                        let curr_opt = s.with_user_data(|list: &mut Vec<Word>| list.pop()).unwrap();
-                        match curr_opt {
-                            None => s.quit(),
-                            Some(curr) => {
-                                let word = curr.get_word();
-                                let mean = curr.get_mean();
-                                s.call_on_name("word", |view: &mut TextView| {
-                                    view.set_content(word);
-                                });
-                                s.call_on_name("mean", |view: &mut TextView| {
-                                    view.set_content(mean);
-                                });
-                            }
+                .on_event(Key::Enter, |s| {
+                    let curr_opt = s.with_user_data(|list: &mut Vec<Word>| list.pop()).unwrap();
+                    match curr_opt {
+                        None => s.quit(),
+                        Some(curr) => {
+                            let word = curr.get_word();
+                            let mean = curr.get_mean();
+                            s.call_on_name("word", |view: &mut TextView| {
+                                view.set_content(word);
+                            });
+                            s.call_on_name("mean", |view: &mut TextView| {
+                                view.set_content(mean);
+                            });
                         }
-                    })
+                    }
+                }),
             )
-                .title("Memorize")
+            .title("Memorize"),
         );
     }
 }
 
 fn input_mean(s: &mut Cursive, word: String, score_num: usize, score_denom: usize) {
     s.add_layer(
-        Dialog::around(
-            OnEventView::new(
-                ListView::new()
-                    .delimiter()
-                    .child(
-                        "",
-                        TextView::new(word)
-                            .effect(Effect::Italic)
-                            .h_align(HAlign::Center)
-                            .with_name("word")
-                    )
-                    .delimiter()
-                    .delimiter()
-                    .child(
-                        "",
-                        ListView::new()
-                            .child(
-                                "Mean: ",
-                                EditView::new()
-                                    .on_submit(move |s, txt| {
-                                        let score_denom = score_denom.clone();
-                                        let trial = txt.to_string();
-                                        let (next, score_num, message) = s.with_user_data(|(list, score): &mut (Vec<Word>, usize)| {
-                                            let curr = list.remove(0);
-                                            let next = match list.get(0) {
-                                                None => None,
-                                                Some(value) => Some(value.clone()),
-                                            };
-                                            let message = if curr.match_with_mean(trial.to_string()) {
-                                                *score += 1;
-                                                format!("Score: {}/{}", score, score_denom)
-                                            } else {
-                                                "Incorrect!".to_string()
-                                            };
-                                            (next, *score, message)
-                                        }).unwrap();
-
-                                        match next {
-                                            None => {
-                                                s.pop_layer();
-                                                s.add_layer(
-                                                    Dialog::new()
-                                                        .title("Total Score")
-                                                        .content(
-                                                            TextView::new(message)
-                                                        )
-                                                        .button("Ok", |s| s.quit())
-                                                );
-                                            },
-                                            Some(curr) => {
-                                                s.pop_layer();
-                                                let word = curr.get_word();
-                                                input_mean(s, word, score_num, score_denom)
-                                            }
-                                        }
+        Dialog::around(OnEventView::new(
+            ListView::new()
+                .delimiter()
+                .child(
+                    "",
+                    TextView::new(word)
+                        .effect(Effect::Italic)
+                        .h_align(HAlign::Center)
+                        .with_name("word"),
+                )
+                .delimiter()
+                .delimiter()
+                .child(
+                    "",
+                    ListView::new().child(
+                        "Mean: ",
+                        EditView::new()
+                            .on_submit(move |s, txt| {
+                                let score_denom = score_denom.clone();
+                                let trial = txt.to_string();
+                                let (next, score_num, message) = s
+                                    .with_user_data(|(list, score): &mut (Vec<Word>, usize)| {
+                                        let curr = list.remove(0);
+                                        let next = match list.get(0) {
+                                            None => None,
+                                            Some(value) => Some(value.clone()),
+                                        };
+                                        let message = if curr.match_with_mean(trial.to_string()) {
+                                            *score += 1;
+                                            format!("Score: {}/{}", score, score_denom)
+                                        } else {
+                                            "Incorrect!".to_string()
+                                        };
+                                        (next, *score, message)
                                     })
-                                    .fixed_width(30)
-                            )
-                    )
-                    .child(
-                        "",
-                        TextView::new(format!("Score: {}/{}", score_num, score_denom)).with_name("score")
-                    )
-            )
-        )
-            .title("Exam")
-            .fixed_height(20)
+                                    .unwrap();
+
+                                match next {
+                                    None => {
+                                        s.pop_layer();
+                                        s.add_layer(
+                                            Dialog::new()
+                                                .title("Total Score")
+                                                .content(TextView::new(message))
+                                                .button("Ok", |s| s.quit()),
+                                        );
+                                    }
+                                    Some(curr) => {
+                                        s.pop_layer();
+                                        let word = curr.get_word();
+                                        input_mean(s, word, score_num, score_denom)
+                                    }
+                                }
+                            })
+                            .fixed_width(30),
+                    ),
+                )
+                .child(
+                    "",
+                    TextView::new(format!("Score: {}/{}", score_num, score_denom))
+                        .with_name("score"),
+                ),
+        ))
+        .title("Exam")
+        .fixed_height(20),
     );
 }
 
 fn input_word(s: &mut Cursive, mean: String, score_num: usize, score_denom: usize) {
     s.add_layer(
-        Dialog::around(
-            OnEventView::new(
-                ListView::new()
-                    .delimiter()
-                    .child(
-                        "",
-                        TextView::new(mean)
-                            .effect(Effect::Italic)
-                            .h_align(HAlign::Center)
-                            .with_name("mean")
-                            .fixed_height(5)
-                            .fixed_width(100)
-                    )
-                    .delimiter()
-                    .delimiter()
-                    .child(
-                        "",
-                        ListView::new()
-                            .child(
-                                "Word: ",
-                                EditView::new()
-                                    .on_submit(move |s, txt| {
-                                        let score_denom = score_denom.clone();
-                                        let trial = txt.to_string();
-                                        let (next, score_num, message) = s.with_user_data(|(list, score): &mut (Vec<Word>, usize)| {
-                                            let curr = list.remove(0);
-                                            let next = match list.get(0) {
-                                                None => None,
-                                                Some(value) => Some(value.clone()),
-                                            };
-                                            let message = if curr.match_with_word(trial.to_string()) {
-                                                *score += 1;
-                                                format!("Score: {}/{}", score, score_denom)
-                                            } else {
-                                                "Incorrect!".to_string()
-                                            };
-                                            (next, *score, message)
-                                        }).unwrap();
-
-                                        match next {
-                                            None => {
-                                                s.pop_layer();
-                                                s.add_layer(
-                                                    Dialog::new()
-                                                        .title("Total Score")
-                                                        .content(
-                                                            TextView::new(message)
-                                                        )
-                                                        .button("Ok", |s| s.quit())
-                                                );
-                                            },
-                                            Some(curr) => {
-                                                s.pop_layer();
-                                                let mean = curr.get_mean();
-                                                input_word(s, mean, score_num, score_denom)
-                                            }
-                                        }
+        Dialog::around(OnEventView::new(
+            ListView::new()
+                .delimiter()
+                .child(
+                    "",
+                    TextView::new(mean)
+                        .effect(Effect::Italic)
+                        .h_align(HAlign::Center)
+                        .with_name("mean")
+                        .fixed_height(5)
+                        .fixed_width(100),
+                )
+                .delimiter()
+                .delimiter()
+                .child(
+                    "",
+                    ListView::new().child(
+                        "Word: ",
+                        EditView::new()
+                            .on_submit(move |s, txt| {
+                                let score_denom = score_denom.clone();
+                                let trial = txt.to_string();
+                                let (next, score_num, message) = s
+                                    .with_user_data(|(list, score): &mut (Vec<Word>, usize)| {
+                                        let curr = list.remove(0);
+                                        let next = match list.get(0) {
+                                            None => None,
+                                            Some(value) => Some(value.clone()),
+                                        };
+                                        let message = if curr.match_with_word(trial.to_string()) {
+                                            *score += 1;
+                                            format!("Score: {}/{}", score, score_denom)
+                                        } else {
+                                            "Incorrect!".to_string()
+                                        };
+                                        (next, *score, message)
                                     })
-                                    .fixed_width(100)
-                            )
-                    )
-                    .delimiter()
-                    .child(
-                        "",
-                        TextView::new(format!("Score: {}/{}", score_num, score_denom)).with_name("score")
-                    )
-            )
-        )
-            .title("Exam")
-            .fixed_height(20)
+                                    .unwrap();
+
+                                match next {
+                                    None => {
+                                        s.pop_layer();
+                                        s.add_layer(
+                                            Dialog::new()
+                                                .title("Total Score")
+                                                .content(TextView::new(message))
+                                                .button("Ok", |s| s.quit()),
+                                        );
+                                    }
+                                    Some(curr) => {
+                                        s.pop_layer();
+                                        let mean = curr.get_mean();
+                                        input_word(s, mean, score_num, score_denom)
+                                    }
+                                }
+                            })
+                            .fixed_width(100),
+                    ),
+                )
+                .delimiter()
+                .child(
+                    "",
+                    TextView::new(format!("Score: {}/{}", score_num, score_denom))
+                        .with_name("score"),
+                ),
+        ))
+        .title("Exam")
+        .fixed_height(20),
     );
 }

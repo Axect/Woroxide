@@ -7,34 +7,36 @@ extern crate serde_json;
 mod exam;
 mod parser;
 
-use crate::parser::conv::smart_to_total_words;
+//use crate::parser::conv::smart_to_total_words;
 use cursive::{
     traits::*,
-    views::{Button, Dialog, EditView, ListView, SelectView, TextView},
+    views::{Dialog, EditView, ListView, SelectView},
     Cursive,
 };
 use exam::exam_api::{
-    Chapter,
     Chapter::{All, Chap, Range},
     {Exam, Kind, Kind2},
 };
-use std::fs::File;
-use std::io::{stdin, BufWriter};
-use std::process::exit;
-use std::rc::Rc;
+//use std::fs::File;
+//use std::io::{stdin, BufWriter};
+//use std::process::exit;
+//use std::rc::Rc;
 
+#[allow(non_camel_case_types)]
 #[derive(Debug, Copy, Clone, Eq, PartialEq)]
 enum RECEIVE_PURPOSE {
     Memorize,
     Exam,
 }
 
+#[allow(non_camel_case_types)]
 #[derive(Debug, Copy, Clone, Eq, PartialEq)]
 enum RECEIVE_KIND {
     Word,
     Mean,
 }
 
+#[allow(non_camel_case_types)]
 #[derive(Debug, Copy, Clone, Eq, PartialEq)]
 enum RECEIVE_RANGE {
     Chap,
@@ -42,6 +44,7 @@ enum RECEIVE_RANGE {
     All,
 }
 
+#[allow(non_camel_case_types)]
 #[derive(Debug, Copy, Clone, Eq, PartialEq)]
 enum RECEIVE_METHOD {
     Rand,
@@ -156,28 +159,64 @@ fn setting2(s: &mut Cursive, phase1: Phase1) {
     let purpose = phase1.purpose;
     match phase1.range {
         RECEIVE_RANGE::Chap => {
-            s.add_layer(
-                Dialog::new()
-                    .title("Specify Chapter")
-                    .content(
-                        EditView::new()
-                            .on_submit(move |s, txt| {
-                                let c: usize = txt.parse().unwrap();
-                                let chap = Chap(c);
-                                let kind = match phase1.kind {
-                                    RECEIVE_KIND::Word => Kind::Word,
-                                    RECEIVE_KIND::Mean => Kind::Mean,
-                                };
-                                let method = match phase1.method {
-                                    RECEIVE_METHOD::Sequential => Kind2::Sequential,
-                                    RECEIVE_METHOD::Rand => Kind2::Random(0),
-                                };
-                                let exam = Exam::new(chap, kind, method);
-                                begin_exam(s, exam, purpose)
-                            })
-                            .fixed_width(3)
+            match phase1.method {
+                RECEIVE_METHOD::Sequential => {
+                    s.add_layer(
+                        Dialog::new()
+                            .title("Specify Chapter")
+                            .content(
+                                EditView::new()
+                                    .on_submit(move |s, txt| {
+                                        let c: usize = txt.parse().unwrap();
+                                        let chap = Chap(c);
+                                        let kind = match phase1.kind {
+                                            RECEIVE_KIND::Word => Kind::Word,
+                                            RECEIVE_KIND::Mean => Kind::Mean,
+                                        };
+                                        let exam = Exam::new(chap, kind, Kind2::Sequential);
+                                        begin_exam(s, exam, purpose)
+                                    })
+                                    .fixed_width(3)
+                            )
+                    );
+                }
+                RECEIVE_METHOD::Rand => {
+                    s.add_layer(
+                        Dialog::new()
+                            .title("Supplement")
+                            .content(
+                                ListView::new()
+                                    .child(
+                                        "Chapter: ",
+                                        EditView::new()
+                                            .on_submit(move |s, txt| {
+                                                let ud: &mut Phase2 = s.user_data().unwrap();
+                                                (*ud).start = txt.parse().unwrap();
+                                                s.focus_name("number").unwrap();
+                                            })
+                                            .fixed_width(3)
+                                    )
+                                    .child(
+                                        "Number of Word: ",
+                                        EditView::new()
+                                            .on_submit(move |s, txt| {
+                                                let ud: Phase2 = s.take_user_data().unwrap();
+                                                let num: usize = txt.parse().unwrap();
+                                                let kind = match kind {
+                                                    RECEIVE_KIND::Word => Kind::Word,
+                                                    RECEIVE_KIND::Mean => Kind::Mean,
+                                                };
+                                                let exam = Exam::new(Chap(ud.start), kind, Kind2::Random(num));
+                                                begin_exam(s, exam, purpose)
+                                            })
+                                            .with_name("number")
+                                            .fixed_width(4)
+                                    )
+                            )
                     )
-            );
+                }
+            }
+
         }
         RECEIVE_RANGE::Range => {
             match phase1.method {

@@ -2,6 +2,7 @@ use crate::parser::word::{TotalWords, Word, Words};
 use std::fs::File;
 use std::io::{BufRead, BufReader};
 
+#[allow(dead_code)]
 pub fn smart_to_total_words() -> TotalWords {
     let mut words_vec: Vec<Words> = Vec::new();
     for i in 1..22 {

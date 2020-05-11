@@ -1,21 +1,17 @@
 extern crate cursive;
-extern crate num_rational;
 
 use crate::parser::word::{TotalWords, Word};
 use cursive::{
     traits::*,
-    views::{Button, Dialog, EditView, LinearLayout},
+    views::{Dialog, EditView},
     Cursive,
 };
-use num_rational::Rational;
 use rand::seq::SliceRandom;
 use rand::thread_rng;
-use std::io::stdin;
 use std::process::exit;
 use Chapter::{All, Chap, Range};
-use cursive::views::{TextView, DummyView, OnEventView, ListView};
+use cursive::views::{TextView, OnEventView, ListView};
 use cursive::event::Key;
-use std::rc::Rc;
 use cursive::theme::Effect;
 use cursive::align::HAlign;
 
@@ -132,11 +128,9 @@ impl Exam {
             _ => (),
         }
 
-        let mut score_num = 0usize;
         let curr = &exam_list[0];
         let word = curr.get_word();
         let mean = curr.get_mean();
-        let index = 0usize;
 
         s.set_user_data(exam_list);
 
@@ -153,6 +147,7 @@ impl Exam {
                                 .with_name("word")
                         )
                         .delimiter()
+                        .delimiter()
                         .child(
                             "",
                             TextView::new(mean)
@@ -160,7 +155,7 @@ impl Exam {
                                 .with_name("mean")
                                 .fixed_width(100)
                         )
-                        .fixed_height(20)
+                        .fixed_height(10)
                 )
                     .on_event(Key::Enter, |s| {
                         let curr_opt = s.with_user_data(|list: &mut Vec<Word>| list.pop()).unwrap();
@@ -185,17 +180,22 @@ impl Exam {
 }
 
 fn input_mean(s: &mut Cursive, word: String, score_num: usize, score_denom: usize) {
-    let mut score_num = score_num;
     s.add_layer(
         Dialog::around(
             OnEventView::new(
-                LinearLayout::vertical()
+                ListView::new()
+                    .delimiter()
                     .child(
+                        "",
                         TextView::new(word)
                             .effect(Effect::Italic)
+                            .h_align(HAlign::Center)
                             .with_name("word")
                     )
+                    .delimiter()
+                    .delimiter()
                     .child(
+                        "",
                         ListView::new()
                             .child(
                                 "Mean: ",
@@ -203,20 +203,19 @@ fn input_mean(s: &mut Cursive, word: String, score_num: usize, score_denom: usiz
                                     .on_submit(move |s, txt| {
                                         let score_denom = score_denom.clone();
                                         let trial = txt.to_string();
-                                        let l = trial.len();
-                                        let (next, correct, score_num, message) = s.with_user_data(|(list, score): &mut (Vec<Word>, usize)| {
+                                        let (next, score_num, message) = s.with_user_data(|(list, score): &mut (Vec<Word>, usize)| {
                                             let curr = list.remove(0);
                                             let next = match list.get(0) {
                                                 None => None,
                                                 Some(value) => Some(value.clone()),
                                             };
-                                            let (correct, message) = if curr.match_with_mean(trial.to_string()) {
+                                            let message = if curr.match_with_mean(trial.to_string()) {
                                                 *score += 1;
-                                                (true, format!("Score: {}/{}", score, score_denom))
+                                                format!("Score: {}/{}", score, score_denom)
                                             } else {
-                                                (false, "Incorrect!".to_string())
+                                                "Incorrect!".to_string()
                                             };
-                                            (next, correct, *score, message)
+                                            (next, *score, message)
                                         }).unwrap();
 
                                         match next {
@@ -242,26 +241,35 @@ fn input_mean(s: &mut Cursive, word: String, score_num: usize, score_denom: usiz
                             )
                     )
                     .child(
+                        "",
                         TextView::new(format!("Score: {}/{}", score_num, score_denom)).with_name("score")
                     )
             )
         )
             .title("Exam")
+            .fixed_height(20)
     );
 }
 
 fn input_word(s: &mut Cursive, mean: String, score_num: usize, score_denom: usize) {
-    let mut score_num = score_num;
     s.add_layer(
         Dialog::around(
             OnEventView::new(
-                LinearLayout::vertical()
+                ListView::new()
+                    .delimiter()
                     .child(
+                        "",
                         TextView::new(mean)
                             .effect(Effect::Italic)
+                            .h_align(HAlign::Center)
                             .with_name("mean")
+                            .fixed_height(5)
+                            .fixed_width(100)
                     )
+                    .delimiter()
+                    .delimiter()
                     .child(
+                        "",
                         ListView::new()
                             .child(
                                 "Word: ",
@@ -269,20 +277,19 @@ fn input_word(s: &mut Cursive, mean: String, score_num: usize, score_denom: usiz
                                     .on_submit(move |s, txt| {
                                         let score_denom = score_denom.clone();
                                         let trial = txt.to_string();
-                                        let l = trial.len();
-                                        let (next, correct, score_num, message) = s.with_user_data(|(list, score): &mut (Vec<Word>, usize)| {
+                                        let (next, score_num, message) = s.with_user_data(|(list, score): &mut (Vec<Word>, usize)| {
                                             let curr = list.remove(0);
                                             let next = match list.get(0) {
                                                 None => None,
                                                 Some(value) => Some(value.clone()),
                                             };
-                                            let (correct, message) = if curr.match_with_word(trial.to_string()) {
+                                            let message = if curr.match_with_word(trial.to_string()) {
                                                 *score += 1;
-                                                (true, format!("Score: {}/{}", score, score_denom))
+                                                format!("Score: {}/{}", score, score_denom)
                                             } else {
-                                                (false, "Incorrect!".to_string())
+                                                "Incorrect!".to_string()
                                             };
-                                            (next, correct, *score, message)
+                                            (next, *score, message)
                                         }).unwrap();
 
                                         match next {
@@ -300,18 +307,21 @@ fn input_word(s: &mut Cursive, mean: String, score_num: usize, score_denom: usiz
                                             Some(curr) => {
                                                 s.pop_layer();
                                                 let mean = curr.get_mean();
-                                                input_mean(s, mean, score_num, score_denom)
+                                                input_word(s, mean, score_num, score_denom)
                                             }
                                         }
                                     })
-                                    .fixed_width(30)
+                                    .fixed_width(100)
                             )
                     )
+                    .delimiter()
                     .child(
+                        "",
                         TextView::new(format!("Score: {}/{}", score_num, score_denom)).with_name("score")
                     )
             )
         )
             .title("Exam")
+            .fixed_height(20)
     );
 }

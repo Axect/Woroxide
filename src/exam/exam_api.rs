@@ -106,8 +106,9 @@ impl Exam {
         let curr = &exam_list[0];
         let word = curr.get_word();
         let mean = curr.get_mean();
+        let miss: Vec<Word> = vec![];
 
-        s.set_user_data((exam_list, score_num));
+        s.set_user_data((exam_list, score_num, miss));
 
         match self.kind {
             Kind::Word => input_mean(s, word, score_num, score_denom),
@@ -201,7 +202,7 @@ fn input_mean(s: &mut Cursive, word: String, score_num: usize, score_denom: usiz
                                 let score_denom = score_denom.clone();
                                 let trial = txt.to_string();
                                 let (next, score_num, message) = s
-                                    .with_user_data(|(list, score): &mut (Vec<Word>, usize)| {
+                                    .with_user_data(|(list, score, miss): &mut (Vec<Word>, usize, Vec<Word>)| {
                                         let curr = list.remove(0);
                                         let next = match list.get(0) {
                                             None => None,
@@ -209,9 +210,10 @@ fn input_mean(s: &mut Cursive, word: String, score_num: usize, score_denom: usiz
                                         };
                                         let message = if curr.match_with_mean(trial.to_string()) {
                                             *score += 1;
-                                            format!("Score: {}/{}", score, score_denom)
+                                            format!("{}/{}", score, score_denom)
                                         } else {
-                                            "Incorrect!".to_string()
+                                            miss.push(curr);
+                                            format!("{}/{}", score, score_denom)
                                         };
                                         (next, *score, message)
                                     })
@@ -220,10 +222,27 @@ fn input_mean(s: &mut Cursive, word: String, score_num: usize, score_denom: usiz
                                 match next {
                                     None => {
                                         s.pop_layer();
+                                        let mut list = ListView::new()
+                                            .child(
+                                                "Total Score: ",
+                                                TextView::new(message)
+                                            )
+                                            .delimiter();
+                                        let (_, _, miss): (Vec<Word>, usize, Vec<Word>) = s.take_user_data().unwrap();
+                                        for (i, w) in miss.iter().enumerate() {
+                                            let miss_str = format!("{}\t{}", w.get_word(), w.get_mean());
+                                            list.add_child(
+                                                &format!("{}. ", i),
+                                                TextView::new(miss_str)
+                                                    .fixed_width(100)
+                                            );
+                                        }
                                         s.add_layer(
                                             Dialog::new()
-                                                .title("Total Score")
-                                                .content(TextView::new(message))
+                                                .title("Exam Result")
+                                                .content(
+                                                    list
+                                                )
                                                 .button("Ok", |s| s.quit()),
                                         );
                                     }

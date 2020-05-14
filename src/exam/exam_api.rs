@@ -128,7 +128,9 @@ impl Exam {
             _ => (),
         }
 
-        let curr = &exam_list[0];
+        exam_list.reverse();
+
+        let curr = exam_list.pop().unwrap();
         let word = curr.get_word();
         let mean = curr.get_mean();
 

@@ -3,6 +3,7 @@ name = "woroxide"
 version = "0.3.0"
 authors = ["axect <axect@outlook.kr>"]
 edition = "2018"
+default-run = "woroxide"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -12,3 +13,4 @@ serde_json = "1"
 serde_derive = "1"
 serde = "1"
 cursive = "0.14"
+puruda = "0.1"

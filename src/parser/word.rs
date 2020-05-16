@@ -3,7 +3,7 @@ use std::path::Path;
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct TotalWords {
-    total: Vec<Words>,
+    pub total: Vec<Words>,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]

@@ -4203,7 +4203,7 @@
         },
         {
           "word": "relevant",
-          "mean": "관련된"
+          "mean": "관련된, 적절한"
         },
         {
           "word": "be eligible for",
@@ -4214,7 +4214,7 @@
           "mean": "~이 없다면, ~을 제외하고"
         },
         {
-          "word": "prominet",
+          "word": "prominent",
           "mean": "두드러진"
         },
         {
@@ -4227,7 +4227,7 @@
         },
         {
           "word": "amendment",
-          "mean": "개정"
+          "mean": "개정, 수정, 개정안, 수정안"
         },
         {
           "word": "twofold",
@@ -4772,10 +4772,35 @@
         {
           "word": "shred",
           "mean": "잘게 자르다, 찢다"
-        },
+        }
+      ]
+    },
+    {
+      "chapter": 40,
+      "words": [
         {
           "word": "tailor A to B",
           "mean": "A를 B에 맞추다"
+        },
+        {
+          "word": "nascent",
+          "mean": "초기의, 발생하려고하는"
+        },
+        {
+          "word": "emanate",
+          "mean": "발산하다, 나다"
+        },
+        {
+          "word": "imprint",
+          "mean": "흔적"
+        },
+        {
+          "word": "nudge",
+          "mean": "슬쩍 찌르다, 주의를 환기시키다, 밀다"
+        },
+        {
+          "word": "surpass",
+          "mean": "넘어서다, 앞서다, 극복하다, 초과하다"
         }
       ]
     }

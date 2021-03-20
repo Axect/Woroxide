@@ -1,0 +1,3506 @@
+{
+    "total": [
+        {
+            "chapter": 22,
+            "words": [
+                {
+                    "word": "deity",
+                    "mean": "신위, 신격, 신성"
+                },
+                {
+                    "word": "abet",
+                    "mean": "...을 부추기다, 선동하다"
+                },
+                {
+                    "word": "brusque",
+                    "mean": "퉁명스러운, 무뚝뚝한"
+                },
+                {
+                    "word": "empower",
+                    "mean": "...에게 권한을 부여하다, 권력을 위임하다"
+                },
+                {
+                    "word": "advocate",
+                    "mean": "변호/지지하다"
+                },
+                {
+                    "word": "intervene",
+                    "mean": "..의 사이에 있다. (들어가다, 일어나다), 지장을 주다; 중재하다"
+                },
+                {
+                    "word": "neophyte",
+                    "mean": "신참자 → beginner; novice"
+                },
+                {
+                    "word": "grimace",
+                    "mean": "찡그린 얼굴, 우거지상, 점잔 뺸 얼굴, 꾸민 얼굴"
+                },
+                {
+                    "word": "boon",
+                    "mean": "은혜, 혜택"
+                },
+                {
+                    "word": "paragon",
+                    "mean": "모범, 전형, 귀감, paradigm"
+                },
+                {
+                    "word": "arraign",
+                    "mean": "[법]공소 사실을 심리하다; 힐책하다, 규탄하다, 심문, 규탄, 비난"
+                },
+                {
+                    "word": "deplore",
+                    "mean": "비탄하다(lamnet), 개탄하다, mourn"
+                },
+                {
+                    "word": "zenith",
+                    "mean": "정점, 절정, 전성"
+                },
+                {
+                    "word": "insouciant",
+                    "mean": "무관심, 부주의, inadvertent"
+                },
+                {
+                    "word": "intermittent",
+                    "mean": "때때로 끊기는, 단속하는, [열, 흐름 따위가]간헐성의"
+                },
+                {
+                    "word": "precocious",
+                    "mean": "조숙한"
+                },
+                {
+                    "word": "angst",
+                    "mean": "불안감"
+                },
+                {
+                    "word": "crevice",
+                    "mean": "[좁고 깊은] 갈라진 틈"
+                },
+                {
+                    "word": "crescendo",
+                    "mean": "힘, 음량이 점점 강해짐, [음악]점점 세게"
+                },
+                {
+                    "word": "citadel",
+                    "mean": "성채, 요새, 견고한 장소"
+                },
+                {
+                    "word": "delve",
+                    "mean": "탐구하다, 파고들다"
+                },
+                {
+                    "word": "dismal",
+                    "mean": "음산한, 오싹해지는(dreary)"
+                },
+                {
+                    "word": "shibboleth",
+                    "mean": "[어떤 계급, 단체 등의 특유한] 발음, 관습, 표어"
+                },
+                {
+                    "word": "diurnal",
+                    "mean": "매일의, 날마다의, 낮동안의"
+                },
+                {
+                    "word": "meticulous",
+                    "mean": "매우 신중한, 세심한, 꼼꼼한"
+                },
+                {
+                    "word": "brouhaha",
+                    "mean": "소란, 소동, 시끄러운, 떠들썩한"
+                },
+                {
+                    "word": "hacyon",
+                    "mean": "교묘한, 잔잔한; 부유한, 번영하는, 즐거운, 무사태평한"
+                },
+                {
+                    "word": "intersperse",
+                    "mean": "...을 흩뿌리다, 산재시키다; [산재시킨 것으로]...에 변화를 주다"
+                },
+                {
+                    "word": "apex",
+                    "mean": "정점, 꼭대기, 최고조, 극점"
+                },
+                {
+                    "word": "dirge",
+                    "mean": "장송가"
+                },
+                {
+                    "word": "continuum",
+                    "mean": "연속, 연속체"
+                },
+                {
+                    "word": "diffuse",
+                    "mean": "발산하다"
+                },
+                {
+                    "word": "entrepreneur",
+                    "mean": "청부업자, [일반적으로]기업가; 흥행주"
+                },
+                {
+                    "word": "privation",
+                    "mean": "결핍, 궁핍"
+                },
+                {
+                    "word": "baleful",
+                    "mean": "해로운"
+                },
+                {
+                    "word": "redeem",
+                    "mean": "buy back(상환하다), [의무]를 이행하다(fulfill);결점을 메우다;[남, 죄인]을 구하다; deem-생각하다"
+                },
+                {
+                    "word": "olfactory",
+                    "mean": "후각의, 냄새의; 후각기관, 코"
+                },
+                {
+                    "word": "embellish",
+                    "mean": "...을 아름답게 하다, 장식하다(adorn)"
+                },
+                {
+                    "word": "ostracize",
+                    "mean": "추방하다, 배척하다, relegate"
+                },
+                {
+                    "word": "abound",
+                    "mean": "많이 있다, ...이 풍부하다"
+                }
+            ]
+        },
+        {
+            "chapter": 23,
+            "words": [
+                {
+                    "word": "oscillate",
+                    "mean": "진동하다, 떨리다, 흔들리다, 동요하다, 갈피를 못 잡다"
+                },
+                {
+                    "word": "cordial",
+                    "mean": "다뜻한, 우정어린, 인정잇는; 기운을 돋구는, 충심의, 성심성의, loyalty"
+                },
+                {
+                    "word": "bestow",
+                    "mean": "주다, 수여하다; (간수해)두다; 숙박시키다"
+                },
+                {
+                    "word": "punctilious",
+                    "mean": "격식에 치우친, 꼼꼼한"
+                },
+                {
+                    "word": "concert",
+                    "mean": "제휴, 협력, 협약, 협조, 조화, 일치; 콘서트"
+                },
+                {
+                    "word": "chaff",
+                    "mean": "쓸모 없는 것, 잡동사니"
+                },
+                {
+                    "word": "nullify",
+                    "mean": "무효로 하다, 취소하다, 폐기하다"
+                },
+                {
+                    "word": "consign",
+                    "mean": "...을 넘겨주다, 인도하다; 위탁/위임하다; 할당하다; ...을 제쳐놓다"
+                },
+                {
+                    "word": "limpid",
+                    "mean": "[물, 공기, 마음 따위가]맑은, 투명한; [문체가]명쾌한, 명석한"
+                },
+                {
+                    "word": "turbid",
+                    "mean": "불투명한, 흐린, 탁한, opaque; morbid-병적인,불건전한, forbid-방해하다"
+                },
+                {
+                    "word": "pungent",
+                    "mean": "강하게 자극하는, 자극성의, 신랄한; repugnant-싫어하는"
+                },
+                {
+                    "word": "envision",
+                    "mean": "[장래의 일 따위]를 마음속에 그리다, ...을 상상하다"
+                },
+                {
+                    "word": "armament",
+                    "mean": "군대, 군비, 군사력"
+                },
+                {
+                    "word": "more",
+                    "mean": "진흙, 수렁"
+                },
+                {
+                    "word": "predecessor",
+                    "mean": "전임자, 선배, 선조"
+                },
+                {
+                    "word": "benediction",
+                    "mean": "축복"
+                },
+                {
+                    "word": "devout",
+                    "mean": "독실한, 헌신적인, devote"
+                },
+                {
+                    "word": "protocol",
+                    "mean": "외교의례, 의정서"
+                },
+                {
+                    "word": "endear",
+                    "mean": "...을 사랑받게 하다, 따르게 하다, 사모하게 하다"
+                },
+                {
+                    "word": "denomination",
+                    "mean": "계급, 종류, 명명, 명칭"
+                },
+                {
+                    "word": "patrimony",
+                    "mean": "세습 재산, legacy; lethargy-무감각,무기력"
+                },
+                {
+                    "word": "obtrusive",
+                    "mean": "강요하는, 주제넘게 나서는, 눈에 거슬리는, obtrude, compelling, coerce"
+                },
+                {
+                    "word": "usury",
+                    "mean": "고리대금업, 대단히 비싼 이자, 폭리; usurp-불법적인 획득"
+                },
+                {
+                    "word": "infrastructure",
+                    "mean": "하부조직, 하부구조, (경제)기반"
+                },
+                {
+                    "word": "convolution",
+                    "mean": "나선, 회선의 것"
+                },
+                {
+                    "word": "licentious",
+                    "mean": "부도덕한, [특히]방탕한, 성적으로 음탕한(lewd); 무법의, 파격의"
+                },
+                {
+                    "word": "chortle",
+                    "mean": "혼자서 킬킬거리다, 신이 나서 웃다, 기뻐하다"
+                },
+                {
+                    "word": "dismay",
+                    "mean": "당황하게 하다, 걱정시키다"
+                },
+                {
+                    "word": "arrant",
+                    "mean": "철저한, 형편없는"
+                },
+                {
+                    "word": "oxymoron",
+                    "mean": "모순어법"
+                },
+                {
+                    "word": "accouterments",
+                    "mean": "[군복과 무기 이외의] 장비, 장구, 마구, 복장"
+                },
+                {
+                    "word": "brazen",
+                    "mean": "뻔뻔스러운"
+                },
+                {
+                    "word": "concomitant",
+                    "mean": "수반하다, 복수하는, 상반하는; 부수하는 성질(사정), 부수물"
+                },
+                {
+                    "word": "exodus",
+                    "mean": "[많은 사람이]나가기, 출발; [이민단 따위의] 출국, 이주"
+                },
+                {
+                    "word": "osmosis",
+                    "mean": "삼투, 삼투성"
+                },
+                {
+                    "word": "savant",
+                    "mean": "(특히 저명한)학자, 대과학자, pundit, erudite"
+                },
+                {
+                    "word": "bluster",
+                    "mean": "(바람, 물결이) 휘몰아 치다, 소리지르다"
+                },
+                {
+                    "word": "cherub",
+                    "mean": "예쁘고 순진한 어린이; 천사의 한 종류"
+                },
+                {
+                    "word": "confederate",
+                    "mean": "동맹자(국), 연합자(국), 공모자; 연합한, 동맹한; 동맹/연합하다"
+                },
+                {
+                    "word": "debunk",
+                    "mean": "정체를 폭로하다"
+                }
+            ]
+        },
+        {
+            "chapter": 24,
+            "words": [
+                {
+                    "word": "antipodal",
+                    "mean": "지구의 정반대의 지역 상태, 정반대의"
+                },
+                {
+                    "word": "cipher",
+                    "mean": "0(영), 가치 없는 것; 암호, 부호"
+                },
+                {
+                    "word": "voluptuous",
+                    "mean": "관능의 만족에 젖은; 방탕한; 관능적인, 요염한"
+                },
+                {
+                    "word": "prowess",
+                    "mean": "1. 훌륭한 솜씨, 위엄  2. 용기, 무용"
+                },
+                {
+                    "word": "balk",
+                    "mean": "갑자기 서다; 주춤하다"
+                },
+                {
+                    "word": "ad-lib",
+                    "mean": "즉흥적으로 ...하다"
+                },
+                {
+                    "word": "adage",
+                    "mean": "속담"
+                },
+                {
+                    "word": "booty",
+                    "mean": "전리품, 노획물"
+                },
+                {
+                    "word": "converse",
+                    "mean": "거꾸로 된, 역, 반대의; 격이 없이 주고받는 말, 대화"
+                },
+                {
+                    "word": "liaison",
+                    "mean": "연락(connecion; association); 간통, 밀통"
+                },
+                {
+                    "word": "commodious",
+                    "mean": "넓은, 널찍한, 넓고 편리한"
+                },
+                {
+                    "word": "dissident",
+                    "mean": "반대하는, 의견을 달리하는"
+                },
+                {
+                    "word": "obeisance",
+                    "mean": "경례, 인사, 경의, 존경, obedient, obedience, obeisant, obey"
+                },
+                {
+                    "word": "deplete",
+                    "mean": "비우다, 고갈시키다"
+                },
+                {
+                    "word": "galvanize",
+                    "mean": "...을 갑자기 활기띠게 하다, 생기를 회복시키다(revitalzie), bracing"
+                },
+                {
+                    "word": "jaunt",
+                    "mean": "소풍, 들놀이"
+                },
+                {
+                    "word": "bilious",
+                    "mean": "꽤 까다로운, 성마른, irasible, choleric"
+                },
+                {
+                    "word": "forebode",
+                    "mean": "[보통 나쁜 일]을 미리 나타내다, 조짐을 보이다; 예언/예감하다"
+                },
+                {
+                    "word": "degrade",
+                    "mean": "1. 지위를 낮추다, 파면하다, 2. 붕괴시키다, 3. 품위를 떨어뜨리다(deteriorate)"
+                },
+                {
+                    "word": "aggrandize",
+                    "mean": "[범위를] 크게 하다, 확대하다, [부, 권력, 지위]...을 강화 확대하다"
+                },
+                {
+                    "word": "atropny",
+                    "mean": "위축시키다, 쇠약해지다; 위축, 퇴화, 쇠퇴"
+                },
+                {
+                    "word": "doleful",
+                    "mean": "슬픔에 잠긴, 음울한"
+                },
+                {
+                    "word": "disservice",
+                    "mean": "불친절한 행위, 냉대, 구박"
+                },
+                {
+                    "word": "acclaim",
+                    "mean": "갈채를 보내다, 환호하다"
+                },
+                {
+                    "word": "reactionary",
+                    "mean": "1. 반작용의   2. 반동적인, 복고조의"
+                },
+                {
+                    "word": "inpenetrable",
+                    "mean": "1. 꿰뚫을 수 없는   2. 이해할 수 없는"
+                },
+                {
+                    "word": "underpinning",
+                    "mean": "받침, 토대, 지주"
+                },
+                {
+                    "word": "seamless",
+                    "mean": "이음새가 없는   cf)seam →1. 솔기, 이음자리  2. 갈라진 틈, 흠  3. 봉합선"
+                },
+                {
+                    "word": "insurrection",
+                    "mean": "폭동, 반란; resurrection-부활"
+                },
+                {
+                    "word": "lobby",
+                    "mean": "[의안]의 통과 운동을 하다; ...의 이면 공작을 하다;[의원]에게 운동하다"
+                },
+                {
+                    "word": "affront",
+                    "mean": "모욕/치욕을 주다"
+                },
+                {
+                    "word": "junta",
+                    "mean": "[쿠데타 직후 정권을 장악하는]군사정부"
+                },
+                {
+                    "word": "malapropism",
+                    "mean": "말의 우스꽝스런 오용; 오용된 말"
+                },
+                {
+                    "word": "infraction",
+                    "mean": "위반, 배반, 침범, break, infringe, breach"
+                },
+                {
+                    "word": "posthumous",
+                    "mean": "사후의, 사후에 생긴"
+                },
+                {
+                    "word": "depict",
+                    "mean": "그리다, 묘사핟,서술하다"
+                },
+                {
+                    "word": "champion",
+                    "mean": "[앞장서서]...을 옹호하다"
+                },
+                {
+                    "word": "ratify",
+                    "mean": "(조약 따우를) 비준하다, 확인하다, 확증하다"
+                },
+                {
+                    "word": "primal",
+                    "mean": "1. 최초의, 근원의  2. 주요한"
+                },
+                {
+                    "word": "embargo",
+                    "mean": "통상 정지, 출항금지, 수출금지"
+                }
+            ]
+        },
+        {
+            "chapter": 25,
+            "words": [
+                {
+                    "word": "cull",
+                    "mean": "고르다, 선택/선발하다"
+                },
+                {
+                    "word": "puritanical",
+                    "mean": "청교도적인, 매우 엄격한"
+                },
+                {
+                    "word": "revel",
+                    "mean": "향락하다, 흥청대다; rebel-반역자"
+                },
+                {
+                    "word": "vigilant",
+                    "mean": "자지 않고 지키는, 방심하지 않는"
+                },
+                {
+                    "word": "empathy",
+                    "mean": "[심리]감정이입"
+                },
+                {
+                    "word": "germane",
+                    "mean": "일정한 관계가 있는, 적절한(pertinet)"
+                },
+                {
+                    "word": "derelict",
+                    "mean": "1. 유기된, 버려진, 2. 무책임한"
+                },
+                {
+                    "word": "nonchalant",
+                    "mean": "무관심한, 냉담한, 태연한, disinterest"
+                },
+                {
+                    "word": "propagate",
+                    "mean": "1.(동, 식물을) 번식시키다, 증식시키다  2. 퍼뜨리다, 유포하다"
+                },
+                {
+                    "word": "fiat",
+                    "mean": "법령, 명령, 엄명, 인가"
+                },
+                {
+                    "word": "crestfallen",
+                    "mean": "풀이 죽은, 의기소침한"
+                },
+                {
+                    "word": "asylum",
+                    "mean": "(정신)보호 수용소; 보호소"
+                },
+                {
+                    "word": "habituate",
+                    "mean": "...을 길들이다, 익숙하게 하다"
+                },
+                {
+                    "word": "vagary",
+                    "mean": "엉뚱한 짓, 기발한 행동"
+                },
+                {
+                    "word": "copious",
+                    "mean": "많은, 다량의, 풍부한"
+                },
+                {
+                    "word": "porous",
+                    "mean": "1. 구멍이 많은   2. 침투성의"
+                },
+                {
+                    "word": "overture",
+                    "mean": "서곡, 전주곡; 신청, 제안,교섭 개시"
+                },
+                {
+                    "word": "embroil",
+                    "mean": "[분쟁, 전쟁 따위에]...을 끌어들이다, 휩스어 넣다; 혼란시키다, 복잡하게 하다"
+                },
+                {
+                    "word": "psyche",
+                    "mean": "영혼, 정신"
+                },
+                {
+                    "word": "incumbent",
+                    "mean": "1. 현직의, 재직 중의   2. 의무가 있는"
+                },
+                {
+                    "word": "scorn",
+                    "mean": "경멸, 모욕, 냉소(contempt)"
+                },
+                {
+                    "word": "diminution",
+                    "mean": "감소, 축소, diminish"
+                },
+                {
+                    "word": "divine",
+                    "mean": "신의, 신성의; 점치다, 예언하다"
+                },
+                {
+                    "word": "dilemma",
+                    "mean": "진퇴양난"
+                },
+                {
+                    "word": "balm",
+                    "mean": "향유, 방향, (신경)안정제. 진통제"
+                },
+                {
+                    "word": "decree",
+                    "mean": "법령, 포고, (재판소의)명령"
+                },
+                {
+                    "word": "cascade",
+                    "mean": "작은 폭포, 폭포처럼 생긴 것"
+                },
+                {
+                    "word": "dispirit",
+                    "mean": "낙심시키다, ...의 기력을 빼앗다, depressed"
+                },
+                {
+                    "word": "ineluctable",
+                    "mean": "불가피한, 피할 수 없는; elude-피하다,벗어나다"
+                },
+                {
+                    "word": "competent",
+                    "mean": "유능한, 상당한, 충분한 자격이 있는"
+                },
+                {
+                    "word": "appurtenance",
+                    "mean": "부속물, 부수물, appendage"
+                },
+                {
+                    "word": "effigy",
+                    "mean": "초상, 상"
+                },
+                {
+                    "word": "plight",
+                    "mean": "(나쁜)상태, 양상, 처지"
+                },
+                {
+                    "word": "precarious",
+                    "mean": "1. 불안정한  2. 위태로운"
+                },
+                {
+                    "word": "cant",
+                    "mean": "점잔 뺀 위선적인 말투; recant-철회하다,부인핟"
+                },
+                {
+                    "word": "paranormal",
+                    "mean": "과학적으로 알 수가 없는, 초자연적인"
+                },
+                {
+                    "word": "motif",
+                    "mean": "주제, 동기, 주지, 특색"
+                },
+                {
+                    "word": "purblind",
+                    "mean": "반소경의, 눈이 침침한, 우둔한, 둔감한"
+                },
+                {
+                    "word": "plunder",
+                    "mean": "약탈하다, 강탈하다; flounder-버둥거리다"
+                },
+                {
+                    "word": "dour",
+                    "mean": "기분 나쁜(forbidding), 가혹한"
+                }
+            ]
+        },
+        {
+            "chapter": 26,
+            "words": [
+                {
+                    "word": "stupor",
+                    "mean": "1. 마비, 무감각   2. 아연실색"
+                },
+                {
+                    "word": "bauble",
+                    "mean": "값싸고 야한 것, 자질구레한 장신구"
+                },
+                {
+                    "word": "allegiance",
+                    "mean": "충성, 충의, 충실, [일에 대한] 전념, loyalty"
+                },
+                {
+                    "word": "sarcasm",
+                    "mean": "비꼼, 풍자, 비웃음(sneer)"
+                },
+                {
+                    "word": "callous",
+                    "mean": "(피부가) 딱딱해진, 못이 생긴, 무감각한, 무정한, 냉담한"
+                },
+                {
+                    "word": "presuppose",
+                    "mean": "...을 전제로 하다"
+                },
+                {
+                    "word": "wane",
+                    "mean": "작아지다, [권력, 명성 따위가]약화되다, 시들다; 감소되다, [달이]이울다"
+                },
+                {
+                    "word": "bravado",
+                    "mean": "허세"
+                },
+                {
+                    "word": "odious",
+                    "mean": "싫은, 밉살스러운, 추악한"
+                },
+                {
+                    "word": "facet",
+                    "mean": "[보석 등의] 자른 면, 면; [사람, 사물의] 일면, 국면; facetuous-우수운"
+                },
+                {
+                    "word": "infuse",
+                    "mean": "1.(액체)를 주입하다   2.(사상)을 부러넣다(instill)"
+                },
+                {
+                    "word": "quasi",
+                    "mean": "유사한, 외견상의"
+                },
+                {
+                    "word": "emanate",
+                    "mean": "[빛, 소리, 사상 따위를] 발산하다, 유포하다, disperse"
+                },
+                {
+                    "word": "punitive",
+                    "mean": "형벌의, 징벌의"
+                },
+                {
+                    "word": "cache",
+                    "mean": "감춰두는 곳, 저장소"
+                },
+                {
+                    "word": "spectrum",
+                    "mean": "스펙트럼"
+                },
+                {
+                    "word": "conundrum",
+                    "mean": "[익살스러운 말장난으로 대답하는]수수께끼; 난문, 수수께끼 인물"
+                },
+                {
+                    "word": "titular",
+                    "mean": "표제의, 제목의, 직함의"
+                },
+                {
+                    "word": "subterfuge",
+                    "mean": "구실, 핑계, 발뺌, 속이기"
+                },
+                {
+                    "word": "adjourn",
+                    "mean": "...을 연기하다, 미루다, 휴회하다"
+                },
+                {
+                    "word": "assess",
+                    "mean": "(세금, 요금을) 사정하다"
+                },
+                {
+                    "word": "reprisal",
+                    "mean": "보복, 앙갚음; [타국에 대한 보복 수단으로써의] 무력행사, 실력행사, vengeful"
+                },
+                {
+                    "word": "canvass",
+                    "mean": "자세히 조사하다, 철저하게 논하다"
+                },
+                {
+                    "word": "generic",
+                    "mean": "일반적인"
+                },
+                {
+                    "word": "cataclysm",
+                    "mean": "격동, 대변동, 지각의 격변, 대홍수"
+                },
+                {
+                    "word": "astringent",
+                    "mean": "엄한, 호된; stringent-엄한,설득력있는, contingent-불시의,우연의"
+                },
+                {
+                    "word": "archives",
+                    "mean": "기록(공문서) 보관소, 공문서"
+                },
+                {
+                    "word": "abomination",
+                    "mean": "증오, 혐오, 혐오감을 주는 행위(일)"
+                },
+                {
+                    "word": "turmoil",
+                    "mean": "1. 혼란, 동요   2. 소란, 소동, tumult"
+                },
+                {
+                    "word": "prattle",
+                    "mean": "떠듬떠듬 말하다"
+                },
+                {
+                    "word": "discourse",
+                    "mean": "강연, 강론, 논설"
+                },
+                {
+                    "word": "pilgrimage",
+                    "mean": "성지순례"
+                },
+                {
+                    "word": "oligarchy",
+                    "mean": "과두정치, 소수 독재정치"
+                },
+                {
+                    "word": "posterity",
+                    "mean": "후세, 자손"
+                },
+                {
+                    "word": "document",
+                    "mean": "...을 증거로 입증하다"
+                },
+                {
+                    "word": "pallor",
+                    "mean": "[얼굴 등이]창백 → paleness, whiteness"
+                },
+                {
+                    "word": "propound",
+                    "mean": "(문제, 계획 따위를) 제출하다, 제의하다, propose"
+                },
+                {
+                    "word": "thwart",
+                    "mean": "...을 방해하다, 훼방놓다(hinder)"
+                },
+                {
+                    "word": "interim",
+                    "mean": "1.사이, 잠시(meantime)   2. 잠정 협정"
+                },
+                {
+                    "word": "sophomoric",
+                    "mean": "2학년생의, 미숙한, 아는 체하는"
+                }
+            ]
+        },
+        {
+            "chapter": 27,
+            "words": [
+                {
+                    "word": "climatic",
+                    "mean": "기후[상]의, 풍토의"
+                },
+                {
+                    "word": "dissent",
+                    "mean": "의견을 달리하다"
+                },
+                {
+                    "word": "revile",
+                    "mean": "...의 욕을 하다, ...을 비방하다, belie-거짓을 밝히다"
+                },
+                {
+                    "word": "impeacb",
+                    "mean": "1. 비난하다, 질책하다   2. 탄핵하다"
+                },
+                {
+                    "word": "supersede",
+                    "mean": "1. ...에 대신하다   2. [사람]을 바구다, 면직시키다"
+                },
+                {
+                    "word": "provocation",
+                    "mean": "화나게 하기, 분노, 자극(incitement)"
+                },
+                {
+                    "word": "elation",
+                    "mean": "의기양양, 매우 기뻐함, elate"
+                },
+                {
+                    "word": "breach",
+                    "mean": "위반; (성벽의)터진 곳, 돌파구; bleach-표백하다"
+                },
+                {
+                    "word": "dotage",
+                    "mean": "망령, 노망(senility)"
+                },
+                {
+                    "word": "draconian",
+                    "mean": "(법률이)엄격한, 가혹한"
+                },
+                {
+                    "word": "temporal",
+                    "mean": "1. 때의, 시간의   2. 이승의, 세속의   3. 일시적인"
+                },
+                {
+                    "word": "impromptu",
+                    "mean": "즉흥의, 준비없는"
+                },
+                {
+                    "word": "premeditated",
+                    "mean": "미리 생각한, 계획적인"
+                },
+                {
+                    "word": "anthropomorphic",
+                    "mean": "의인법적인(동물, 사물을 사람처럼)"
+                },
+                {
+                    "word": "correlation",
+                    "mean": "상호(상관)관계"
+                },
+                {
+                    "word": "harry",
+                    "mean": "[남]을 고민하게 하다, 괴롭히다; 약탈하다, 침략하다"
+                },
+                {
+                    "word": "melee",
+                    "mean": "난투, 혼전, 혼란"
+                },
+                {
+                    "word": "stolid",
+                    "mean": "둔감한, 무신경의"
+                },
+                {
+                    "word": "peregrination",
+                    "mean": "여행, 여정"
+                },
+                {
+                    "word": "avert",
+                    "mean": "(눈, 생각을) 돌리다, (타격, 위험을)피하다, 막다"
+                },
+                {
+                    "word": "curcumnavigate",
+                    "mean": "...을 두루 항해하다, [특히]세계를 배로 일주하다"
+                },
+                {
+                    "word": "concede",
+                    "mean": "...을 인정하다, ...을 [권리, 특권으로서] 용인하다, 허용하다, avow, accede=agree"
+                },
+                {
+                    "word": "assert",
+                    "mean": "단언하다, 주장(옹호)하다"
+                },
+                {
+                    "word": "threshold",
+                    "mean": "1. 문지방, 입구   2. 시작, 발단"
+                },
+                {
+                    "word": "regimen",
+                    "mean": "양생법, 식이요법(규정된 과정, 절차 → a regulated course"
+                },
+                {
+                    "word": "elite",
+                    "mean": "선발된 사람들"
+                },
+                {
+                    "word": "delectable",
+                    "mean": "즐거운, 유쾌한; deleterous-해로운,유독한"
+                },
+                {
+                    "word": "impoverish",
+                    "mean": "1....을 가난하게 하다   2. (질, 산출력을)빈약하게 하다, 저하시키다"
+                },
+                {
+                    "word": "evoke",
+                    "mean": "[기억 따위]를 되살려 내다, 환기하다, [웃음을] 자아내다, 이끌어내다, elicit, extract"
+                },
+                {
+                    "word": "fiscal",
+                    "mean": "재정(상)의, 회계의; 국고의"
+                },
+                {
+                    "word": "careen",
+                    "mean": "갑자기 방향을 바구다;[차가 급커브에서] 기울다;[배를]기울여서 청소(수리)하다"
+                },
+                {
+                    "word": "stratagem",
+                    "mean": "전략, 계략"
+                },
+                {
+                    "word": "lavish",
+                    "mean": "...을 아낌없이 주다(사용하다); ...을 낭비하다"
+                },
+                {
+                    "word": "disarrary",
+                    "mean": "혼란, 난잡, 단정치 못한 복장"
+                },
+                {
+                    "word": "behest",
+                    "mean": "명령"
+                },
+                {
+                    "word": "calumny",
+                    "mean": "비방, 중상"
+                },
+                {
+                    "word": "pristine",
+                    "mean": "1. 소박한, 순박한   2. 원시시대의"
+                },
+                {
+                    "word": "impregnable",
+                    "mean": "난공불락의, 견고한"
+                },
+                {
+                    "word": "dichotomy",
+                    "mean": "이분법, 양분법"
+                },
+                {
+                    "word": "avail",
+                    "mean": "쓸모있다, ...에 도움이 되다"
+                }
+            ]
+        },
+        {
+            "chapter": 28,
+            "words": [
+                {
+                    "word": "foray",
+                    "mean": "침입, 침략; an initial venture"
+                },
+                {
+                    "word": "exorbitant",
+                    "mean": "엄청난, 터무니없는, 값이 엄청난, egregious"
+                },
+                {
+                    "word": "quiescent",
+                    "mean": "고요한, 쉬고 있는"
+                },
+                {
+                    "word": "remuneration",
+                    "mean": "보답, 보상; 보수, 급료"
+                },
+                {
+                    "word": "toxic",
+                    "mean": "유독한, 독성의"
+                },
+                {
+                    "word": "ordinance",
+                    "mean": "법령, 의식, decree, mandate"
+                },
+                {
+                    "word": "bandy",
+                    "mean": "(공 따위를) 치고 받고하다, (타격, 말 따위를) 주고 받고하다"
+                },
+                {
+                    "word": "dolt",
+                    "mean": "얼간이, 바보"
+                },
+                {
+                    "word": "estimable",
+                    "mean": "존중(존경)할 만한, 존중(존경)받을 만한; 평가할 수 있는"
+                },
+                {
+                    "word": "jingoism",
+                    "mean": "강경 외교 정책(론), 주전론, 맹목적 애국주의"
+                },
+                {
+                    "word": "resurrection",
+                    "mean": "부활, 소생; insurrection-폭동,반란"
+                },
+                {
+                    "word": "slake",
+                    "mean": "1. [불을] 끄다(quench)  2. [욕망을] 채우다  3. 약화시키다"
+                },
+                {
+                    "word": "chameleon",
+                    "mean": "변덕스러운, 바람기가 있는 사람"
+                },
+                {
+                    "word": "pastoral",
+                    "mean": "전원적인, idyllic"
+                },
+                {
+                    "word": "rationale",
+                    "mean": "이론적 해석, 근본적 이유"
+                },
+                {
+                    "word": "disproportionate",
+                    "mean": "어울리지 않는, 조화되지 않는, 불균형한"
+                },
+                {
+                    "word": "effectual",
+                    "mean": "효과적인, 충분한(adequate)"
+                },
+                {
+                    "word": "ennui",
+                    "mean": "지루함, 권태(boredom)"
+                },
+                {
+                    "word": "amid",
+                    "mean": "...의 한복판에[서], ...에 둘러싸여, ...사이에, 한창에"
+                },
+                {
+                    "word": "aggrieve",
+                    "mean": "...에게 고통을 주다, 괴롭히다, 학대하다; grievous-슬퍼하는"
+                },
+                {
+                    "word": "forestall",
+                    "mean": "...의 기선을 제하다, ...을 미리 막다"
+                },
+                {
+                    "word": "corporeal",
+                    "mean": "육체의, 물질적인, 유형의, 실체가 있는, substentive"
+                },
+                {
+                    "word": "auxiliary",
+                    "mean": "보조의, 예비의"
+                },
+                {
+                    "word": "askance",
+                    "mean": "비스듬히; 곁눈으로"
+                },
+                {
+                    "word": "armistice",
+                    "mean": "휴전"
+                },
+                {
+                    "word": "reclaim",
+                    "mean": "...을 개간(매립)하다, ...을 교정/개선하다; 교화하다; proclaim-선언하다"
+                },
+                {
+                    "word": "invidious",
+                    "mean": "비위에 거슬리는, 불쾌한; 질투심나게 하는; 몹시 차별적인, 괘씸한, malaise"
+                },
+                {
+                    "word": "apoplexy",
+                    "mean": "(뇌)졸증, 출혈, 일혈"
+                },
+                {
+                    "word": "ancillary",
+                    "mean": "보조적인, 부속적인, 부수적인"
+                },
+                {
+                    "word": "minicipal",
+                    "mean": "자치도시의(시의); 내정의"
+                },
+                {
+                    "word": "titillate",
+                    "mean": "...의 흥을 돋우다"
+                },
+                {
+                    "word": "tepid",
+                    "mean": "미지근한, 미온한(lukewarm), insipid"
+                },
+                {
+                    "word": "baroque",
+                    "mean": "기이한, 기괴한"
+                },
+                {
+                    "word": "compunction",
+                    "mean": "양심의 가책, 마음의 거리낌; 뉘우침; [가벼운] 후회"
+                },
+                {
+                    "word": "waive",
+                    "mean": "[권리, 주장 등]을 버리다, ...을 고의로 포기하다; 무시하다, renounce; waver-흔들리다, weave-짜다"
+                },
+                {
+                    "word": "discomfit",
+                    "mean": "...의계획을 좌절시키다(frustrate); 당황케하다, confuged"
+                },
+                {
+                    "word": "inalienable",
+                    "mean": "양도할 수 없는, 이양할 수 없는"
+                },
+                {
+                    "word": "capacious",
+                    "mean": "많이 들어가는, 포용력이 큰, 광대한, 관대한"
+                },
+                {
+                    "word": "noisome",
+                    "mean": "악취가 나는, 비위에 거슬리는; 불쾌한, 싫은; 유해한,유독한"
+                },
+                {
+                    "word": "efficacy",
+                    "mean": "효력, 효능"
+                }
+            ]
+        },
+        {
+            "chapter": 29,
+            "words": [
+                {
+                    "word": "ineradicable",
+                    "mean": "근접할 수 없는, 없애기 어려운, +eradicable, eradicate"
+                },
+                {
+                    "word": "undermine",
+                    "mean": "...의 밑을 파다; 해치다, 손상시키다"
+                },
+                {
+                    "word": "infringe",
+                    "mean": "...을 위반하다, (권리)를 침해하다, break, infringe, breach"
+                },
+                {
+                    "word": "edict",
+                    "mean": "칙령, 포고, 명령(decree)"
+                },
+                {
+                    "word": "sumptuous",
+                    "mean": "1. 고가의, 사치스러운   2. 훌륭한(splendid)"
+                },
+                {
+                    "word": "repugnant",
+                    "mean": "싫은, 불쾌한; 모순된, 양립할 수 없는"
+                },
+                {
+                    "word": "modulate",
+                    "mean": "조정하다, 바꾸다; 변조하다, 바구다, 조절하다"
+                },
+                {
+                    "word": "apt",
+                    "mean": "적절한, 적당한, ...하는 경향이 있는; 재주 있는, 총기 있는, apposite, apropos"
+                },
+                {
+                    "word": "improvise",
+                    "mean": "1. 즉석에서 짓다   2. 임시변통으로 만들다"
+                },
+                {
+                    "word": "contretemps",
+                    "mean": "뜻하지 않게(공교롭게) 일어난 사건, contingent"
+                },
+                {
+                    "word": "bacchanal",
+                    "mean": "취해 떠드는 사람, 야단법석"
+                },
+                {
+                    "word": "cringe",
+                    "mean": "[공포로 인하여] 움츠리다, 위축되다, 굽실굽실하다, 아첨하다"
+                },
+                {
+                    "word": "gaffe",
+                    "mean": "실패, 실수(blunder), fiasce; plunder-약탈하다, plounder-버둥대다"
+                },
+                {
+                    "word": "verdant",
+                    "mean": "신록의, 푸릇푸릇한; 미숙한, 순진한"
+                },
+                {
+                    "word": "annuity",
+                    "mean": "연금(연봉), 연간이자 수입"
+                },
+                {
+                    "word": "omniscient",
+                    "mean": "무엇이든지 다 아는, 진지한, 박식한"
+                },
+                {
+                    "word": "invoke",
+                    "mean": "[신의 가호]를 빌다; [자비, 원조 등]을 간청하다, [법 등]에 호소하다"
+                },
+                {
+                    "word": "divulge",
+                    "mean": "[비밀을]누설하다"
+                },
+                {
+                    "word": "repose",
+                    "mean": "휴식; 한적함, 고요함; 차분한"
+                },
+                {
+                    "word": "grievous",
+                    "mean": "비통한, 슬프게 하는, 슬퍼할, mourn, bemoan; aggrieve-괴롭히다, 학대하다"
+                },
+                {
+                    "word": "ecclesiastical",
+                    "mean": "교회의, 성직의"
+                },
+                {
+                    "word": "voluminous",
+                    "mean": "저서가 많은, 다작의; 부수가 많은, 수많은; 큰, 더치큰"
+                },
+                {
+                    "word": "expiate",
+                    "mean": "...을 보상하다; [죄 따위]의 갚음을 하다, amend, atone"
+                },
+                {
+                    "word": "override",
+                    "mean": "유린하다, 짓밟다, 무시하다, 거절하다"
+                },
+                {
+                    "word": "conservatory",
+                    "mean": "온실, 식물실; 미술학교, 음악학교; 보존성의, 보존력이 잇는"
+                },
+                {
+                    "word": "salutation",
+                    "mean": "인사, 인사말  cf)salute"
+                },
+                {
+                    "word": "augur",
+                    "mean": "점치다, ...의 조짐을 보이다"
+                },
+                {
+                    "word": "demise",
+                    "mean": "서거, 별세, defunct"
+                },
+                {
+                    "word": "archipelago",
+                    "mean": "군도(섬들의 집합)"
+                },
+                {
+                    "word": "parable",
+                    "mean": "우화; palpable=touchable, culpable=guilty"
+                },
+                {
+                    "word": "interminable",
+                    "mean": "영구히 계속되는, 끝없는"
+                },
+                {
+                    "word": "benighted",
+                    "mean": "미개의, 문화가 뒤진,무지몽매한"
+                },
+                {
+                    "word": "fruitful",
+                    "mean": "결실이 많은, (풍작)을 가져오는, 기름진, 비옥한, 수익이 많은"
+                },
+                {
+                    "word": "demure",
+                    "mean": "새침한, 진지한, 침착한"
+                },
+                {
+                    "word": "inflammatory",
+                    "mean": "격하게 하는, 선동적인"
+                },
+                {
+                    "word": "bracing",
+                    "mean": "...에게 기운나게 하다, 상쾌하게 하다, galvanize"
+                },
+                {
+                    "word": "exposition",
+                    "mean": "설명, 해설; 전람회, 박람회"
+                },
+                {
+                    "word": "scant",
+                    "mean": "1. 불충분한, 부족한   2. 겨우 되는, scarce; cant-위선적인, recant-부인하다,철회하다,repudiate"
+                },
+                {
+                    "word": "emissary",
+                    "mean": "사절, 특사; 밀사"
+                },
+                {
+                    "word": "refractory",
+                    "mean": "고집센, 다루기 힘든; [병 따위가]나치의, 고질의; 내화성"
+                }
+            ]
+        },
+        {
+            "chapter": 30,
+            "words": [
+                {
+                    "word": "cower",
+                    "mean": "[공포, 부그러움 때문에] 위축하다"
+                },
+                {
+                    "word": "buffoon",
+                    "mean": "익살 광대"
+                },
+                {
+                    "word": "ecosystem",
+                    "mean": "생태계"
+                },
+                {
+                    "word": "replicate",
+                    "mean": "...을 반복하다; ...을 접어젖히다; 복제하다"
+                },
+                {
+                    "word": "quaint",
+                    "mean": "1. 예스럽고 아취있는   2. 정교한, archaic"
+                },
+                {
+                    "word": "rarefied",
+                    "mean": "희박하여진"
+                },
+                {
+                    "word": "figment",
+                    "mean": "꾸며낸(지어낸) 일; 허구, 꾸면내 이야기"
+                },
+                {
+                    "word": "verity",
+                    "mean": "진실, 사실, 진리, veracity"
+                },
+                {
+                    "word": "prelude",
+                    "mean": "전주곡, overture"
+                },
+                {
+                    "word": "queue",
+                    "mean": "1. (차례를 기다리는) 줄   2. (컴퓨터) 대기 행렬"
+                },
+                {
+                    "word": "composed",
+                    "mean": "침착한, 평온한, 편안한"
+                },
+                {
+                    "word": "antiquity",
+                    "mean": "태고, 고대; 고물, 고대의 풍습"
+                },
+                {
+                    "word": "referendum",
+                    "mean": "국민[일반]투표, 국민 투표 제도"
+                },
+                {
+                    "word": "configuration",
+                    "mean": "[요소, 부분의] 사관 위치, 배열, 배치, 외형"
+                },
+                {
+                    "word": "harass",
+                    "mean": "[적]을 끊임없는 공격으로 괴롭히다, ...을 시달리게 하다"
+                },
+                {
+                    "word": "thorny",
+                    "mean": "1. 가시처럼 날카로운   2. 고통스러운"
+                },
+                {
+                    "word": "implication",
+                    "mean": "포함, 함축"
+                },
+                {
+                    "word": "presumably",
+                    "mean": "아마, 추측컨데, 뻔뻔하다, presume"
+                },
+                {
+                    "word": "access",
+                    "mean": "접근, 접근하는 수단(방법), 출입"
+                },
+                {
+                    "word": "rend",
+                    "mean": "...을 째다, 찢다, 부수다; 분열시키다; rant-호언장담하다, rent-틈"
+                },
+                {
+                    "word": "august",
+                    "mean": "위엄있는, 존엄한, 당당한"
+                },
+                {
+                    "word": "incendiary",
+                    "mean": "1. 불을 내는, 태우는   2. 선동적인"
+                },
+                {
+                    "word": "aftermath",
+                    "mean": "결과, 여파, 영향"
+                },
+                {
+                    "word": "ethics",
+                    "mean": "윤리, 도덕; 윤리학, 도덕론, 윤리"
+                },
+                {
+                    "word": "stout",
+                    "mean": "1. 뚱뚱한(plump)  2. 튼튼한(stocky, sturdy)"
+                },
+                {
+                    "word": "consternation",
+                    "mean": "대단한 놀람, 경악"
+                },
+                {
+                    "word": "emancipate",
+                    "mean": "...을 해방하다, 자유롭게 하다"
+                },
+                {
+                    "word": "subsidiary",
+                    "mean": "보조의, 보충적인(supplemental), 부수적인(subordinate)"
+                },
+                {
+                    "word": "moratorium",
+                    "mean": "일시 중지, 지불 유예기간; 지불유예"
+                },
+                {
+                    "word": "suffice",
+                    "mean": "충분하다, ...을 만족시키다"
+                },
+                {
+                    "word": "calamity",
+                    "mean": "불행, 재해"
+                },
+                {
+                    "word": "desist",
+                    "mean": "그만두다, 단념하다, renounce"
+                },
+                {
+                    "word": "nomadic",
+                    "mean": "유목의, 방랑의"
+                },
+                {
+                    "word": "adjunct",
+                    "mean": "부가물, 부수품"
+                },
+                {
+                    "word": "patina",
+                    "mean": "손때에 진 윤기, 녹청, 고색, archaic"
+                },
+                {
+                    "word": "demur",
+                    "mean": "이의를 말하다, 반대하다"
+                },
+                {
+                    "word": "raucous",
+                    "mean": "귀에 거슬리는"
+                },
+                {
+                    "word": "entail",
+                    "mean": "[필연적인 결과로서]...을 일으키다, 수반하다;...을 필요로 하다"
+                },
+                {
+                    "word": "appraise",
+                    "mean": "...을 평가하다, 값을 매기다, 감정하다"
+                },
+                {
+                    "word": "decry",
+                    "mean": "비난하다, (denounce)헐뜯다"
+                }
+            ]
+        },
+        {
+            "chapter": 31,
+            "words": [
+                {
+                    "word": "byzantine",
+                    "mean": "비잔틴인, 비잔티움의(건축 양식 등)"
+                },
+                {
+                    "word": "subside",
+                    "mean": "1. (땅이) 내려앉다   2. 가라앉다, 진정되다, 침전하다"
+                },
+                {
+                    "word": "banter",
+                    "mean": "희롱, 놀림"
+                },
+                {
+                    "word": "rue",
+                    "mean": "1. 슬퍼하다(mourn), 원통해하다   2. 후회하다, woe"
+                },
+                {
+                    "word": "clandestine",
+                    "mean": "비밀의, 내밀의, 남 몰래하는, arcane"
+                },
+                {
+                    "word": "feign",
+                    "mean": "...을 가장하다, ...인 체하다, [구실 따위]를 꾸며내다, 속이다; 가장하다, dissemble"
+                },
+                {
+                    "word": "bromide",
+                    "mean": "고리타분한 생각, 평범한 사람, 틀에 박힌 문구"
+                },
+                {
+                    "word": "render",
+                    "mean": "...로 되게 하다; 제공하다; 표현하다"
+                },
+                {
+                    "word": "quintessential",
+                    "mean": "전형적인, 본질, 정수"
+                },
+                {
+                    "word": "cloister",
+                    "mean": "보행 복도, 안뜰, 수도원, 수도 새활, 조용한 외딴곳"
+                },
+                {
+                    "word": "forte",
+                    "mean": "장점, 특기"
+                },
+                {
+                    "word": "accentuate",
+                    "mean": "...을 강조하다, 역설하다, 두드러지게 하다"
+                },
+                {
+                    "word": "teem",
+                    "mean": "충만하다, 풍부히 있다"
+                },
+                {
+                    "word": "sordid",
+                    "mean": "더러운, 불결한(squalid); morbid-병적,불건정상태, forbid-방해하다"
+                },
+                {
+                    "word": "lyrical",
+                    "mean": "서정 시조(풍)의, 서정미가 있는, 감상적인"
+                },
+                {
+                    "word": "quizzical",
+                    "mean": "기묘한, 우스꽝스러운"
+                },
+                {
+                    "word": "impetuous",
+                    "mean": "열렬한, 성급한, 충동적인"
+                },
+                {
+                    "word": "altercation",
+                    "mean": "언쟁, 말다툼, 격론, debate"
+                },
+                {
+                    "word": "travesty",
+                    "mean": "익살스럽게 고쳐놓은 것, 서투른 모방, 가짜"
+                },
+                {
+                    "word": "phlegmatic",
+                    "mean": "1. 무기력한, 무관심한   2. 냉정한, 침착한, disinterest, nonchalant, indifferent"
+                },
+                {
+                    "word": "confidant",
+                    "mean": "[비밀 등을 털어놓을 수 있는] 믿을 만한(극친한) 친구"
+                },
+                {
+                    "word": "remission",
+                    "mean": "[노력, 긴장 따위의]감퇴, 저하; [병 따위의]소강; 용서(pardon), 사면, 면제"
+                },
+                {
+                    "word": "pontificate",
+                    "mean": "거만하게 말(행동)하다"
+                },
+                {
+                    "word": "aghast",
+                    "mean": "깜짝 놀라다, 넋이 나가다"
+                },
+                {
+                    "word": "tryst",
+                    "mean": "만날 약속, 데이트의 약속"
+                },
+                {
+                    "word": "ludicrous",
+                    "mean": "우스운, 익살맞은, 바보 같은(ridiculous)"
+                },
+                {
+                    "word": "embryonic",
+                    "mean": "미발달의, 미숙의; 태아의, 태생의; 발아기의"
+                },
+                {
+                    "word": "voracious",
+                    "mean": "게걸스레 먹는, 대식하는; [사람이]싫증내지 않는, 탐욕스러운"
+                },
+                {
+                    "word": "suppress",
+                    "mean": "억압하다, 진압하다(subdue, quash)"
+                },
+                {
+                    "word": "pummel",
+                    "mean": "(주먹으로)...을 연타하다; plumb=plummet"
+                },
+                {
+                    "word": "facade",
+                    "mean": "[건물의] 정면, [사물의]외관, 겉보기"
+                },
+                {
+                    "word": "acronym",
+                    "mean": "머릿글자로 된 말(단어)  ex)U.F.O."
+                },
+                {
+                    "word": "captivate",
+                    "mean": "...을 매혹하다, 사로잡다, 넋을 빼앗다"
+                },
+                {
+                    "word": "abeyance",
+                    "mean": "[잠정적]중지(상태), 정지, 휴지; obey-따르다"
+                },
+                {
+                    "word": "conviction",
+                    "mean": "신념, 확신, 유죄의 판결(평가)"
+                },
+                {
+                    "word": "tactical",
+                    "mean": "전술상의, tactless, 순진한, 멍청한"
+                },
+                {
+                    "word": "indict",
+                    "mean": "...을 기소하다, 고발하다, impeach"
+                },
+                {
+                    "word": "appellation",
+                    "mean": "명칭, 호칭"
+                },
+                {
+                    "word": "surreal",
+                    "mean": "초현실적인; corporea-현실의"
+                },
+                {
+                    "word": "enumerate",
+                    "mean": "...을 열거하다, 늘어놓다; ...의 수를 확인하다, ...을 세다"
+                }
+            ]
+        },
+        {
+            "chapter": 32,
+            "words": [
+                {
+                    "word": "entity",
+                    "mean": "실재, 존재; 본질, 실질; 실재물"
+                },
+                {
+                    "word": "appendage",
+                    "mean": "부속물, 첨가물"
+                },
+                {
+                    "word": "waft",
+                    "mean": "[특히 공중을] 떠돌다, 흐르다, 부동하다"
+                },
+                {
+                    "word": "denounce",
+                    "mean": "비난하다, 고발하다"
+                },
+                {
+                    "word": "corrosive",
+                    "mean": "부식[침식]성의, 부식하는; [정신적으로] 좀 먹는"
+                },
+                {
+                    "word": "equestrian",
+                    "mean": "말에 올라탄, 마상의; 기수의, 마(馬)술의"
+                },
+                {
+                    "word": "tedium",
+                    "mean": "지루함, 싫증남, 권태"
+                },
+                {
+                    "word": "folly",
+                    "mean": "어리석은(짓); 경솔한(imprudence)"
+                },
+                {
+                    "word": "fodder",
+                    "mean": "[가축의] 먹이, 사료; 원재료, 원료(raw material)"
+                },
+                {
+                    "word": "annex",
+                    "mean": "부가하다, 첨가하다"
+                },
+                {
+                    "word": "brandish",
+                    "mean": "(칼 따위를) 휘두르다, (창을)내젓다"
+                },
+                {
+                    "word": "sovereign",
+                    "mean": "주권자, 통치자, 군주"
+                },
+                {
+                    "word": "congeal",
+                    "mean": "...을 얼리다, 응고시키다"
+                },
+                {
+                    "word": "pregnant",
+                    "mean": "1. 의미심장한  2. 풍부한"
+                },
+                {
+                    "word": "inpending",
+                    "mean": "박두한, 임박한(imminent)"
+                },
+                {
+                    "word": "triumvirate",
+                    "mean": "1. 3두정치, 3인 집권   2. 3인조"
+                },
+                {
+                    "word": "rampant",
+                    "mean": "1. 유행하는, 만연하는   2. 맹렬한, 격노한   3. 분방한"
+                },
+                {
+                    "word": "jubilation",
+                    "mean": "환희, 환호"
+                },
+                {
+                    "word": "importune",
+                    "mean": "...에게 끈덕지게 조르다"
+                },
+                {
+                    "word": "reprimand",
+                    "mean": "[특히 공식적인] 견책, 징계; 질책, 비난"
+                },
+                {
+                    "word": "conversant",
+                    "mean": "친밀한, 친교가 있는; 정통한, 잘 알고 있는"
+                },
+                {
+                    "word": "mode",
+                    "mean": "양식, 방식, 양상"
+                },
+                {
+                    "word": "accrue",
+                    "mean": "[자연히]증가하다(생기다), [이자 따위가] 붙다, 늘다"
+                },
+                {
+                    "word": "disclaim",
+                    "mean": "포기하다, 기권하다, 거절하다"
+                },
+                {
+                    "word": "toil",
+                    "mean": "애(쓰는 일), 노고"
+                },
+                {
+                    "word": "bedlam",
+                    "mean": "수라장, 소란한 장소"
+                },
+                {
+                    "word": "carcinogenic",
+                    "mean": "발암성의"
+                },
+                {
+                    "word": "bemoan",
+                    "mean": "슬퍼하다, 한탄하다"
+                },
+                {
+                    "word": "bland",
+                    "mean": "온화한, (맛이) 부드러운; 시시한, 매력없는, 무관심한"
+                },
+                {
+                    "word": "wary",
+                    "mean": "주의 깊은, 신중한, 조심성 있는(watchful)"
+                },
+                {
+                    "word": "disaffect",
+                    "mean": "...에게 불만을 품게 하다, ...의 호의를 잃게 하다; 배반하다, disgruntle"
+                },
+                {
+                    "word": "eclipse",
+                    "mean": "[천체가]...을 가리다, ...을 숨기다, [빛]을 가로막다 →월식/일식 같은 것"
+                },
+                {
+                    "word": "serene",
+                    "mean": "잔잔한, 조용한"
+                },
+                {
+                    "word": "inimical",
+                    "mean": "1. 해로운, 불리한 2. 적대하는"
+                },
+                {
+                    "word": "disperse",
+                    "mean": "흩어지게 하다, 산란시키다"
+                },
+                {
+                    "word": "regime",
+                    "mean": "정부, 정권; 권리체제"
+                },
+                {
+                    "word": "debase",
+                    "mean": "[품질, 가치를]떨어뜨리다; 천하게 하다"
+                },
+                {
+                    "word": "atone",
+                    "mean": "배상하다, 보상하다, amend"
+                },
+                {
+                    "word": "edifice",
+                    "mean": "대건축물"
+                },
+                {
+                    "word": "incursion",
+                    "mean": "침입, 습격, incursive"
+                }
+            ]
+        },
+        {
+            "chapter": 33,
+            "words": [
+                {
+                    "word": "thesis",
+                    "mean": "논문"
+                },
+                {
+                    "word": "intricate",
+                    "mean": "뒤얽힌, 얽히고 설킨; 복잡한, 난해한"
+                },
+                {
+                    "word": "juction",
+                    "mean": "결합, 접합; 합체, 합동; 접합점, 합류점"
+                },
+                {
+                    "word": "estrange",
+                    "mean": "[남]의 기분, 애정을 멀어지게 하다, [남]의 사이를 가르다, ...을 멀리하다"
+                },
+                {
+                    "word": "curmudgeon",
+                    "mean": "심술궂은 구두쇠"
+                },
+                {
+                    "word": "concentric",
+                    "mean": "[원, 구가]동일한 중심을 가진"
+                },
+                {
+                    "word": "contraband",
+                    "mean": "밀수품; 밀수, 밀무역; 부정거래품, 금제품"
+                },
+                {
+                    "word": "crass",
+                    "mean": "우둔한, 어리석은, 터무니없는, dull"
+                },
+                {
+                    "word": "warrant",
+                    "mean": "...을 정당화하다,옳다고 하다(justify);...에 권한을 주다;...을 보증하다(guarantee)"
+                },
+                {
+                    "word": "supine",
+                    "mean": "1. 반듯이 누운   2. 나태한, 게으른(lethargic)"
+                },
+                {
+                    "word": "oust",
+                    "mean": "내쫓다, 불법적으로 빼앗다, expel"
+                },
+                {
+                    "word": "throttle",
+                    "mean": "조리개, 조절판"
+                },
+                {
+                    "word": "bulwark",
+                    "mean": "성채, 보루, 방호문, 방파제"
+                },
+                {
+                    "word": "cruz",
+                    "mean": "가장 중요한 점, 난점"
+                },
+                {
+                    "word": "predispose",
+                    "mean": "(남)을 ...에 기울게 핟, ...에 (미리) 경향을 주다"
+                },
+                {
+                    "word": "acquisitive",
+                    "mean": "욕심이 많은, [지식, 부귀, 세력 등을] 원하는"
+                },
+                {
+                    "word": "schism",
+                    "mean": "1. 분리, 분열   2. 이교, 분파, chasm"
+                },
+                {
+                    "word": "objective",
+                    "mean": "객관적인, 목적의, +subjective"
+                },
+                {
+                    "word": "dilapidated",
+                    "mean": "헐어 빠지게 하다, 황폐케 하다, devastate"
+                },
+                {
+                    "word": "specious",
+                    "mean": "허울 좋은, 그럴듯한, superfluous"
+                },
+                {
+                    "word": "sanction",
+                    "mean": "1. 인가  2. 도덕적 구속력  3. 상벌, 처벌"
+                },
+                {
+                    "word": "auspices",
+                    "mean": "찬조, 후원, 주최, 경사스러운, 보호, 원조"
+                },
+                {
+                    "word": "discrepancy",
+                    "mean": "모순, 불일치"
+                },
+                {
+                    "word": "capital",
+                    "mean": "수도, 자본(금), 원금, 자원, 밑천"
+                },
+                {
+                    "word": "expunge",
+                    "mean": "...을 지우다, 말살(말소)하다, ...을 없애다; 멸종시키다, efface, excise"
+                },
+                {
+                    "word": "eulogy",
+                    "mean": "찬사, 찬양(칭찬)하는 말; 고인을 기리는 연설"
+                },
+                {
+                    "word": "ominous",
+                    "mean": "불길한, 나쁜 징후의; 전조의; 날씨가 험악한"
+                },
+                {
+                    "word": "aperture",
+                    "mean": "째진 틈, 구멍, 구경, chasm"
+                },
+                {
+                    "word": "convene",
+                    "mean": "집합하다, 회홥하다; ...을 모으다, 소집하다, gather"
+                },
+                {
+                    "word": "concave",
+                    "mean": "오목한, 요면의; 움푹 들어간 곳"
+                },
+                {
+                    "word": "vogue",
+                    "mean": "[어던 시기의] 유행[품], 성행(fashion); 인기, 호평; vague-모호한"
+                },
+                {
+                    "word": "disgruntle",
+                    "mean": "...을 언짢게 하다, ...에 불평을 품게하다, 불만스러운, disaffect"
+                },
+                {
+                    "word": "embody",
+                    "mean": "[정신]에 형체(육체)를 주다, [사상 따위를] 구체적으로 나타내다, +ethereal"
+                },
+                {
+                    "word": "intrigue",
+                    "mean": "음모, 계략; 흥미를 돋구다, 당혹케하다; 간통, 불의"
+                },
+                {
+                    "word": "spurn",
+                    "mean": "1. 내쫓아내다, 추방하다  2. 경멸하다, 모욕하다"
+                },
+                {
+                    "word": "woe",
+                    "mean": "비애, 비통, 고뇌; 재난, 화(calamity), 고생"
+                },
+                {
+                    "word": "fawn",
+                    "mean": "[야비한 짓을 해가면] 알랑거리다, 아첨하다; n. 어린사슴"
+                },
+                {
+                    "word": "supplication",
+                    "mean": "탄원, 간청"
+                },
+                {
+                    "word": "inviolate",
+                    "mean": "침범되지 않는, 신성한; [약속, 법률 등이]잘 지켜지고 있는, 흩뜨려지지 않는"
+                },
+                {
+                    "word": "menagerie",
+                    "mean": "a collection of animals 구경시키는 동물; [이동하는]동물원"
+                }
+            ]
+        },
+        {
+            "chapter": 34,
+            "words": [
+                {
+                    "word": "substantiate",
+                    "mean": "1. ...을 증명하다   2. ...을 구체화하다"
+                },
+                {
+                    "word": "muse",
+                    "mean": "명상하다, 숙고하다"
+                },
+                {
+                    "word": "mawkish",
+                    "mean": "메스꺼운, 구역질나는; 유난히 감상적인, 심약한"
+                },
+                {
+                    "word": "sect",
+                    "mean": "분파, 종파, 학파. 파벌"
+                },
+                {
+                    "word": "conjugal",
+                    "mean": "부부[간]의, 혼인[상]의"
+                },
+                {
+                    "word": "opprobrious",
+                    "mean": "상스러운, 무례한, 부끄러운, 치욕, 불명예, 비난"
+                },
+                {
+                    "word": "inculcate",
+                    "mean": "...을 되풀이하여 가르치다, 알아듣도록 가르치다"
+                },
+                {
+                    "word": "mystic",
+                    "mean": "비법의, 비전의; 신비적인, 유현한; 신비주의의"
+                },
+                {
+                    "word": "florid",
+                    "mean": "혈색이 좋은, 얼굴이 붉은"
+                },
+                {
+                    "word": "hypocrisy",
+                    "mean": "위선, 위선적 행위; ...인 척하는"
+                },
+                {
+                    "word": "disconcert",
+                    "mean": "당황케하다, 쩔쩔매게 하다, confuged"
+                },
+                {
+                    "word": "medium",
+                    "mean": "매개물, 매체; 수단, 방법"
+                },
+                {
+                    "word": "transfix",
+                    "mean": "1. [공포 따위로] ...을 오금을 못쓰게 하다  2. ...을 고정시키다, 못박다(rivet)"
+                },
+                {
+                    "word": "mores",
+                    "mean": "관습, 습속, 풍속"
+                },
+                {
+                    "word": "arsenal",
+                    "mean": "병기고, 병기 창고"
+                },
+                {
+                    "word": "heinous",
+                    "mean": "극악한, 흉악한, 밉살 맞은, 가증스러운"
+                },
+                {
+                    "word": "spate",
+                    "mean": "[감정 따위의] 격발, ignite"
+                },
+                {
+                    "word": "predominant",
+                    "mean": "뛰어난, 우월한, 현저한, dominant"
+                },
+                {
+                    "word": "marginal",
+                    "mean": "가장자리의; 한계의, [특히]최저한의, [경제]가까스로 수지가 맞는"
+                },
+                {
+                    "word": "partition",
+                    "mean": "분할, 구획선"
+                },
+                {
+                    "word": "arid",
+                    "mean": "마른, 습기 없는, 무미건조한, 보잘 것 없는"
+                },
+                {
+                    "word": "lax",
+                    "mean": "해이된, 조심성 없는, 단정치 못한; 명확하지 않은; 느슨한, 이완된"
+                },
+                {
+                    "word": "fiasco",
+                    "mean": "대실패, 완패"
+                },
+                {
+                    "word": "solace",
+                    "mean": "위로, 위안(consolation)"
+                },
+                {
+                    "word": "nomenclature",
+                    "mean": "명명법; 전문어, 학명"
+                },
+                {
+                    "word": "quotidian",
+                    "mean": "매일의, 나날의, ordinary"
+                },
+                {
+                    "word": "coddle",
+                    "mean": "...을 상냥하게 다루다, 응석받이로 기르다; 응석받이, 허약하게 자란 사람"
+                },
+                {
+                    "word": "underlying",
+                    "mean": "1. 밑에 놓인  2. 기초적인, 근본적인"
+                },
+                {
+                    "word": "insuperable",
+                    "mean": "이겨내기 어려운, 극복하기 어려운(invincible)"
+                },
+                {
+                    "word": "tumult",
+                    "mean": "1. 큰 소동, 소란   2. 폭동, turmoil"
+                },
+                {
+                    "word": "posture",
+                    "mean": "(어떤) 자세를 취하다, 포즈를 취하다"
+                },
+                {
+                    "word": "unilateral",
+                    "mean": "한쪽 편만의, 단독적인, 일방적인"
+                },
+                {
+                    "word": "elegy",
+                    "mean": "애가, 만가"
+                },
+                {
+                    "word": "shackle",
+                    "mean": "수갑(manacle), 속박"
+                },
+                {
+                    "word": "churl",
+                    "mean": "농부, 시골뜨기; 성미 까다로운 사람, 구두쇠, boor"
+                },
+                {
+                    "word": "interloper",
+                    "mean": "남의 일에 참견하는 사람, 주제넘은 사람(intruder); 무허가 영업자"
+                },
+                {
+                    "word": "paroxysm",
+                    "mean": "발작, 격발"
+                },
+                {
+                    "word": "botch",
+                    "mean": "서투르게 기운 곳; 서투르게 수선하다, 망쳐놓다"
+                },
+                {
+                    "word": "alchemy",
+                    "mean": "연금술"
+                },
+                {
+                    "word": "downcast",
+                    "mean": "의기소침한, 우스꽝스러운"
+                }
+            ]
+        },
+        {
+            "chapter": 35,
+            "words": [
+                {
+                    "word": "appalling",
+                    "mean": "소름끼치는, 무서운; appellate-항소하다, compell-강제하다"
+                },
+                {
+                    "word": "integral",
+                    "mean": "필수의, 완전한"
+                },
+                {
+                    "word": "vona fide",
+                    "mean": "진실한, 성의 있는"
+                },
+                {
+                    "word": "herald",
+                    "mean": "[국왕의 즉위, 선전을 알리는]포교관, 선구자(harbinger)"
+                },
+                {
+                    "word": "sedentary",
+                    "mean": "1. 앉아서 일하는, 앉아 있는  2. 정착성의"
+                },
+                {
+                    "word": "hubris",
+                    "mean": "[자신 과잉 따위에 의한] 오만, 자만, insolent"
+                },
+                {
+                    "word": "channel",
+                    "mean": "경로, 통로; 수로, 해협"
+                },
+                {
+                    "word": "compromise",
+                    "mean": "타협, 양보, 화해, 절충(안)"
+                },
+                {
+                    "word": "vivacious",
+                    "mean": "활발한, 쾌활한, 명랑한"
+                },
+                {
+                    "word": "nemesis",
+                    "mean": "벌을 주는 사람, 천벌"
+                },
+                {
+                    "word": "droll",
+                    "mean": "우스운, 우스꽝스러운"
+                },
+                {
+                    "word": "abase",
+                    "mean": "[직분, 평가 따위]를 떨어뜨리다, 격하하다"
+                },
+                {
+                    "word": "specter",
+                    "mean": "유령"
+                },
+                {
+                    "word": "lascivious",
+                    "mean": "색을 좋아하는, 음탕한; 색정을 돋구는, 음란한, licentious, prurient"
+                },
+                {
+                    "word": "blandishment",
+                    "mean": "아첨, 추종"
+                },
+                {
+                    "word": "deign",
+                    "mean": "황송하게 ~을 해주시다, condescend"
+                },
+                {
+                    "word": "suffrage",
+                    "mean": "투표권, 선거권"
+                },
+                {
+                    "word": "revamp",
+                    "mean": "(연극 or 서적을) 개작하다, 개정하다, transcribe"
+                },
+                {
+                    "word": "ingratiate",
+                    "mean": "...에게 알랑거리다, ...의 비위를 맞추다; gratification-만족, gratify-기쁘게하다, 만족시키다"
+                },
+                {
+                    "word": "sally",
+                    "mean": "1. 돌격, 출격(excursion)   2. 재담(repartee)"
+                },
+                {
+                    "word": "fledgling",
+                    "mean": "풋내기, 신출내기, 애송이; 깃털이 갓난 새; fledge-담보"
+                },
+                {
+                    "word": "odyssey",
+                    "mean": "장기간의 방랑(모험) 여행; 운명의 많은 변화를 상징"
+                },
+                {
+                    "word": "advent",
+                    "mean": "[중요한 사건, 인물 따위의]출현, 도래, 등장"
+                },
+                {
+                    "word": "nebulous",
+                    "mean": "흐린, 불투명한; 애매한, 막연한"
+                },
+                {
+                    "word": "contempt",
+                    "mean": "경멸, 멸시, 모욕, 치욕"
+                },
+                {
+                    "word": "prot  g  ",
+                    "mean": "피보호자"
+                },
+                {
+                    "word": "materialistic",
+                    "mean": "유물론[자]의, 물질주의[자]의"
+                },
+                {
+                    "word": "apogee",
+                    "mean": "[달, 인공위성 따위가 궤도상에서 지구와 가장 멀어지는 위치]최고점, 원지점"
+                },
+                {
+                    "word": "reprobate",
+                    "mean": "타락자, 무뢰한; 신에게 버림받은 사람"
+                },
+                {
+                    "word": "sweeping",
+                    "mean": "1. 전반적인, 대략적인   2. 완전한, 철저한"
+                },
+                {
+                    "word": "rivet",
+                    "mean": "1. [눈, 주의]를 집중하다(engross)   2. 단단히 고정하다"
+                },
+                {
+                    "word": "chaste",
+                    "mean": "[육체적으로]순진한, 더럽혀지지 않은; 우아한,순수한"
+                },
+                {
+                    "word": "redress",
+                    "mean": "[고통, 결핍 따위를] 제거하다, 교정하다, 고치다, 구제하다, revise"
+                },
+                {
+                    "word": "cleave",
+                    "mean": "...을 쪼개다, 찢다; ...을 밀어 해치고 나가다; 달라붙다, 집착하다, rent"
+                },
+                {
+                    "word": "paranoia",
+                    "mean": "편집증, 과대망상증"
+                },
+                {
+                    "word": "fathom",
+                    "mean": "[수심]을 재다(sound), [남의 마음을] 헤에리다, 추측하다"
+                },
+                {
+                    "word": "craven",
+                    "mean": "겁많은, 소심한; 비열한, 비겁한"
+                },
+                {
+                    "word": "cogitate",
+                    "mean": "심사 숙고하다, ...을 고안하다;...을 궁리/계획하다, ruminate, deliberate"
+                },
+                {
+                    "word": "cohort",
+                    "mean": "한 패, 동료, 동아리; 군대, 그룹, 대"
+                },
+                {
+                    "word": "bristle",
+                    "mean": "강모, (머리가) 곤두서다, 성내다"
+                }
+            ]
+        },
+        {
+            "chapter": 36,
+            "words": [
+                {
+                    "word": "attribute",
+                    "mean": "(성질을)...에 있다고 핟, (결과를)...에 돌리다"
+                },
+                {
+                    "word": "emaciate",
+                    "mean": "...을 여위게 함, 쇠약하게 하다"
+                },
+                {
+                    "word": "guise",
+                    "mean": "외관, 외양, 겉보기, 의복"
+                },
+                {
+                    "word": "brawn",
+                    "mean": "근육, 완력"
+                },
+                {
+                    "word": "cursory",
+                    "mean": "서두르는, 대강의, 되는 대로의"
+                },
+                {
+                    "word": "phantasm",
+                    "mean": "유령, 환영"
+                },
+                {
+                    "word": "vie",
+                    "mean": "경쟁하다, 겨루다, 우열을 다투다"
+                },
+                {
+                    "word": "impasse",
+                    "mean": "궁지, 난국, 막힘"
+                },
+                {
+                    "word": "obviate",
+                    "mean": "없애다, 제거하다, 미연에 방지하다"
+                },
+                {
+                    "word": "allot",
+                    "mean": "할당/배당하다, 배분하다, allocate"
+                },
+                {
+                    "word": "gambit",
+                    "mean": "(행동이나 거래 따위의) 시작, 선수"
+                },
+                {
+                    "word": "motley",
+                    "mean": "잡색의, 얼룩덜룩한; 혼성의, 잡색"
+                },
+                {
+                    "word": "rife",
+                    "mean": "유행하고 있는, 왕성한, 자주 일어나는; rift-틈,균열,갈라짐"
+                },
+                {
+                    "word": "pathos",
+                    "mean": "비애, 비감, 페이소스"
+                },
+                {
+                    "word": "singular",
+                    "mean": "보통이 아닌, 두드러진, 뛰어난, 훌륭한"
+                },
+                {
+                    "word": "lout",
+                    "mean": "버릇없는 사람, 시골 뜨기; 얼간이, boor; rout-완패, tout-조르다"
+                },
+                {
+                    "word": "exuberant",
+                    "mean": "무성한, 풍부한; 다작의; 생기 가득한, 넘칠듯한; [문제, 언어가] 화려한"
+                },
+                {
+                    "word": "panegyric",
+                    "mean": "찬사, 과장된 칭찬"
+                },
+                {
+                    "word": "rhapsodize",
+                    "mean": "열광적으로 쓰다(말하다)"
+                },
+                {
+                    "word": "epoch",
+                    "mean": "[획일적인]시대, 획기적인 사건; 신기운(시간상에서 구분되는 시기)"
+                },
+                {
+                    "word": "apportion",
+                    "mean": "할당하다, 배분하다, allocation, allot"
+                },
+                {
+                    "word": "viscous",
+                    "mean": "끈끈한, 끈적거리는, 점착성의(sticky); 점성의"
+                },
+                {
+                    "word": "procure",
+                    "mean": "(힘을 다하여)...을 얻다, 손에 넣다"
+                },
+                {
+                    "word": "impede",
+                    "mean": "...을 방해하다, 훼방놓다"
+                },
+                {
+                    "word": "repartee",
+                    "mean": "현답; 명답, 재치있는 응답(대화); 재치있는 웅변술"
+                },
+                {
+                    "word": "constituency",
+                    "mean": "선거민, 투표자, 선거구; 지지자층, 고객층; constitute-구성하다"
+                },
+                {
+                    "word": "ratiocination",
+                    "mean": "추론, 추리"
+                },
+                {
+                    "word": "imperative",
+                    "mean": "부득이한, 꼭 필요한"
+                },
+                {
+                    "word": "pseudonym",
+                    "mean": "익명, 가명"
+                },
+                {
+                    "word": "insufferable",
+                    "mean": "견딜 수 없는"
+                },
+                {
+                    "word": "diatribe",
+                    "mean": "통렬한 비난을 담은 연설; 욕, 비방(invective)"
+                },
+                {
+                    "word": "innuendo",
+                    "mean": "풍자, 암시"
+                },
+                {
+                    "word": "dissuade",
+                    "mean": "[충고나 설득으로](남)에게 그만두게 하다"
+                },
+                {
+                    "word": "adventitious",
+                    "mean": "우연히 얻은, 우연의, 우발의, 후천적인"
+                },
+                {
+                    "word": "avang-garde",
+                    "mean": "(예술성의) 전위파"
+                },
+                {
+                    "word": "abrogate",
+                    "mean": "[법률, 습관 따위]를 폐기하다, 철폐/취소하다"
+                },
+                {
+                    "word": "systemic",
+                    "mean": "1. 조직(체계, 계통)의   2. [생리, 병리] 온몸의"
+                },
+                {
+                    "word": "query",
+                    "mean": "질문, 의문"
+                },
+                {
+                    "word": "pundit",
+                    "mean": "박식한 사람, erudite"
+                },
+                {
+                    "word": "corollary",
+                    "mean": "[당연한] 결고, 추론"
+                }
+            ]
+        },
+        {
+            "chapter": 37,
+            "words": [
+                {
+                    "word": "begrudge",
+                    "mean": "시새우다; 선뜻 내놓지 않다, 주기 싫어하다, wistful"
+                },
+                {
+                    "word": "platonic",
+                    "mean": "1. 관념적인   2.(순)정신적인"
+                },
+                {
+                    "word": "retort",
+                    "mean": "앙갚음하다, ...에 보복하다, 되받아 치다; extort-강요하다, tortuous-구불구불한"
+                },
+                {
+                    "word": "garner",
+                    "mean": "1. ...을 모으다   2. (득점을) 얻다"
+                },
+                {
+                    "word": "self-made",
+                    "mean": "1. 자력으로 입신출세한  2. 자기가 만든"
+                },
+                {
+                    "word": "cavil",
+                    "mean": "트집잡다, 쓸데없이 흠잡다"
+                },
+                {
+                    "word": "secede",
+                    "mean": "[특히 정당, 종교 단체에서] 탈퇴하다, 분리하다; concede-양보하다,인정하다, accede-동의하다"
+                },
+                {
+                    "word": "harp",
+                    "mean": "[같은 말을] 자꾸만 되풀이하다"
+                },
+                {
+                    "word": "cartography",
+                    "mean": "지도 제작[법], 제도[법]"
+                },
+                {
+                    "word": "compatible",
+                    "mean": "조화되는, 조화하는, 적합한, 모순없는"
+                },
+                {
+                    "word": "contumely",
+                    "mean": "[말, 태도의]오만함, 모욕(적인 취급)"
+                },
+                {
+                    "word": "prurient",
+                    "mean": "1. 호색의, 음란한   2. 외설의, licentious, lascivious"
+                },
+                {
+                    "word": "engaging",
+                    "mean": "매력적인, 애교있는, 상냥한, 기분좋은"
+                },
+                {
+                    "word": "impunity",
+                    "mean": "형벌을 받지 않음"
+                },
+                {
+                    "word": "jargon",
+                    "mean": "특수용어, 은어; 뜻을 알 수 없는 말; 사투리"
+                },
+                {
+                    "word": "evince",
+                    "mean": "[감정 따위를] 분명히 나타내다, 명시하다; ...을 증명하다; invoke-빌다"
+                },
+                {
+                    "word": "vacuous",
+                    "mean": "공허한, 빈, 얼빠진, 머리가 텅빈, 아무것도 하지 않는"
+                },
+                {
+                    "word": "pandemic",
+                    "mean": "전국적(넓은 지역)으로 유행하는"
+                },
+                {
+                    "word": "extort",
+                    "mean": "강탈하다, 착취하다; 억지로 꾸며내다; [자백을]억지로 얻어내다"
+                },
+                {
+                    "word": "expostulate",
+                    "mean": "타이르다, 충고하다, exhort; postulate-가정하다"
+                },
+                {
+                    "word": "imbue",
+                    "mean": "1.(사상, 감정 등을)...에게 불어넣다, 고취하다,   2....에 스며들다"
+                },
+                {
+                    "word": "hoary",
+                    "mean": "[늙어서] 백발의, 오래된, 낡은; hoard-저장하다"
+                },
+                {
+                    "word": "dejected",
+                    "mean": "낙담하다, 풀죽다"
+                },
+                {
+                    "word": "plausible",
+                    "mean": "1. 그럴싸한   2. 그럴듯하게 말하는"
+                },
+                {
+                    "word": "skittish",
+                    "mean": "잘 놀라는, 겁많은"
+                },
+                {
+                    "word": "millennium",
+                    "mean": "천년의 기간, 천기기; 황금시대"
+                },
+                {
+                    "word": "consolidate",
+                    "mean": "합병/통합하다; 강화하다, 굳건히 하다"
+                },
+                {
+                    "word": "zeitgeist",
+                    "mean": "시대정신, 시대사조"
+                },
+                {
+                    "word": "susceptible",
+                    "mean": "1. 영향받기 쉬운   2. 감수성이 강한, 민감한, susceptive, susceptibility"
+                },
+                {
+                    "word": "idiom",
+                    "mean": "관용어법, [지역적, 계층적인] 방언, 사투리"
+                },
+                {
+                    "word": "accede",
+                    "mean": "..동의하다, 응하다, 승복하다"
+                },
+                {
+                    "word": "affliction",
+                    "mean": "고통, 고뇌, 고난; 고통의 원인, 불행, 재앙, 박해"
+                },
+                {
+                    "word": "progeny",
+                    "mean": "자손, 계승자"
+                },
+                {
+                    "word": "ascribe",
+                    "mean": "(결과 따위를)...의 탓으로 치다"
+                },
+                {
+                    "word": "epilogue",
+                    "mean": "끝맺음[말] → 에필로그"
+                },
+                {
+                    "word": "epicure",
+                    "mean": "식도락가, 미식가; 쾌락주의자, culinary"
+                },
+                {
+                    "word": "conflagration",
+                    "mean": "큰 화재"
+                },
+                {
+                    "word": "dissemble",
+                    "mean": "[성격, 행위 등을] 숨기다, 가장하다, 위선적으로 행동하다"
+                },
+                {
+                    "word": "critique",
+                    "mean": "비평[문], 평론[문], 비평법, 비평술"
+                },
+                {
+                    "word": "assail",
+                    "mean": "습격하다"
+                }
+            ]
+        },
+        {
+            "chapter": 38,
+            "words": [
+                {
+                    "word": "quel",
+                    "mean": "(폭동, 혼란)을 가라앉히다, (감정)을 억누르다"
+                },
+                {
+                    "word": "affiliate",
+                    "mean": "...을 합병하다, 가입시키다, 일원으로 하다,제휴/협력하다"
+                },
+                {
+                    "word": "ebb",
+                    "mean": "썰물, 감퇴; 쇠해지다, emaciate"
+                },
+                {
+                    "word": "resignation",
+                    "mean": "순종, 체념; [소극적인] 승인, 묵인(acquiescence); 사직, 사표"
+                },
+                {
+                    "word": "homage",
+                    "mean": "존경, 경의"
+                },
+                {
+                    "word": "enmity",
+                    "mean": "적의, 앙심, 증오, 적대, animity"
+                },
+                {
+                    "word": "coterie",
+                    "mean": "동료, 친구, 동인, 서클; 그룹, 일파"
+                },
+                {
+                    "word": "exhume",
+                    "mean": "...을 발굴하다, [특히](시체, 무덤)을 발굴하다"
+                },
+                {
+                    "word": "forthright",
+                    "mean": "1. 솔직하게, 숨기지 않고  2. 똑바로"
+                },
+                {
+                    "word": "stark",
+                    "mean": "1. 완전한(utter)   2. 황량한(desolate)   3. 엄격한(harsh)"
+                },
+                {
+                    "word": "peculiar",
+                    "mean": "1. 기묘한, 괴상한   2. 특유의, 독특한"
+                },
+                {
+                    "word": "veneer",
+                    "mean": "합판; 겉치장, 허식"
+                },
+                {
+                    "word": "larceny",
+                    "mean": "절도죄, 절도[행위]"
+                },
+                {
+                    "word": "presentiment",
+                    "mean": "(특히 나쁜) 예감, 육감"
+                },
+                {
+                    "word": "faux",
+                    "mean": "false옳지 않은, 그릇된"
+                },
+                {
+                    "word": "dross",
+                    "mean": "[녹은 금속의]불순물, 가치 없는 것, 쓰레기, chaff"
+                },
+                {
+                    "word": "parallel",
+                    "mean": "평행의, 같은 방향의, 유사한; 서로 같은"
+                },
+                {
+                    "word": "convey",
+                    "mean": "운송하다, 수송하다, 전달하다, 알리다, [법률]양도하다"
+                },
+                {
+                    "word": "ballyhoo",
+                    "mean": "야단스럽고 저속한 선전, 광고; 떠들썩한"
+                },
+                {
+                    "word": "vanquish",
+                    "mean": "정복하다, 이기다"
+                },
+                {
+                    "word": "bon vivant",
+                    "mean": "미식가"
+                },
+                {
+                    "word": "apprise",
+                    "mean": "...에게 알리다, 통보하다"
+                },
+                {
+                    "word": "ascertain",
+                    "mean": "확인하다, (사실 여부를) 알아내다"
+                },
+                {
+                    "word": "entreat",
+                    "mean": "[남]에게 간청하다, 탄원하다, 부탁하다, 빌다"
+                },
+                {
+                    "word": "cardinal",
+                    "mean": "가장 중요한, 주요한, 기본적인"
+                },
+                {
+                    "word": "deft",
+                    "mean": "솜씨 좋은, 능숙한"
+                },
+                {
+                    "word": "cavalier",
+                    "mean": "교만한,건방진; 태평한; 말탄 무사(knight)"
+                },
+                {
+                    "word": "apparition",
+                    "mean": "환영, 허깨비, 유령"
+                },
+                {
+                    "word": "harbinger",
+                    "mean": "선구자, 예고, 전조"
+                },
+                {
+                    "word": "commiserate",
+                    "mean": "...을 가엾게(딱하게) 여기다, 애처로워하다, ...에게 동정하다"
+                },
+                {
+                    "word": "repress",
+                    "mean": "...을 억제하다, 참다; ...을 진압하다"
+                },
+                {
+                    "word": "quandary",
+                    "mean": "당혹, 곤혹, 궁지"
+                },
+                {
+                    "word": "meander",
+                    "mean": "꾸불꾸불 나아가다, 정처없이 걷다, ...을 구부러지게 하다"
+                },
+                {
+                    "word": "inimitable",
+                    "mean": "모방할 수 없는, 비길 데 없는"
+                },
+                {
+                    "word": "fragmentary",
+                    "mean": "미완의, 단편적인"
+                },
+                {
+                    "word": "seclusion",
+                    "mean": "격리, 차단"
+                },
+                {
+                    "word": "pluralism",
+                    "mean": "1.(철학)다원론   2. 복수성"
+                },
+                {
+                    "word": "shrewd",
+                    "mean": "영리한, 약삭빠른, 교활한(shy)"
+                },
+                {
+                    "word": "solidarity",
+                    "mean": "일치 단결, 결속"
+                },
+                {
+                    "word": "artisan",
+                    "mean": "직공, 기능공"
+                }
+            ]
+        },
+        {
+            "chapter": 39,
+            "words": [
+                {
+                    "word": "momentum",
+                    "mean": "운동량, 타성; 기세, 추진력, 여세"
+                },
+                {
+                    "word": "perverse",
+                    "mean": "외고집의, 심술궂은, obdurate, stern, stif"
+                },
+                {
+                    "word": "genocide",
+                    "mean": "한 국민 또는 민족의 말살"
+                },
+                {
+                    "word": "conscpicuous",
+                    "mean": "잘 보이다, 이채로운, 돋보이는"
+                },
+                {
+                    "word": "loath",
+                    "mean": "싫어하는, 꺼림칙한(reluctant)"
+                },
+                {
+                    "word": "mania",
+                    "mean": "열광, 열주, ...광, ...열"
+                },
+                {
+                    "word": "forensic",
+                    "mean": "법정의(에 관한), 논쟁의"
+                },
+                {
+                    "word": "excise",
+                    "mean": "[구, 문장 따위]를 삭제하다, ...을 전개하다, 잘라내다; 물푸메, 소비세, 면허세, efface"
+                },
+                {
+                    "word": "fuel",
+                    "mean": "1. (감정을) 부추기다  2. ...을 태우다(kindle)"
+                },
+                {
+                    "word": "wrath",
+                    "mean": "분노, 격노"
+                },
+                {
+                    "word": "livid",
+                    "mean": "[타박상으로 피부 따위가]검푸른; 흙빛의; 격노한(enraged)"
+                },
+                {
+                    "word": "disposition",
+                    "mean": "기질, 성질, 성벽"
+                },
+                {
+                    "word": "defile",
+                    "mean": "더럽히다, 불결하게 하다, ...의 신성을 더럽히다(desecrate), =consecrate"
+                },
+                {
+                    "word": "connive",
+                    "mean": "보고도 못 본체하다, 묵인(묵허)하다; 공모하다, 묵계하다"
+                },
+                {
+                    "word": "muster",
+                    "mean": "소집하다, 모으다"
+                },
+                {
+                    "word": "anathema",
+                    "mean": "혐오 받는 사람(것); 저주, 심한 매도"
+                },
+                {
+                    "word": "compile",
+                    "mean": "하나로 종합하다, 집계하다"
+                },
+                {
+                    "word": "genesis",
+                    "mean": "기원, 발생"
+                },
+                {
+                    "word": "aversion",
+                    "mean": "싫어함, 혐오"
+                },
+                {
+                    "word": "presage",
+                    "mean": "...을 예감하다, 예언하다"
+                },
+                {
+                    "word": "disinformation",
+                    "mean": "잘못된, 정보"
+                },
+                {
+                    "word": "concoct",
+                    "mean": "...을 뒤섞어서 만들다,조합하다, 조제하다, 꾸며내다; 꾀하다"
+                },
+                {
+                    "word": "retrospect",
+                    "mean": "회상, 회고"
+                },
+                {
+                    "word": "perpetrator",
+                    "mean": "가해자, 용의자"
+                },
+                {
+                    "word": "afford",
+                    "mean": "...을 수여하다, 주다, 공급하다"
+                },
+                {
+                    "word": "influx",
+                    "mean": "유입"
+                },
+                {
+                    "word": "ribald",
+                    "mean": "입버릇이 나쁜, 야비한, 상스러운(indecent)"
+                },
+                {
+                    "word": "stipend",
+                    "mean": "봉급, 급여금, 수당, remuneration"
+                },
+                {
+                    "word": "induce",
+                    "mean": "권유하다, 유도하여 ...하게 하다, persuade"
+                },
+                {
+                    "word": "predicament",
+                    "mean": "곤경, 궁지"
+                },
+                {
+                    "word": "deploy",
+                    "mean": "(군사)전개하다"
+                },
+                {
+                    "word": "karma",
+                    "mean": "업보, 인연; 숙명"
+                },
+                {
+                    "word": "elocution",
+                    "mean": "연설 태도, 웅변술, rhiteric; elaborate-정교한,복잡한"
+                },
+                {
+                    "word": "boor",
+                    "mean": "시골뜨기"
+                },
+                {
+                    "word": "proclaim",
+                    "mean": "...을 공언하다, 선언하다(declare)"
+                },
+                {
+                    "word": "skirmish",
+                    "mean": "소충돌, 소규모 접전"
+                },
+                {
+                    "word": "forswear",
+                    "mean": "...을 맹세로 끊다, ...을 맹세로 부정하다, 지기 진술을 철회하다(recant)"
+                },
+                {
+                    "word": "palatable",
+                    "mean": "맛있는, 입에 맞는; 취미가 맞는, 마음에 맞는, 유쾌한, palate"
+                },
+                {
+                    "word": "stalwart",
+                    "mean": "1. 건장한   2. 강하고 용기있는"
+                },
+                {
+                    "word": "gamut",
+                    "mean": "전 범위, 전반"
+                }
+            ]
+        },
+        {
+            "chapter": 40,
+            "words": [
+                {
+                    "word": "inclination",
+                    "mean": "경향, 성향"
+                },
+                {
+                    "word": "doldrums",
+                    "mean": "침체기, 정체기"
+                },
+                {
+                    "word": "verge",
+                    "mean": "모서리, 가장자리; 경계, 끝, brink"
+                },
+                {
+                    "word": "demeanor",
+                    "mean": "행동, 행실, 품행, behavior"
+                },
+                {
+                    "word": "fetish",
+                    "mean": "[나무, 돌과 같은]신, 미신의 대상; 페티즘의 대상물"
+                },
+                {
+                    "word": "subsidize",
+                    "mean": "...에게 보조금을 지급하다"
+                },
+                {
+                    "word": "apposite",
+                    "mean": "적합한, 적절한, 딱 들어맞는, apropos, apt"
+                },
+                {
+                    "word": "exempt",
+                    "mean": "...을 면제하다, 면제된, 면제(세)자, immune"
+                },
+                {
+                    "word": "surmise",
+                    "mean": "추측, 짐작하다; remise-부주의한,lazy, demise-서거,소멸,양도"
+                },
+                {
+                    "word": "brink",
+                    "mean": "가장자리"
+                },
+                {
+                    "word": "comply",
+                    "mean": "따르다, 동의하다, 승낙하다"
+                },
+                {
+                    "word": "suffuse",
+                    "mean": "...을 채우다, 가득하게 하다, 뒤덮다"
+                },
+                {
+                    "word": "foreclose",
+                    "mean": "저당물을 찾을 권리를 상실케하다, [저당물]을 처분하다; 내쫓다, 배척(배제)하다"
+                },
+                {
+                    "word": "listless",
+                    "mean": "마음 내키지 않는; 노곤한, 귀찮은, 무관심한"
+                },
+                {
+                    "word": "ensue",
+                    "mean": "계속되다, 잇따라 일어나다; [결과로서] 생기다, 일어나다"
+                },
+                {
+                    "word": "depose",
+                    "mean": "(고관직에서)퇴위하다, (왕을) 폐하다, abdicate"
+                },
+                {
+                    "word": "curb",
+                    "mean": "...을 구속하다, 억제하다; 구속, 억제; [말의]고삐, 재갈"
+                },
+                {
+                    "word": "rout",
+                    "mean": "[적군 따위]를 패주시키다, 완패시키다p tout-조르다, lout-촌뜨기"
+                },
+                {
+                    "word": "perpetuate",
+                    "mean": "...을 영속시키다. ...을 불휴(불멸)하게 하다"
+                },
+                {
+                    "word": "flippant",
+                    "mean": "경솔한, 경박한; 건방진, 뻔뻔스러운"
+                },
+                {
+                    "word": "defunct",
+                    "mean": "1. 죽은, 고인이된(deceased); 2. 현존하지 않은, demise"
+                },
+                {
+                    "word": "melancholy",
+                    "mean": "우울한, 침울한, 울적하게 만드는, 생각에 잠긴"
+                },
+                {
+                    "word": "canon",
+                    "mean": "교리, 계율, 규범"
+                },
+                {
+                    "word": "foster",
+                    "mean": "(성장, 발달)을 촉진하다, 증진하다"
+                },
+                {
+                    "word": "clout",
+                    "mean": "손바닥으로 때리기, 영향력, [표적에]적중, 명중"
+                },
+                {
+                    "word": "stupendous",
+                    "mean": "1. 놀랄만한   2. 엄청나게 큰, 거대한"
+                },
+                {
+                    "word": "duress",
+                    "mean": "구속, 감금; 협박"
+                },
+                {
+                    "word": "aboriginal",
+                    "mean": "원시의, 원래의, 토착의"
+                },
+                {
+                    "word": "pliable",
+                    "mean": "1. 휘기 쉬운, 유연한   2. 유순한"
+                },
+                {
+                    "word": "extremity",
+                    "mean": "끝, 선단, 맨끝; 절정, 곤경, 난국; 사지(손발), extreme"
+                },
+                {
+                    "word": "explicate",
+                    "mean": "[논지, 원리, 주의 따위]를 전개하여 명백히 하다, ...을 설명하다, 해설하다"
+                },
+                {
+                    "word": "defiit",
+                    "mean": "결손, 부족, 적자(↔surplus)"
+                },
+                {
+                    "word": "revulsion",
+                    "mean": "1. [감정의]급변   2. 강한 혐오"
+                },
+                {
+                    "word": "cuisine",
+                    "mean": "요리법, 요리, culinary"
+                },
+                {
+                    "word": "uncanny",
+                    "mean": "1. 초자연적인   2. 기괴한"
+                },
+                {
+                    "word": "extant",
+                    "mean": "현존(잔존)하고 있는, extand"
+                },
+                {
+                    "word": "temporize",
+                    "mean": "임시변통하다; extemporize-사전준비없이"
+                },
+                {
+                    "word": "deem",
+                    "mean": "(...이라고) 생각하다"
+                },
+                {
+                    "word": "jocular",
+                    "mean": "우스꽝스러운, 익살맞은, 웃기는"
+                },
+                {
+                    "word": "classic",
+                    "mean": "일류의, 초 고급의, 우수한; 표준의, 모범적인"
+                }
+            ]
+        },
+        {
+            "chapter": 41,
+            "words": [
+                {
+                    "word": "attest",
+                    "mean": "증명하다, 입증하다"
+                },
+                {
+                    "word": "fallacy",
+                    "mean": "그릇된 생각(믿음), 잘못"
+                },
+                {
+                    "word": "serpentine",
+                    "mean": "1. 뱀의, 뱀과 같은  2. 꼬불꼬불한(sinuous)  cf)serpent → 뱀"
+                },
+                {
+                    "word": "chutzpah",
+                    "mean": "뻔뻔스러운, blatant"
+                },
+                {
+                    "word": "depredate",
+                    "mean": "약탈하다, plunder"
+                },
+                {
+                    "word": "rebuff",
+                    "mean": "1. 거절하다  2. ...을 좌절시키다"
+                },
+                {
+                    "word": "litany",
+                    "mean": "[교리]연도, 소원 늘어놓기; 지루한 설명(이야기)"
+                },
+                {
+                    "word": "layman",
+                    "mean": "비전문가, 문외한, 아마추어; [성직자에 대한]신도, 속인"
+                },
+                {
+                    "word": "affidavit",
+                    "mean": "공술서, 맹세/서약하는 글"
+                },
+                {
+                    "word": "caucus",
+                    "mean": "정당의 지방대화, 간부회의, 위원회"
+                },
+                {
+                    "word": "vignette",
+                    "mean": "삽화, 당초 장시, 당초무늬"
+                },
+                {
+                    "word": "antedate",
+                    "mean": "[시간적으로]...보다 앞선, ...이전의(예전의)"
+                },
+                {
+                    "word": "disquiet",
+                    "mean": "...의 안정을 어지럽히다, ...을 불안하게 하다"
+                },
+                {
+                    "word": "downplay",
+                    "mean": "...을 중시하지 않다, 얕보다"
+                },
+                {
+                    "word": "fester",
+                    "mean": "[상처 따위가] 곪다, 쑤시다, 아프다, erode, corrosive"
+                },
+                {
+                    "word": "exquisite",
+                    "mean": "매우 아름다운, 절묘한, 훌륭한, 강렬한(intense)"
+                },
+                {
+                    "word": "underscore",
+                    "mean": "밑줄을 긋다, 강조하다; 예고하다"
+                },
+                {
+                    "word": "electorate",
+                    "mean": "유권자"
+                },
+                {
+                    "word": "acquit",
+                    "mean": "무죄로 하다, 사면하다, 석방하다; 스스로 행동하다, 처신하다"
+                },
+                {
+                    "word": "commemorate",
+                    "mean": "[물건이]...의 기념이 되다, ...을 기념/축하하다"
+                },
+                {
+                    "word": "wizened",
+                    "mean": "시든, 이운"
+                },
+                {
+                    "word": "apropos",
+                    "mean": "때마침, 시기 적절하게, 적절히, apposite, apt"
+                },
+                {
+                    "word": "delinquent",
+                    "mean": "태만한, 비행의, 체납되어 있는, lazy, guilty"
+                },
+                {
+                    "word": "double entendre",
+                    "mean": "이중의미"
+                },
+                {
+                    "word": "impresario",
+                    "mean": "(가극단, 악단 등의) 단장"
+                },
+                {
+                    "word": "articulate",
+                    "mean": "똑똑히 발음하다"
+                },
+                {
+                    "word": "ghastly",
+                    "mean": "무시무시한, 송장(유령) 같은"
+                },
+                {
+                    "word": "arrears",
+                    "mean": "지불 잔금, 연체금, 지체, 밀린"
+                },
+                {
+                    "word": "incarnation",
+                    "mean": "1. 육체를 가진 존재가 되기   2. 구체화, 구상, 실현(embodiment)"
+                },
+                {
+                    "word": "quay",
+                    "mean": "부두, 선창, harbor, haven"
+                },
+                {
+                    "word": "stint",
+                    "mean": "...을 제한하다, 절약하다(frugal), stingy"
+                },
+                {
+                    "word": "abjure",
+                    "mean": "[맹세, 신의, 주장 따위]를 공개적으로 버리다, [권리 따위]를 포기하다"
+                },
+                {
+                    "word": "discursive",
+                    "mean": "광범위한, 산만한, 종잡을 수 없는(digressive)"
+                },
+                {
+                    "word": "cabal",
+                    "mean": "음모, 권모술수"
+                },
+                {
+                    "word": "demography",
+                    "mean": "인구 통계학"
+                },
+                {
+                    "word": "confer",
+                    "mean": "수여하다, 주다, 의논(상의)하다, 회담하다"
+                },
+                {
+                    "word": "fulminate",
+                    "mean": "맹렬히 비난하다, 호통치다"
+                },
+                {
+                    "word": "avid",
+                    "mean": "탐욕스러운, 욕심 많은, avarice; arid-건조한"
+                },
+                {
+                    "word": "nirvana",
+                    "mean": "열반, 해탈"
+                },
+                {
+                    "word": "anthology",
+                    "mean": "명시 전집, 작품집, [한 작가의]전작, 작품집, collection"
+                }
+            ]
+        },
+        {
+            "chapter": 42,
+            "words": [
+                {
+                    "word": "bivouac",
+                    "mean": "야영"
+                },
+                {
+                    "word": "trenchant",
+                    "mean": "1. 신랄한, 예민한   2. 명확한; nonchalant=indifferent, penchant-취미,기호"
+                },
+                {
+                    "word": "intimate",
+                    "mean": "...을 넌지시 비추다, 암시하다; 친밀한, 친한"
+                },
+                {
+                    "word": "resplendent",
+                    "mean": "눈부시게 빛나는, 찬란한"
+                },
+                {
+                    "word": "clone",
+                    "mean": "똑같이 복제; 무성생식 증가; 복제(복사)"
+                },
+                {
+                    "word": "sententious",
+                    "mean": "1. 금언이 많은  2. 금언 같은, 독선적인"
+                },
+                {
+                    "word": "dispassionate",
+                    "mean": "냉정한, 공정한, indifferent"
+                },
+                {
+                    "word": "timorous",
+                    "mean": "겁많은, 겁쟁이의(timid)"
+                },
+                {
+                    "word": "occult",
+                    "mean": "신비로운, 오묘한, 불가사의한"
+                },
+                {
+                    "word": "allegory",
+                    "mean": "우화, 비유담, 풍유, 비유, 상징"
+                },
+                {
+                    "word": "cloy",
+                    "mean": "싫증나다, 물리다"
+                },
+                {
+                    "word": "anterior",
+                    "mean": "선행한, 보다 이전의(상태, 사건), 앞면의, 앞쪽의"
+                },
+                {
+                    "word": "rapture",
+                    "mean": "큰 기쁨, 황홀, 환희, bliss"
+                },
+                {
+                    "word": "iridescent",
+                    "mean": "각도에 따라 색깔이 달라 보이는, 무지개색의, 진주색의"
+                },
+                {
+                    "word": "unquisition",
+                    "mean": "1.(철저한) 조사, 탐구   2.(공적기관의) 심문, 최조"
+                },
+                {
+                    "word": "confluence",
+                    "mean": "[하천 다우의]합류, 합류점; [사람, 사물의]모임, 집합, 군중"
+                },
+                {
+                    "word": "corrugated",
+                    "mean": "물결 모양의, 주름이 있는, 골진"
+                },
+                {
+                    "word": "blanch",
+                    "mean": "희게 핟, 표백하다; 새파래지다, bleach"
+                },
+                {
+                    "word": "adduce",
+                    "mean": "...을 인용하다; [증거, 이유]를 제시하다, cite"
+                },
+                {
+                    "word": "denote",
+                    "mean": "표시하다"
+                },
+                {
+                    "word": "aspersion",
+                    "mean": "중상, 비방"
+                },
+                {
+                    "word": "inadvertent",
+                    "mean": "부주의한, 소홀한, insouciant"
+                },
+                {
+                    "word": "dilate",
+                    "mean": "넓히다, 팽창시키다"
+                },
+                {
+                    "word": "dire",
+                    "mean": "무시무시한, 무서운; 비참한; 급박한, 긴급한; 지독한"
+                },
+                {
+                    "word": "syntax",
+                    "mean": "구문론, 문장론"
+                },
+                {
+                    "word": "fickle",
+                    "mean": "변하기 쉬운, 불안정한; 변덕스러운; finichy-까다로운"
+                },
+                {
+                    "word": "taint",
+                    "mean": "더러움, 얼룩, 오점; 부패 타락; 감염(력)"
+                },
+                {
+                    "word": "accord",
+                    "mean": "동의/조화하다; 허용하다, 수용하다"
+                },
+                {
+                    "word": "confound",
+                    "mean": "당황케하다, 놀라다, 혼동하다, ...을 뒤섞다, confused"
+                },
+                {
+                    "word": "gratis",
+                    "mean": "무료로, 공짜로; 무료의, gratuitous"
+                },
+                {
+                    "word": "bombast",
+                    "mean": "과장된 말; 과장된"
+                },
+                {
+                    "word": "alienate",
+                    "mean": "...소외하다, ...을 멀리하다, ...을 달가와하지 않다"
+                },
+                {
+                    "word": "arcade",
+                    "mean": "아케이드(아치형 기둥의 열)"
+                },
+                {
+                    "word": "impecunious",
+                    "mean": "무일푼인, 가난한"
+                },
+                {
+                    "word": "tortuous",
+                    "mean": "구불구불한, 비틀린, meandor"
+                },
+                {
+                    "word": "distinct",
+                    "mean": "별개의, 독특한, 확실한, 뚜렷한"
+                },
+                {
+                    "word": "trauma",
+                    "mean": "1. [병리]외상  2. 정신적 외상, 마음의 상처, 쇼크"
+                },
+                {
+                    "word": "barrage",
+                    "mean": "탄막; (질문 따위의) 연발, 연속"
+                },
+                {
+                    "word": "apostasy",
+                    "mean": "배신, 변절, 탈당, treacher"
+                },
+                {
+                    "word": "amass",
+                    "mean": "[재산]을 모으다, 축적하다, 쌓다"
+                }
+            ]
+        },
+        {
+            "chapter": 43,
+            "words": [
+                {
+                    "word": "bliss",
+                    "mean": "더 없는 기쁨, 대단한 행복"
+                },
+                {
+                    "word": "placebo",
+                    "mean": "위약(거짓약)"
+                },
+                {
+                    "word": "interlude",
+                    "mean": "중가네 생긴 일(episode), 사이 틈"
+                },
+                {
+                    "word": "gastronomy",
+                    "mean": "미식법, 요리법, culinary"
+                },
+                {
+                    "word": "wake",
+                    "mean": "장례식 전야의 철야, 교회 헌당 기념 축제; 그 전야의 철야제; 눈뜨고 있기"
+                },
+                {
+                    "word": "preponderance",
+                    "mean": "(무게, 힘, 수량 따위가) 남보다 뛰어남, 우월"
+                },
+                {
+                    "word": "underwrite",
+                    "mean": "후원하다, 보증하다, 보험에 가입하다; 서명하다, subsidize"
+                },
+                {
+                    "word": "recidivism",
+                    "mean": "상습적 범행"
+                }
+            ]
+        }
+    ]
+}

@@ -6898,6 +6898,83 @@
                   "mean": "상습적 범행"
               }
           ]
+      },
+      {
+          "chapter": 101,
+          "words": [
+              {
+                  "word": "The rain clouds are breaking.",
+                  "mean": "비구름이 걷히고 있어요."
+              },
+              {
+                  "word": "We are discussing steps to break the strike.",
+                  "mean": "저희는 파업을 중지시키기 위한 대책을 강구하고 있습니다."
+              },
+              {
+                  "word": "We decided to break the trip into three legs.",
+                  "mean": "우리는 그 여행 코스를 세 구간으로 나눠가기로 했다."
+              },
+              {
+                  "word": "We broke the trip into two days.",
+                  "mean": "우리는 그 여행 코스를 이틀에 걸쳐서 갔다."
+              },
+              {
+                  "word": "I think the fever is breaking.",
+                  "mean": "열이 내리고 있는 것 같아."
+              },
+              {
+                  "word": "I broke no rules.",
+                  "mean": "나는 규정을 위반한 것이 없었다."
+              },
+              {
+                  "word": "You can't break the law for a story.",
+                  "mean": "취재를 한다고 법을 위반할 수는 없다."
+              },
+              {
+                  "word": "Let's break for lunch.",
+                  "mean": "점심 먹고 합시다."
+              },
+              {
+                  "word": "We'll break for coffee at 10.",
+                  "mean": "10시에 커피도 마실 겸 쉬도록 하겠습니다."
+              },
+              {
+                  "word": "I'm at a loss how to break the news to her.",
+                  "mean": "이렇게 안 좋은 소식을 그녀에게 어떻게 전해야 할 지 모르겠어요."
+              },
+              {
+                  "word": "The cold spell will break soon.",
+                  "mean": "추위가 곧 풀릴겁니다."
+              },
+              {
+                  "word": "Can you break a hundred-dollar bill?",
+                  "mean": "100달러 짜리를 바꿀 돈 있으세요?"
+              },
+              {
+                  "word": "The Board has called a meeting for September 12, at 2 p.m.",
+                  "mean": "이사회가 9월 12일 오후 2시에 회의를 소집했다."
+              },
+              {
+                  "word": "I'm going to call a press conference next week.",
+                  "mean": "저는 다음 주에 기자회견을 할 것입니다."
+              },
+              {
+                  "word": "The railway union called a strike after negotiations had failed.",
+                  "mean": "철도 노조는 협상이 실패로 끝나자 파업을 선언했다."
+              },
+              {
+                  "word": "The chairman called a halt to the debate.",
+                  "mean": "의장은 토론을 중지하도록 명했다."
+              },
+              {
+                  "word": "Many critics called the movie a masterpiece.",
+                  "mean": "많은 비평가들이 그 영화를 명작으로 평가했다."
+              },
+              {
+                  "word": "Are you calling me a liar?",
+                  "mean": "지금 나보고 거짓말쟁이라고 하는 거니?"
+              }
+          ]
       }
     ]
 }
